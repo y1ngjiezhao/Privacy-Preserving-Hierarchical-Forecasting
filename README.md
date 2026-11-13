@@ -1,8 +1,6 @@
-# Privacy-Preserving Hierarchical Foreacsting
+# Privacy-Preserving Hierarchical Forecasting
 
-Research code and input datasets for privacy-preserving federated hierarchical forecasting (PPHF), including FHF, HFF/HFFPS, DP-FedAvg, reconciliation, privacy accounting, and result analysis. This repository snapshot was prepared on 13 November 2026.
-
-Notebook Markdown, documentation, code comments, and generated-report templates are in English. Some historical filenames retain the `_zh` suffix for compatibility; their contents have been translated into English.
+Research code and input datasets for privacy-preserving federated hierarchical forecasting (PPHF), including FHF (and hierarchical variants), DP-FedAvg, reconciliations, differential privacy (with RDP accounting), and result analysis.
 
 ## Included files
 
