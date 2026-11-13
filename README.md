@@ -1,17 +1,17 @@
 # Privacy-Preserving Hierarchical Forecasting
 
-Research code and input datasets for privacy-preserving federated hierarchical forecasting (PPHF), including FHF (and hierarchical variants), DP-FedAvg, reconciliations, differential privacy (with RDP accounting), and result analysis.
+Research code and input datasets for privacy-preserving federated hierarchical forecasting (PPHF), including Federated Hierarchical Forecasting (FHF and its hierarchical variants), DP-FedAvg, reconciliations, differential privacy (with RDP accounting), and result analysis.
 
 ## Included files
 
-- `Datasets/`: AusGrid2013 and GEFCOM2017 source and prepared input data, hierarchy matrices, mappings, tags, preparation notebooks, and source documentation.
-- `PPHF_modules/`: training, aggregation, reconciliation, privacy accounting, analysis, validation, and the existing vendored privacy-accounting dependencies with their metadata and license files.
-- `fhf_dedup_ausgrid2013/` and `fhf_dedup_gef2017/`: experiment notebooks.
-- `DP_fhf/notebooks/`: DP experiment, sampling, sweep, and summary notebooks.
-- `Results_check/`: analysis notebooks, current result PDFs, and small source scripts. Historical source scripts under `Results_check/runs/` are retained as provenance; historical figure copies are omitted.
+- `Datasets/`: choose AusGrid2013 and GEFCOM2017, summing matrices, mappings, tags, and data preparation.
+- `PPHF_modules/`: federated training, aggregation, distributed computation reconciliation, privacy accounting, analysis and summary.
+- `fhf_dedup_ausgrid2013/` and `fhf_dedup_gef2017/`: FHF experiment notebooks (without privacy-preserving considerations).
+- `DP_fhf/notebooks/`: Privacy experiments (DP-FedAvg, DP-based estimation for covariance matrix and DP-based forecast summation), in which DP-FedAvg considers different configurations of sampling, sweep, and summary notebooks.
+- `Results_check/`: analysis notebooks, current results (PDFs), and small source scripts. Other large results are saved locally and can be accessed with authorisation.
 - `windows_gpu/`: Windows setup scripts, environment checks, and dependency versions.
 
-Generated forecast CSVs, residuals, trained models, NPZ training artifacts, experiment logs, caches, notebook checkpoints, and notebook cell outputs are omitted. Figures are supplied as PDFs. No training runs were rerun to prepare this repository.
+Note that generated forecast CSVs, residuals, trained models, NPZ training artifacts, experiment logs, caches, notebook checkpoints, and notebook cell outputs are unuploaded (since files' size). Figures are supplied as PDFs. No training runs were rerun to prepare this repository.
 
 ## Restore and verify the datasets
 
