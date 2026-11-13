@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+*.restoring
+
+# Restored input files are represented by the checked-in lossless gzip archives.
+/Datasets/AusGrid2013/2012-2013 Solar home electricity data v2.csv
+/Datasets/AusGrid2013/AusGrid2013_univariate.csv
+/Datasets/AusGrid2013/AusGrid2013_univariate_dedup.csv
+/Datasets/GEFCOM2017/GEF2017_hierarchy_with_duplicates.csv
+/Datasets/GEFCOM2017/GEF2017_univarivate.csv
+/Datasets/GEFCOM2017/Gef2017.csv
+
+# Generated experiment artifacts.
+/DP_fhf/outputs/
+*.npz
+*.pt
+*.pth
+*.ckpt
+*_forecasts.csv
+*_residuals.csv
+*_round_logs.json
+*_training_log.csv

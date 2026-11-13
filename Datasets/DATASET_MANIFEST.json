@@ -1,0 +1,209 @@
+[
+  {
+    "source_path": "Datasets/AusGrid2013/2012-2013 Solar home electricity data v2.csv",
+    "repository_path": "Datasets/AusGrid2013/2012-2013 Solar home electricity data v2.csv.gz",
+    "source_bytes": 63782724,
+    "source_sha256": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be",
+    "repository_bytes": 14084155,
+    "repository_sha256": "46c88bd3e04b733cd1991a13811d9d8e97db95e6e5b3089888444cd24d9a2f1a",
+    "action": "lossless_gzip"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusGrid2013DataPreparation_dedup.ipynb",
+    "repository_path": "Datasets/AusGrid2013/AusGrid2013DataPreparation_dedup.ipynb",
+    "source_bytes": 14765,
+    "source_sha256": "31b862b8e818d2a3eeb6953c731d41d6fbfdfc3ad979e6a44e5d10b48a292835",
+    "repository_bytes": 14765,
+    "repository_sha256": "31b862b8e818d2a3eeb6953c731d41d6fbfdfc3ad979e6a44e5d10b48a292835",
+    "action": "notebook_outputs_cleared"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusGrid2013_univariate.csv",
+    "repository_path": "Datasets/AusGrid2013/AusGrid2013_univariate.csv.gz",
+    "source_bytes": 292384415,
+    "source_sha256": "397c05b8b0c06b2bfc50f20357fb9eb629ea8874367297f6dd280691b5f38149",
+    "repository_bytes": 33256416,
+    "repository_sha256": "b2e45455a423ba32c84b73ba3d282d63be3f42a2bbaced0680265e5c600938dd",
+    "action": "lossless_gzip"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusGrid2013_univariate_dedup.csv",
+    "repository_path": "Datasets/AusGrid2013/AusGrid2013_univariate_dedup.csv.gz",
+    "source_bytes": 254882088,
+    "source_sha256": "60de4d3195dcb7de1f2e3b08d66a98c5688406c5581336ec3a6884651b7ed131",
+    "repository_bytes": 29724489,
+    "repository_sha256": "0424cdf834a2f81c33e236111a3480e75b89510b5c97f1a5963741e95ba67892",
+    "action": "lossless_gzip"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusGrid_S.csv",
+    "repository_path": "Datasets/AusGrid2013/AusGrid_S.csv",
+    "source_bytes": 486578,
+    "source_sha256": "4f2687ac92dae4c58af00246941d8dd2a2780aca705da2332d12f9142a46db7e",
+    "repository_bytes": 486578,
+    "repository_sha256": "4f2687ac92dae4c58af00246941d8dd2a2780aca705da2332d12f9142a46db7e",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusGrid_S_dedup.csv",
+    "repository_path": "Datasets/AusGrid2013/AusGrid_S_dedup.csv",
+    "source_bytes": 437721,
+    "source_sha256": "99bbdfd4ad1a7e0445e4463dde98dae2360b3676e28996ba903cf5d48b038f9d",
+    "repository_bytes": 437721,
+    "repository_sha256": "99bbdfd4ad1a7e0445e4463dde98dae2360b3676e28996ba903cf5d48b038f9d",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusGrid_dedup_mapping.csv",
+    "repository_path": "Datasets/AusGrid2013/AusGrid_dedup_mapping.csv",
+    "source_bytes": 2228,
+    "source_sha256": "fa510cae55bb544891f27c2d49329c859fa4fad49f6ee5e956ca0d0853c16132",
+    "repository_bytes": 2228,
+    "repository_sha256": "fa510cae55bb544891f27c2d49329c859fa4fad49f6ee5e956ca0d0853c16132",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/Ausgrid solar home electricity data notes (Aug 2014).pdf",
+    "repository_path": "Datasets/AusGrid2013/Ausgrid solar home electricity data notes (Aug 2014).pdf",
+    "source_bytes": 40839,
+    "source_sha256": "05efccf64d45356d368a6b5c7d8f4e0990bd07ddf92afa3cf303cfbf3f39b156",
+    "repository_bytes": 40839,
+    "repository_sha256": "05efccf64d45356d368a6b5c7d8f4e0990bd07ddf92afa3cf303cfbf3f39b156",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusgridLook-Copy1.ipynb",
+    "repository_path": "Datasets/AusGrid2013/AusgridLook-Copy1.ipynb",
+    "source_bytes": 7854,
+    "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+    "repository_bytes": 7854,
+    "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+    "action": "notebook_outputs_cleared"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
+    "repository_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
+    "source_bytes": 7854,
+    "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+    "repository_bytes": 7854,
+    "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+    "action": "notebook_outputs_cleared"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/tags.pkl",
+    "repository_path": "Datasets/AusGrid2013/tags.pkl",
+    "source_bytes": 5395,
+    "source_sha256": "53e2aeaabf9e3a0e4f62af697d2ffc27cb9d663382811f9ada8ba1bda9383c64",
+    "repository_bytes": 5395,
+    "repository_sha256": "53e2aeaabf9e3a0e4f62af697d2ffc27cb9d663382811f9ada8ba1bda9383c64",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/AusGrid2013/tags_dedup.pkl",
+    "repository_path": "Datasets/AusGrid2013/tags_dedup.pkl",
+    "source_bytes": 4896,
+    "source_sha256": "5efc3f257485b2749c7709293e47ede20192040425e944bbc923175f0e8c327e",
+    "repository_bytes": 4896,
+    "repository_sha256": "5efc3f257485b2749c7709293e47ede20192040425e944bbc923175f0e8c327e",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/GEF2017DataPreparation.ipynb",
+    "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation.ipynb",
+    "source_bytes": 10129,
+    "source_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
+    "repository_bytes": 10129,
+    "repository_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
+    "action": "notebook_outputs_cleared"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
+    "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
+    "source_bytes": 12822,
+    "source_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
+    "repository_bytes": 12822,
+    "repository_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
+    "action": "notebook_outputs_cleared"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/GEF2017_170101_dedup.csv",
+    "repository_path": "Datasets/GEFCOM2017/GEF2017_170101_dedup.csv",
+    "source_bytes": 13873754,
+    "source_sha256": "1f89ced1e2d8452fac34a5102d9683ecd1202846a637627798ffd4b452c22526",
+    "repository_bytes": 13873754,
+    "repository_sha256": "1f89ced1e2d8452fac34a5102d9683ecd1202846a637627798ffd4b452c22526",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/GEF2017_hierarchy_with_duplicates.csv",
+    "repository_path": "Datasets/GEFCOM2017/GEF2017_hierarchy_with_duplicates.csv.gz",
+    "source_bytes": 76989795,
+    "source_sha256": "a9ea33d7950ea0781ce1f181c4244e4fe2a28de6812daf4efe8e32320cf5b508",
+    "repository_bytes": 9857074,
+    "repository_sha256": "4e1b0dc66ba3cbcf5bed4c8bbec46b532c9fa010de98d35a92f009152fc44411",
+    "action": "lossless_gzip"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/GEF2017_univarivate.csv",
+    "repository_path": "Datasets/GEFCOM2017/GEF2017_univarivate.csv.gz",
+    "source_bytes": 54777401,
+    "source_sha256": "ede78ee305d6a62d6954463b65da95cea938c3c4cd0e88cb41cdd3486c2603a9",
+    "repository_bytes": 6667727,
+    "repository_sha256": "8f43b944fa2cec54a47937e70fdd44c174ed815d2c0c23a49353f56a28293524",
+    "action": "lossless_gzip"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/GEF_S.csv",
+    "repository_path": "Datasets/GEFCOM2017/GEF_S.csv",
+    "source_bytes": 564,
+    "source_sha256": "b2ab8a5bb2bf37bf1c11980a238cc609dbfcddc98da0d98edf613f4ee3626560",
+    "repository_bytes": 564,
+    "repository_sha256": "b2ab8a5bb2bf37bf1c11980a238cc609dbfcddc98da0d98edf613f4ee3626560",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/Gef2017.csv",
+    "repository_path": "Datasets/GEFCOM2017/Gef2017.csv.gz",
+    "source_bytes": 120330163,
+    "source_sha256": "1d26b0da1849e48fcae09736d22257dfce2fb71ca8cbe0e046d8edc21d08a952",
+    "repository_bytes": 16471603,
+    "repository_sha256": "de581e6c277bb3f97c76f070df1980c1b8d878ba66ca66880734ed8a00556af8",
+    "action": "lossless_gzip"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/Hourly_Electricity_Demand.pdf",
+    "repository_path": "Datasets/GEFCOM2017/Hourly_Electricity_Demand.pdf",
+    "source_bytes": 502073,
+    "source_sha256": "184d6005283cfb21f0df8453a3a55f97b0d595d800d5a7a503cd5c9c06591952",
+    "repository_bytes": 502073,
+    "repository_sha256": "184d6005283cfb21f0df8453a3a55f97b0d595d800d5a7a503cd5c9c06591952",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/gefcom2017_get.R",
+    "repository_path": "Datasets/GEFCOM2017/gefcom2017_get.R",
+    "source_bytes": 284,
+    "source_sha256": "9d48852b6eee6ce66c455edf16518300ecba512cb196e25332075216264622c2",
+    "repository_bytes": 284,
+    "repository_sha256": "9d48852b6eee6ce66c455edf16518300ecba512cb196e25332075216264622c2",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/tags.pkl",
+    "repository_path": "Datasets/GEFCOM2017/tags.pkl",
+    "source_bytes": 438,
+    "source_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+    "repository_bytes": 438,
+    "repository_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+    "action": "copied"
+  },
+  {
+    "source_path": "Datasets/GEFCOM2017/tags_dedup.pkl",
+    "repository_path": "Datasets/GEFCOM2017/tags_dedup.pkl",
+    "source_bytes": 438,
+    "source_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+    "repository_bytes": 438,
+    "repository_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+    "action": "copied"
+  }
+]

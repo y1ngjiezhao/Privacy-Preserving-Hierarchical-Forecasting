@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: dp-accounting
+Version: 0.6.0
+Summary: Tools for tracking differential privacy budgets
+Home-page: https://github.com/google/differential-privacy/
+Author: Google Differential Privacy Team
+Author-email: dp-open-source@google.com
+License: Apache 2.0
+Keywords: differential-privacy accounting
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py<3,>=1.0
+Requires-Dist: attrs<24,>=22
+Requires-Dist: dm-tree~=0.1.8
+Requires-Dist: mpmath~=1.2
+Requires-Dist: numpy<3.0,>=1.21
+Requires-Dist: scipy~=1.7
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Differential Privacy Accounting
+
+This directory contains tools for tracking differential privacy budgets,
+available as part of the
+[Google differential privacy library](https://github.com/google/differential-privacy).
+
+The set of DpEvent classes allow you to describe complex differentially private
+mechanisms such as Laplace and Gaussian, subsampling mechanisms, and their
+compositions. The PrivacyAccountant classes can ingest DpEvents and return the
+ε, δ of the composite mechanism. Privacy Loss Distributions (PLDs) and RDP
+accounting are currently supported.
+
+More detailed definitions and references about PLDs can be found
+[in our supplementary pdf document](https://github.com/google/differential-privacy/tree/main/common_docs/Privacy_Loss_Distributions.pdf).
+
+Our library only supports Python version >= 3.10. We test this library on Linux
+with Python version 3.10. If you experience any problems, please file an issue
+on GitHub, also for other platforms or Python versions.
+

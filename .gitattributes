@@ -1,0 +1,5 @@
+# Preserve source and dataset bytes across operating systems.
+* -text
+*.gz binary
+*.pdf binary
+*.pkl binary

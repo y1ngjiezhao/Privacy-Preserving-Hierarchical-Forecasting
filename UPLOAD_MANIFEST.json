@@ -1,0 +1,3623 @@
+{
+  "date": "2026-11-13",
+  "files": [
+    {
+      "source_path": "DP_fhf/README.md",
+      "repository_path": "DP_fhf/README.md",
+      "source_bytes": 431,
+      "source_sha256": "bf428932dfc0954b12c2f083feca8555fd7ceaed619ce4e5376b03057bd6fc14",
+      "repository_bytes": 431,
+      "repository_sha256": "bf428932dfc0954b12c2f083feca8555fd7ceaed619ce4e5376b03057bd6fc14",
+      "action": "copied"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_0.1_DPFedAvg_Sampling_AusGrid2013.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_0.1_DPFedAvg_Sampling_AusGrid2013.ipynb",
+      "source_bytes": 23441,
+      "source_sha256": "c7137da06ace825b4fa5f26638752f5f735985003d4d3038933cccfbf9661e93",
+      "repository_bytes": 4870,
+      "repository_sha256": "a97efcf350018351182d81f4d72ac8adb4d4b98fc1a5f16cc3792e695d38b4a9",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_0.5_DPFedAvg_Sampling_AusGrid2013.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_0.5_DPFedAvg_Sampling_AusGrid2013.ipynb",
+      "source_bytes": 33232,
+      "source_sha256": "310cc3be7715513e59c60d4f718d3e192cb943c38e900a2ebf85bb289b66afcc",
+      "repository_bytes": 4870,
+      "repository_sha256": "8306cfa24b370c3611a7a3e278013ad95644a96da911fa0aaf14ee1d4d2b1129",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_100Round_Reconciliation.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_100Round_Reconciliation.ipynb",
+      "source_bytes": 7167,
+      "source_sha256": "42fcc1ff8890edbf4ed73d238949cbb011c03be7d1a49fb714e2ab3e61a3335b",
+      "repository_bytes": 7167,
+      "repository_sha256": "42fcc1ff8890edbf4ed73d238949cbb011c03be7d1a49fb714e2ab3e61a3335b",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q0p1.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q0p1.ipynb",
+      "source_bytes": 81939,
+      "source_sha256": "b70463e36081145897549162c40019c6d7c1affadfdb01f7afbf07d83d8e8825",
+      "repository_bytes": 6599,
+      "repository_sha256": "07af66fe46668194b8e1f0fa3e9bb894d3c41787a41314714a064ae4ab0b029d",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q0p5.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q0p5.ipynb",
+      "source_bytes": 104306,
+      "source_sha256": "06ee21356dd29c3389b473f4b066c777a5ef35e0223bd42096cea91df0a87d9d",
+      "repository_bytes": 6721,
+      "repository_sha256": "8900296a8d154b8277df4ff8ba0ae757202fb8bba6d699baf6a9f2360c236c29",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q1p0.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q1p0.ipynb",
+      "source_bytes": 84134,
+      "source_sha256": "f953002b34c83e9aa076df1e26b766fff9f7e44a53974f21af9dd2c256354124",
+      "repository_bytes": 6595,
+      "repository_sha256": "661de74873902d95bcc44329c90978ef573dd31f1ad690dc61057c5301bb8109",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_GEF2017_Sweep.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_GEF2017_Sweep.ipynb",
+      "source_bytes": 4952,
+      "source_sha256": "b1a08f679947bfefe1fc8ba142661143ebf5a25a59f840c46f204bce5add5279",
+      "repository_bytes": 4952,
+      "repository_sha256": "b1a08f679947bfefe1fc8ba142661143ebf5a25a59f840c46f204bce5add5279",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_MASE_RMSSE_Summary.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_MASE_RMSSE_Summary.ipynb",
+      "source_bytes": 3115,
+      "source_sha256": "266b6840fa34136a77de2ad12b4abcf49a4033d958eec3761c8a6982080dec1f",
+      "repository_bytes": 3115,
+      "repository_sha256": "266b6840fa34136a77de2ad12b4abcf49a4033d958eec3761c8a6982080dec1f",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_NDSH_Matrix.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_NDSH_Matrix.ipynb",
+      "source_bytes": 3595,
+      "source_sha256": "3eafa71318922742806fbcfe5ea80fff686410fae209808334897231fa7ac549",
+      "repository_bytes": 3595,
+      "repository_sha256": "3eafa71318922742806fbcfe5ea80fff686410fae209808334897231fa7ac549",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_Only_AusGrid2013.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_Only_AusGrid2013.ipynb",
+      "source_bytes": 4425,
+      "source_sha256": "5322f63880d38e664e8db8b44a312968e45d5a04dc29775f723e7a5e05922985",
+      "repository_bytes": 4425,
+      "repository_sha256": "5322f63880d38e664e8db8b44a312968e45d5a04dc29775f723e7a5e05922985",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_Only_GEF2017.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_Only_GEF2017.ipynb",
+      "source_bytes": 4976,
+      "source_sha256": "1746726588b7f0b99da31b2ceb25233329b94a10cd1c6179800dbdd12f2826f3",
+      "repository_bytes": 4976,
+      "repository_sha256": "1746726588b7f0b99da31b2ceb25233329b94a10cd1c6179800dbdd12f2826f3",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/01_DPFedAvg_Sweep_Reconciliation.ipynb",
+      "repository_path": "DP_fhf/notebooks/01_DPFedAvg_Sweep_Reconciliation.ipynb",
+      "source_bytes": 9332,
+      "source_sha256": "0d67099d3e0dd0a0113aa6fc89a9b4503c345fc0452b04587bb407d25f82134a",
+      "repository_bytes": 9332,
+      "repository_sha256": "0d67099d3e0dd0a0113aa6fc89a9b4503c345fc0452b04587bb407d25f82134a",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/02_DP_Covariance_Estimation.ipynb",
+      "repository_path": "DP_fhf/notebooks/02_DP_Covariance_Estimation.ipynb",
+      "source_bytes": 3939,
+      "source_sha256": "cd6acaa8ff371a7017899562ee6b5b40afd8c7f477ae49b1e91d2fdb737c9c76",
+      "repository_bytes": 3939,
+      "repository_sha256": "cd6acaa8ff371a7017899562ee6b5b40afd8c7f477ae49b1e91d2fdb737c9c76",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/02_DP_Covariance_Multiscale_No_Debias.ipynb",
+      "repository_path": "DP_fhf/notebooks/02_DP_Covariance_Multiscale_No_Debias.ipynb",
+      "source_bytes": 2237,
+      "source_sha256": "141581cdc6ad7a134a6ec0eb1f648e08fb4fce4c09a76d5d99e6cec7a78032e6",
+      "repository_bytes": 2237,
+      "repository_sha256": "141581cdc6ad7a134a6ec0eb1f648e08fb4fce4c09a76d5d99e6cec7a78032e6",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/03_DP_O2MR_Saved_P.ipynb",
+      "repository_path": "DP_fhf/notebooks/03_DP_O2MR_Saved_P.ipynb",
+      "source_bytes": 3742,
+      "source_sha256": "963ae7df2ca90056ab2df0483ecb88f6862237433eab270cd9211574a2c03142",
+      "repository_bytes": 3742,
+      "repository_sha256": "963ae7df2ca90056ab2df0483ecb88f6862237433eab270cd9211574a2c03142",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/README.md",
+      "repository_path": "DP_fhf/notebooks/README.md",
+      "source_bytes": 8198,
+      "source_sha256": "f291a7cec5e4a7f6c4e542d0f2ee7783f723c628379e924fdea016e1ef31e34b",
+      "repository_bytes": 8198,
+      "repository_sha256": "f291a7cec5e4a7f6c4e542d0f2ee7783f723c628379e924fdea016e1ef31e34b",
+      "action": "copied"
+    },
+    {
+      "source_path": "DP_fhf/notebooks/z01_DPFedAvg_Sampling_GEF2017.ipynb",
+      "repository_path": "DP_fhf/notebooks/z01_DPFedAvg_Sampling_GEF2017.ipynb",
+      "source_bytes": 5329,
+      "source_sha256": "a4352d35bb130979b3850b53d3ae45f347145bb91f413738507f15c0d592522b",
+      "repository_bytes": 5329,
+      "repository_sha256": "a4352d35bb130979b3850b53d3ae45f347145bb91f413738507f15c0d592522b",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/2012-2013 Solar home electricity data v2.csv",
+      "repository_path": "Datasets/AusGrid2013/2012-2013 Solar home electricity data v2.csv.gz",
+      "source_bytes": 63782724,
+      "source_sha256": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be",
+      "repository_bytes": 14084155,
+      "repository_sha256": "46c88bd3e04b733cd1991a13811d9d8e97db95e6e5b3089888444cd24d9a2f1a",
+      "action": "lossless_gzip"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusGrid2013DataPreparation_dedup.ipynb",
+      "repository_path": "Datasets/AusGrid2013/AusGrid2013DataPreparation_dedup.ipynb",
+      "source_bytes": 14765,
+      "source_sha256": "31b862b8e818d2a3eeb6953c731d41d6fbfdfc3ad979e6a44e5d10b48a292835",
+      "repository_bytes": 14765,
+      "repository_sha256": "31b862b8e818d2a3eeb6953c731d41d6fbfdfc3ad979e6a44e5d10b48a292835",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusGrid2013_univariate.csv",
+      "repository_path": "Datasets/AusGrid2013/AusGrid2013_univariate.csv.gz",
+      "source_bytes": 292384415,
+      "source_sha256": "397c05b8b0c06b2bfc50f20357fb9eb629ea8874367297f6dd280691b5f38149",
+      "repository_bytes": 33256416,
+      "repository_sha256": "b2e45455a423ba32c84b73ba3d282d63be3f42a2bbaced0680265e5c600938dd",
+      "action": "lossless_gzip"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusGrid2013_univariate_dedup.csv",
+      "repository_path": "Datasets/AusGrid2013/AusGrid2013_univariate_dedup.csv.gz",
+      "source_bytes": 254882088,
+      "source_sha256": "60de4d3195dcb7de1f2e3b08d66a98c5688406c5581336ec3a6884651b7ed131",
+      "repository_bytes": 29724489,
+      "repository_sha256": "0424cdf834a2f81c33e236111a3480e75b89510b5c97f1a5963741e95ba67892",
+      "action": "lossless_gzip"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusGrid_S.csv",
+      "repository_path": "Datasets/AusGrid2013/AusGrid_S.csv",
+      "source_bytes": 486578,
+      "source_sha256": "4f2687ac92dae4c58af00246941d8dd2a2780aca705da2332d12f9142a46db7e",
+      "repository_bytes": 486578,
+      "repository_sha256": "4f2687ac92dae4c58af00246941d8dd2a2780aca705da2332d12f9142a46db7e",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusGrid_S_dedup.csv",
+      "repository_path": "Datasets/AusGrid2013/AusGrid_S_dedup.csv",
+      "source_bytes": 437721,
+      "source_sha256": "99bbdfd4ad1a7e0445e4463dde98dae2360b3676e28996ba903cf5d48b038f9d",
+      "repository_bytes": 437721,
+      "repository_sha256": "99bbdfd4ad1a7e0445e4463dde98dae2360b3676e28996ba903cf5d48b038f9d",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusGrid_dedup_mapping.csv",
+      "repository_path": "Datasets/AusGrid2013/AusGrid_dedup_mapping.csv",
+      "source_bytes": 2228,
+      "source_sha256": "fa510cae55bb544891f27c2d49329c859fa4fad49f6ee5e956ca0d0853c16132",
+      "repository_bytes": 2228,
+      "repository_sha256": "fa510cae55bb544891f27c2d49329c859fa4fad49f6ee5e956ca0d0853c16132",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/Ausgrid solar home electricity data notes (Aug 2014).pdf",
+      "repository_path": "Datasets/AusGrid2013/Ausgrid solar home electricity data notes (Aug 2014).pdf",
+      "source_bytes": 40839,
+      "source_sha256": "05efccf64d45356d368a6b5c7d8f4e0990bd07ddf92afa3cf303cfbf3f39b156",
+      "repository_bytes": 40839,
+      "repository_sha256": "05efccf64d45356d368a6b5c7d8f4e0990bd07ddf92afa3cf303cfbf3f39b156",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusgridLook-Copy1.ipynb",
+      "repository_path": "Datasets/AusGrid2013/AusgridLook-Copy1.ipynb",
+      "source_bytes": 7854,
+      "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+      "repository_bytes": 7854,
+      "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
+      "repository_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
+      "source_bytes": 7854,
+      "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+      "repository_bytes": 7854,
+      "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/tags.pkl",
+      "repository_path": "Datasets/AusGrid2013/tags.pkl",
+      "source_bytes": 5395,
+      "source_sha256": "53e2aeaabf9e3a0e4f62af697d2ffc27cb9d663382811f9ada8ba1bda9383c64",
+      "repository_bytes": 5395,
+      "repository_sha256": "53e2aeaabf9e3a0e4f62af697d2ffc27cb9d663382811f9ada8ba1bda9383c64",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/AusGrid2013/tags_dedup.pkl",
+      "repository_path": "Datasets/AusGrid2013/tags_dedup.pkl",
+      "source_bytes": 4896,
+      "source_sha256": "5efc3f257485b2749c7709293e47ede20192040425e944bbc923175f0e8c327e",
+      "repository_bytes": 4896,
+      "repository_sha256": "5efc3f257485b2749c7709293e47ede20192040425e944bbc923175f0e8c327e",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/GEF2017DataPreparation.ipynb",
+      "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation.ipynb",
+      "source_bytes": 10129,
+      "source_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
+      "repository_bytes": 10129,
+      "repository_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
+      "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
+      "source_bytes": 12822,
+      "source_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
+      "repository_bytes": 12822,
+      "repository_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/GEF2017_170101_dedup.csv",
+      "repository_path": "Datasets/GEFCOM2017/GEF2017_170101_dedup.csv",
+      "source_bytes": 13873754,
+      "source_sha256": "1f89ced1e2d8452fac34a5102d9683ecd1202846a637627798ffd4b452c22526",
+      "repository_bytes": 13873754,
+      "repository_sha256": "1f89ced1e2d8452fac34a5102d9683ecd1202846a637627798ffd4b452c22526",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/GEF2017_hierarchy_with_duplicates.csv",
+      "repository_path": "Datasets/GEFCOM2017/GEF2017_hierarchy_with_duplicates.csv.gz",
+      "source_bytes": 76989795,
+      "source_sha256": "a9ea33d7950ea0781ce1f181c4244e4fe2a28de6812daf4efe8e32320cf5b508",
+      "repository_bytes": 9857074,
+      "repository_sha256": "4e1b0dc66ba3cbcf5bed4c8bbec46b532c9fa010de98d35a92f009152fc44411",
+      "action": "lossless_gzip"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/GEF2017_univarivate.csv",
+      "repository_path": "Datasets/GEFCOM2017/GEF2017_univarivate.csv.gz",
+      "source_bytes": 54777401,
+      "source_sha256": "ede78ee305d6a62d6954463b65da95cea938c3c4cd0e88cb41cdd3486c2603a9",
+      "repository_bytes": 6667727,
+      "repository_sha256": "8f43b944fa2cec54a47937e70fdd44c174ed815d2c0c23a49353f56a28293524",
+      "action": "lossless_gzip"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/GEF_S.csv",
+      "repository_path": "Datasets/GEFCOM2017/GEF_S.csv",
+      "source_bytes": 564,
+      "source_sha256": "b2ab8a5bb2bf37bf1c11980a238cc609dbfcddc98da0d98edf613f4ee3626560",
+      "repository_bytes": 564,
+      "repository_sha256": "b2ab8a5bb2bf37bf1c11980a238cc609dbfcddc98da0d98edf613f4ee3626560",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/Gef2017.csv",
+      "repository_path": "Datasets/GEFCOM2017/Gef2017.csv.gz",
+      "source_bytes": 120330163,
+      "source_sha256": "1d26b0da1849e48fcae09736d22257dfce2fb71ca8cbe0e046d8edc21d08a952",
+      "repository_bytes": 16471603,
+      "repository_sha256": "de581e6c277bb3f97c76f070df1980c1b8d878ba66ca66880734ed8a00556af8",
+      "action": "lossless_gzip"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/Hourly_Electricity_Demand.pdf",
+      "repository_path": "Datasets/GEFCOM2017/Hourly_Electricity_Demand.pdf",
+      "source_bytes": 502073,
+      "source_sha256": "184d6005283cfb21f0df8453a3a55f97b0d595d800d5a7a503cd5c9c06591952",
+      "repository_bytes": 502073,
+      "repository_sha256": "184d6005283cfb21f0df8453a3a55f97b0d595d800d5a7a503cd5c9c06591952",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/gefcom2017_get.R",
+      "repository_path": "Datasets/GEFCOM2017/gefcom2017_get.R",
+      "source_bytes": 284,
+      "source_sha256": "9d48852b6eee6ce66c455edf16518300ecba512cb196e25332075216264622c2",
+      "repository_bytes": 284,
+      "repository_sha256": "9d48852b6eee6ce66c455edf16518300ecba512cb196e25332075216264622c2",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/tags.pkl",
+      "repository_path": "Datasets/GEFCOM2017/tags.pkl",
+      "source_bytes": 438,
+      "source_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+      "repository_bytes": 438,
+      "repository_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+      "action": "copied"
+    },
+    {
+      "source_path": "Datasets/GEFCOM2017/tags_dedup.pkl",
+      "repository_path": "Datasets/GEFCOM2017/tags_dedup.pkl",
+      "source_bytes": 438,
+      "source_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+      "repository_bytes": 438,
+      "repository_sha256": "4481e274b629112ebef29c6319353516faa63a3fccdd2851172877d66de18253",
+      "action": "copied"
+    },
+    {
+      "source_path": "FIX_README_zh.md",
+      "repository_path": "FIX_README_zh.md",
+      "source_bytes": 2323,
+      "source_sha256": "e9358587ba72047764825bbd4a7a24af5d2d982a82fa0e4718ba028be45c5432",
+      "repository_bytes": 2323,
+      "repository_sha256": "e9358587ba72047764825bbd4a7a24af5d2d982a82fa0e4718ba028be45c5432",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/README.md",
+      "repository_path": "PPHF_modules/README.md",
+      "source_bytes": 1643,
+      "source_sha256": "4b7bde50f2b90308d20f82eee912c10759329dd0b5aef439acd1668a3398c340",
+      "repository_bytes": 1643,
+      "repository_sha256": "4b7bde50f2b90308d20f82eee912c10759329dd0b5aef439acd1668a3398c340",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/__init__.py",
+      "repository_path": "PPHF_modules/__init__.py",
+      "source_bytes": 67,
+      "source_sha256": "12508e62378dca969134273103aefd870190ce01c08ebf434c22c93f09c95318",
+      "repository_bytes": 67,
+      "repository_sha256": "12508e62378dca969134273103aefd870190ce01c08ebf434c22c93f09c95318",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/__init__.py",
+      "source_bytes": 1018,
+      "source_sha256": "140498d1a2307995e365bb4d29c96fc281127e8d85279323d157dc84d978f420",
+      "repository_bytes": 1018,
+      "repository_sha256": "140498d1a2307995e365bb4d29c96fc281127e8d85279323d157dc84d978f420",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/__init__.py",
+      "source_bytes": 607,
+      "source_sha256": "f622793f09e8621d76ced71e71c8c3d896e74afc7a77625512512eae7f5ca899",
+      "repository_bytes": 607,
+      "repository_sha256": "f622793f09e8621d76ced71e71c8c3d896e74afc7a77625512512eae7f5ca899",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/app.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/app.py",
+      "source_bytes": 15360,
+      "source_sha256": "d162698cb698720717b65f4d4e7fa2e634847c0a3078c83849701e9765cb1746",
+      "repository_bytes": 15360,
+      "repository_sha256": "d162698cb698720717b65f4d4e7fa2e634847c0a3078c83849701e9765cb1746",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/app.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/app.pyi",
+      "source_bytes": 1885,
+      "source_sha256": "35d461d0e06a5872a77378448dd2dab292ddbba6831e7dd73f7eb464f65e404f",
+      "repository_bytes": 1885,
+      "repository_sha256": "35d461d0e06a5872a77378448dd2dab292ddbba6831e7dd73f7eb464f65e404f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/command_name.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/command_name.py",
+      "source_bytes": 2283,
+      "source_sha256": "1605943079a55f4c90c44b8c3d7c45c67e5ac9659948b07472af15c77eb54e95",
+      "repository_bytes": 2283,
+      "repository_sha256": "1605943079a55f4c90c44b8c3d7c45c67e5ac9659948b07472af15c77eb54e95",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/__init__.py",
+      "source_bytes": 7665,
+      "source_sha256": "9ffb8b7922bed79ff50ca2dbd305e2be6b7a03cc6f0030c2f3b0f5ca825da955",
+      "repository_bytes": 7665,
+      "repository_sha256": "9ffb8b7922bed79ff50ca2dbd305e2be6b7a03cc6f0030c2f3b0f5ca825da955",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_argument_parser.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_argument_parser.py",
+      "source_bytes": 20629,
+      "source_sha256": "6abce41c0dc26cf25d27b762a94cac91da1a2ed2adf008a3d44642547fea2475",
+      "repository_bytes": 20629,
+      "repository_sha256": "6abce41c0dc26cf25d27b762a94cac91da1a2ed2adf008a3d44642547fea2475",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_defines.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_defines.py",
+      "source_bytes": 52895,
+      "source_sha256": "3402b8f3d346bf760cbdb623d89ce5eaaf3d1e602d98c23ae5d8b52ff44aed71",
+      "repository_bytes": 52895,
+      "repository_sha256": "3402b8f3d346bf760cbdb623d89ce5eaaf3d1e602d98c23ae5d8b52ff44aed71",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_exceptions.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_exceptions.py",
+      "source_bytes": 3619,
+      "source_sha256": "159ce5ce1be48ea3c8993c57a9b4b5a523d82abfd3bed39de5e965be88952c32",
+      "repository_bytes": 3619,
+      "repository_sha256": "159ce5ce1be48ea3c8993c57a9b4b5a523d82abfd3bed39de5e965be88952c32",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_flag.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_flag.py",
+      "source_bytes": 20079,
+      "source_sha256": "99d30916494a41d0a2f56b163ef5259814684362003d6d19d250c82a3d0bb31f",
+      "repository_bytes": 20079,
+      "repository_sha256": "99d30916494a41d0a2f56b163ef5259814684362003d6d19d250c82a3d0bb31f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_flagvalues.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_flagvalues.py",
+      "source_bytes": 54364,
+      "source_sha256": "706cccb16c6d86a1987e911245e4522425e3a51ba3a2c4a64d3f9e7c95b709b4",
+      "repository_bytes": 54364,
+      "repository_sha256": "706cccb16c6d86a1987e911245e4522425e3a51ba3a2c4a64d3f9e7c95b709b4",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_helpers.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_helpers.py",
+      "source_bytes": 14154,
+      "source_sha256": "3076e0b5191b369567aebeff342764162ff1defa106bed7e6f2a6ab2e9c70891",
+      "repository_bytes": 14154,
+      "repository_sha256": "3076e0b5191b369567aebeff342764162ff1defa106bed7e6f2a6ab2e9c70891",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_validators.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_validators.py",
+      "source_bytes": 14140,
+      "source_sha256": "55cb09b59ce886588dc6c23def8344098a5ea330fcaecc073475e082b43804ba",
+      "repository_bytes": 14140,
+      "repository_sha256": "55cb09b59ce886588dc6c23def8344098a5ea330fcaecc073475e082b43804ba",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_validators_classes.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/_validators_classes.py",
+      "source_bytes": 6093,
+      "source_sha256": "3c6516cceeefdf03ce1dbf6578828acebcb7abea4f78a0a8301fceee9acb7676",
+      "repository_bytes": 6093,
+      "repository_sha256": "3c6516cceeefdf03ce1dbf6578828acebcb7abea4f78a0a8301fceee9acb7676",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/argparse_flags.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/flags/argparse_flags.py",
+      "source_bytes": 14386,
+      "source_sha256": "bac26e760329cb73fa56fabbf8b98935ad918f7ca01ccde1c034c677599b0337",
+      "repository_bytes": 14386,
+      "repository_sha256": "bac26e760329cb73fa56fabbf8b98935ad918f7ca01ccde1c034c677599b0337",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/logging/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/logging/__init__.py",
+      "source_bytes": 43583,
+      "source_sha256": "5e972626b144cc32b68964e5983c2d35249c4a21a235e74589b5ae5b4b5631b9",
+      "repository_bytes": 43583,
+      "repository_sha256": "5e972626b144cc32b68964e5983c2d35249c4a21a235e74589b5ae5b4b5631b9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/logging/__init__.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/logging/__init__.pyi",
+      "source_bytes": 5925,
+      "source_sha256": "dfd10404e1ffac0c83409a70ca2b68dafa3820064ff619f0dfec170bf1ae96f7",
+      "repository_bytes": 5925,
+      "repository_sha256": "dfd10404e1ffac0c83409a70ca2b68dafa3820064ff619f0dfec170bf1ae96f7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/logging/converter.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/logging/converter.py",
+      "source_bytes": 6323,
+      "source_sha256": "e9e07299fbfd50d9288340466ade073d69710bfa12aaf1dc438ea39d276d68c8",
+      "repository_bytes": 6323,
+      "repository_sha256": "e9e07299fbfd50d9288340466ade073d69710bfa12aaf1dc438ea39d276d68c8",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/py.typed",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/py.typed",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/__init__.py",
+      "source_bytes": 584,
+      "source_sha256": "edc339eecc24d93d47739c319adf89a5c691eb17dd3c9c8bfe5c91aa0383bee3",
+      "repository_bytes": 584,
+      "repository_sha256": "edc339eecc24d93d47739c319adf89a5c691eb17dd3c9c8bfe5c91aa0383bee3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/_bazelize_command.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/_bazelize_command.py",
+      "source_bytes": 2287,
+      "source_sha256": "aa98a8574da59f6b01049f647651e03692a4f3fc31773da124629b1ba11664c2",
+      "repository_bytes": 2287,
+      "repository_sha256": "aa98a8574da59f6b01049f647651e03692a4f3fc31773da124629b1ba11664c2",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/_pretty_print_reporter.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/_pretty_print_reporter.py",
+      "source_bytes": 3065,
+      "source_sha256": "3d987d35749705b5c38b414e93e04e9a9b1ef0b5daf7612bd7ab60c8146880cb",
+      "repository_bytes": 3065,
+      "repository_sha256": "3d987d35749705b5c38b414e93e04e9a9b1ef0b5daf7612bd7ab60c8146880cb",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/absltest.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/absltest.py",
+      "source_bytes": 105675,
+      "source_sha256": "3d6e1ce125653943d2bc52216b28a6258d8b11b27b040a23a1beaef52054adc9",
+      "repository_bytes": 105675,
+      "repository_sha256": "3d6e1ce125653943d2bc52216b28a6258d8b11b27b040a23a1beaef52054adc9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/flagsaver.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/flagsaver.py",
+      "source_bytes": 13346,
+      "source_sha256": "1c85b31726b2cbe3daf13a9301717b06d1d0eecf5493af0a13c015540334a34c",
+      "repository_bytes": 13346,
+      "repository_sha256": "1c85b31726b2cbe3daf13a9301717b06d1d0eecf5493af0a13c015540334a34c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/parameterized.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/parameterized.py",
+      "source_bytes": 27817,
+      "source_sha256": "4e94e55935178e29067940c4e39020b9bbe7987b0f6c5363fb052d0304fe7ba1",
+      "repository_bytes": 27817,
+      "repository_sha256": "4e94e55935178e29067940c4e39020b9bbe7987b0f6c5363fb052d0304fe7ba1",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/xml_reporter.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl/testing/xml_reporter.py",
+      "source_bytes": 21430,
+      "source_sha256": "60590ced244e5bc69ea020a7f08b0667872a5eee31f0cc0bd68378dbe3ad3ca2",
+      "repository_bytes": 21430,
+      "repository_sha256": "60590ced244e5bc69ea020a7f08b0667872a5eee31f0cc0bd68378dbe3ad3ca2",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/INSTALLER",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/INSTALLER",
+      "source_bytes": 4,
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "repository_bytes": 4,
+      "repository_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/METADATA",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/METADATA",
+      "source_bytes": 3331,
+      "source_sha256": "d87652db8be4987c3b190a9459c0c4fc57555e35b5760552ee958f75627962f8",
+      "repository_bytes": 3331,
+      "repository_sha256": "d87652db8be4987c3b190a9459c0c4fc57555e35b5760552ee958f75627962f8",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/RECORD",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/RECORD",
+      "source_bytes": 3824,
+      "source_sha256": "a291c2e8234b795efd816765f3125d3df3f4b58ac6b85430b6eeef73721d0220",
+      "repository_bytes": 3824,
+      "repository_sha256": "a291c2e8234b795efd816765f3125d3df3f4b58ac6b85430b6eeef73721d0220",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/REQUESTED",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/REQUESTED",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/WHEEL",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/WHEEL",
+      "source_bytes": 87,
+      "source_sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+      "repository_bytes": 87,
+      "repository_sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/licenses/AUTHORS",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/licenses/AUTHORS",
+      "source_bytes": 296,
+      "source_sha256": "6282ee76cca569083b5b998b9f816ba1032e127b8dc7c46942b86477fc6fbfa5",
+      "repository_bytes": 296,
+      "repository_sha256": "6282ee76cca569083b5b998b9f816ba1032e127b8dc7c46942b86477fc6fbfa5",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/licenses/LICENSE",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/absl_py-2.3.1.dist-info/licenses/LICENSE",
+      "source_bytes": 11358,
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "repository_bytes": 11358,
+      "repository_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/__init__.py",
+      "source_bytes": 3307,
+      "source_sha256": "5a55c937a20207463f1d9d259ae4d48226b492e49d9f6a7aedde0de9c6313593",
+      "repository_bytes": 3307,
+      "repository_sha256": "5a55c937a20207463f1d9d259ae4d48226b492e49d9f6a7aedde0de9c6313593",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/__init__.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/__init__.pyi",
+      "source_bytes": 16976,
+      "source_sha256": "bb4f04ba3607cbfad2c9e6cd9fe23d5efd92fdc5e6b40f71586734701b32975f",
+      "repository_bytes": 16976,
+      "repository_sha256": "bb4f04ba3607cbfad2c9e6cd9fe23d5efd92fdc5e6b40f71586734701b32975f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_cmp.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_cmp.py",
+      "source_bytes": 4025,
+      "source_sha256": "39066559d157ef8cf5f1a746114a78d0e8ea9b434dbb5165aa7bf6244f01da78",
+      "repository_bytes": 4025,
+      "repository_sha256": "39066559d157ef8cf5f1a746114a78d0e8ea9b434dbb5165aa7bf6244f01da78",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_cmp.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_cmp.pyi",
+      "source_bytes": 399,
+      "source_sha256": "b0642638cd30dff2b8f97f1c4d747b8341eaaf6f7413c3d339b03d250c5642a7",
+      "repository_bytes": 399,
+      "repository_sha256": "b0642638cd30dff2b8f97f1c4d747b8341eaaf6f7413c3d339b03d250c5642a7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_compat.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_compat.py",
+      "source_bytes": 2540,
+      "source_sha256": "426472c628b6f79c1c41f6ae816ab1b88ba600fb0d436f91505f364193ea30ac",
+      "repository_bytes": 2540,
+      "repository_sha256": "426472c628b6f79c1c41f6ae816ab1b88ba600fb0d436f91505f364193ea30ac",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_config.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_config.py",
+      "source_bytes": 843,
+      "source_sha256": "cfcd55b7e19e4ffdad6b1b355d97e61f1f535a54b18cf6fa7991f52d31ac4b9e",
+      "repository_bytes": 843,
+      "repository_sha256": "cfcd55b7e19e4ffdad6b1b355d97e61f1f535a54b18cf6fa7991f52d31ac4b9e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_funcs.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_funcs.py",
+      "source_bytes": 17173,
+      "source_sha256": "5414d414a2e496c9aac72b37a964932bf01cf59e2cd260095b0816f6703b2e59",
+      "repository_bytes": 17173,
+      "repository_sha256": "5414d414a2e496c9aac72b37a964932bf01cf59e2cd260095b0816f6703b2e59",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_make.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_make.py",
+      "source_bytes": 101923,
+      "source_sha256": "2e7572d9ed07ca0a2a699927842d7dcfb2663adeea1a401a75fd8b6605952562",
+      "repository_bytes": 101923,
+      "repository_sha256": "2e7572d9ed07ca0a2a699927842d7dcfb2663adeea1a401a75fd8b6605952562",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_next_gen.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_next_gen.py",
+      "source_bytes": 6203,
+      "source_sha256": "6acd6fa22f2c88023fa363901bc608899be69f41bbf92dff8ffefbe2b9e867f8",
+      "repository_bytes": 6203,
+      "repository_sha256": "6acd6fa22f2c88023fa363901bc608899be69f41bbf92dff8ffefbe2b9e867f8",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_typing_compat.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_typing_compat.pyi",
+      "source_bytes": 469,
+      "source_sha256": "5c33f9e13527f992a10fad9339079b9b3af0172a268540a8191a5c95be9a9510",
+      "repository_bytes": 469,
+      "repository_sha256": "5c33f9e13527f992a10fad9339079b9b3af0172a268540a8191a5c95be9a9510",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_version_info.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_version_info.py",
+      "source_bytes": 2121,
+      "source_sha256": "7b14aa6f76f913e7cc4ac819025130f5770ba448286cf391099a5c68482500ce",
+      "repository_bytes": 2121,
+      "repository_sha256": "7b14aa6f76f913e7cc4ac819025130f5770ba448286cf391099a5c68482500ce",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_version_info.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/_version_info.pyi",
+      "source_bytes": 209,
+      "source_sha256": "c7f3372f75ae07baff50b5c05a3c7de7db9d290e072c1f25fa1b1cd450c636f9",
+      "repository_bytes": 209,
+      "repository_sha256": "c7f3372f75ae07baff50b5c05a3c7de7db9d290e072c1f25fa1b1cd450c636f9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/converters.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/converters.py",
+      "source_bytes": 3622,
+      "source_sha256": "2b2c39318d327e7511fd1c0dd55c9d7f412213efbe86d0f13a049cffe3582fa0",
+      "repository_bytes": 3622,
+      "repository_sha256": "2b2c39318d327e7511fd1c0dd55c9d7f412213efbe86d0f13a049cffe3582fa0",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/converters.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/converters.pyi",
+      "source_bytes": 406,
+      "source_sha256": "8ca9691c112de8754a26f82b305251ac7abca7ad465e0e3e35de516562895fb3",
+      "repository_bytes": 406,
+      "repository_sha256": "8ca9691c112de8754a26f82b305251ac7abca7ad465e0e3e35de516562895fb3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/exceptions.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/exceptions.py",
+      "source_bytes": 1977,
+      "source_sha256": "1d116ae22c9b9afefe0dc670ca397a3357ae33661e2552bf845c6e6811809e02",
+      "repository_bytes": 1977,
+      "repository_sha256": "1d116ae22c9b9afefe0dc670ca397a3357ae33661e2552bf845c6e6811809e02",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/exceptions.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/exceptions.pyi",
+      "source_bytes": 539,
+      "source_sha256": "cd9abc6c2527280cbd983b41130e366613e1014207a1329e7434089c90fcf373",
+      "repository_bytes": 539,
+      "repository_sha256": "cd9abc6c2527280cbd983b41130e366613e1014207a1329e7434089c90fcf373",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/filters.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/filters.py",
+      "source_bytes": 1470,
+      "source_sha256": "f6962f5ea760ea6b4bbca2086f9ea800b44ca0716741370608ee045d3735ab23",
+      "repository_bytes": 1470,
+      "repository_sha256": "f6962f5ea760ea6b4bbca2086f9ea800b44ca0716741370608ee045d3735ab23",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/filters.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/filters.pyi",
+      "source_bytes": 225,
+      "source_sha256": "d264428cb2b175cbc0a34bc3f82afcd477d15d70a9f63fdc0178cea001ed3c63",
+      "repository_bytes": 225,
+      "repository_sha256": "d264428cb2b175cbc0a34bc3f82afcd477d15d70a9f63fdc0178cea001ed3c63",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/py.typed",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/py.typed",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/setters.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/setters.py",
+      "source_bytes": 1400,
+      "source_sha256": "a5b09943ea44e99c630ea65f59652150579f5eda5e908538a92fd80cc2cf439d",
+      "repository_bytes": 1400,
+      "repository_sha256": "a5b09943ea44e99c630ea65f59652150579f5eda5e908538a92fd80cc2cf439d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/setters.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/setters.pyi",
+      "source_bytes": 567,
+      "source_sha256": "a7263c4d5341bbc4d684e95dbff4711f3986bdd805407f7cd5d6fbd2bd1f9f92",
+      "repository_bytes": 567,
+      "repository_sha256": "a7263c4d5341bbc4d684e95dbff4711f3986bdd805407f7cd5d6fbd2bd1f9f92",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/validators.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/validators.py",
+      "source_bytes": 19676,
+      "source_sha256": "2c65696e2360fca1b362b2940f924f899931f1331fca70d91a84282c934220ca",
+      "repository_bytes": 19676,
+      "repository_sha256": "2c65696e2360fca1b362b2940f924f899931f1331fca70d91a84282c934220ca",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/validators.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attr/validators.pyi",
+      "source_bytes": 2580,
+      "source_sha256": "d7aec397d9edecd52113dc21b7523e6eea34dfdab2513d671144ff9ca8d25abe",
+      "repository_bytes": 2580,
+      "repository_sha256": "d7aec397d9edecd52113dc21b7523e6eea34dfdab2513d671144ff9ca8d25abe",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/__init__.py",
+      "source_bytes": 1039,
+      "source_sha256": "f7fe706956c5b3bacbaad5d9ef7b4d0ebc617b3c99f1565e5f805bbd0dc4789c",
+      "repository_bytes": 1039,
+      "repository_sha256": "f7fe706956c5b3bacbaad5d9ef7b4d0ebc617b3c99f1565e5f805bbd0dc4789c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/__init__.pyi",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/__init__.pyi",
+      "source_bytes": 2168,
+      "source_sha256": "b3f6a343f535e033ac3b3d096e600a0ce8b8e81defd8f71d3b4500575318e849",
+      "repository_bytes": 2168,
+      "repository_sha256": "b3f6a343f535e033ac3b3d096e600a0ce8b8e81defd8f71d3b4500575318e849",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/converters.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/converters.py",
+      "source_bytes": 76,
+      "source_sha256": "f244258eb5707d24d1bbc20dc0493c488d1e1abce659fb6c4fbaccd04ab2a213",
+      "repository_bytes": 76,
+      "repository_sha256": "f244258eb5707d24d1bbc20dc0493c488d1e1abce659fb6c4fbaccd04ab2a213",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/exceptions.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/exceptions.py",
+      "source_bytes": 76,
+      "source_sha256": "0020829a0d7dfaf0c56833d8f6f165d7df523d709030dfdb10db380c02e3ce6b",
+      "repository_bytes": 76,
+      "repository_sha256": "0020829a0d7dfaf0c56833d8f6f165d7df523d709030dfdb10db380c02e3ce6b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/filters.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/filters.py",
+      "source_bytes": 73,
+      "source_sha256": "54e50c66e83db8453a754b80d1d1758c89d42b43cbddf2e03f45414b977e0831",
+      "repository_bytes": 73,
+      "repository_sha256": "54e50c66e83db8453a754b80d1d1758c89d42b43cbddf2e03f45414b977e0831",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/py.typed",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/py.typed",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/setters.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/setters.py",
+      "source_bytes": 73,
+      "source_sha256": "78bd5889d6105774f687dfd2608652651d4501c1c66f54ee093cb41342efd925",
+      "repository_bytes": 73,
+      "repository_sha256": "78bd5889d6105774f687dfd2608652651d4501c1c66f54ee093cb41342efd925",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/validators.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs/validators.py",
+      "source_bytes": 76,
+      "source_sha256": "c5ccbac03e53b5391d086d5fe1759ba1c3d23b47da06393921f5497cfe92523d",
+      "repository_bytes": 76,
+      "repository_sha256": "c5ccbac03e53b5391d086d5fe1759ba1c3d23b47da06393921f5497cfe92523d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/INSTALLER",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/INSTALLER",
+      "source_bytes": 4,
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "repository_bytes": 4,
+      "repository_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/METADATA",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/METADATA",
+      "source_bytes": 9531,
+      "source_sha256": "5b0bc6ece1f22a310fa72154642098b759f413f09ca9d45bedb96218475c9be0",
+      "repository_bytes": 9531,
+      "repository_sha256": "5b0bc6ece1f22a310fa72154642098b759f413f09ca9d45bedb96218475c9be0",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/RECORD",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/RECORD",
+      "source_bytes": 3642,
+      "source_sha256": "4e90c2d573839d7b307f9eef5ae888ec41ed1d3080554bde75d117e444792a5a",
+      "repository_bytes": 3642,
+      "repository_sha256": "4e90c2d573839d7b307f9eef5ae888ec41ed1d3080554bde75d117e444792a5a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/REQUESTED",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/REQUESTED",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/WHEEL",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/WHEEL",
+      "source_bytes": 87,
+      "source_sha256": "99161210bdc887a8396bf095308730885fffd007b8fe02d8874d5814dc22ab59",
+      "repository_bytes": 87,
+      "repository_sha256": "99161210bdc887a8396bf095308730885fffd007b8fe02d8874d5814dc22ab59",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/licenses/LICENSE",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/attrs-23.2.0.dist-info/licenses/LICENSE",
+      "source_bytes": 1109,
+      "source_sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "repository_bytes": 1109,
+      "repository_sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/__init__.py",
+      "source_bytes": 2273,
+      "source_sha256": "e6ba9bcca2f1a23b97f8d480e41374f4ab3cb9fa153c6c40d094008eec2eb8b1",
+      "repository_bytes": 2273,
+      "repository_sha256": "e6ba9bcca2f1a23b97f8d480e41374f4ab3cb9fa153c6c40d094008eec2eb8b1",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event.py",
+      "source_bytes": 17446,
+      "source_sha256": "1223ecb7e932a6c504bdfad770b3b48faf9450fc10bde2643b8b3be7b0fc91d4",
+      "repository_bytes": 17446,
+      "repository_sha256": "1223ecb7e932a6c504bdfad770b3b48faf9450fc10bde2643b8b3be7b0fc91d4",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event_builder.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event_builder.py",
+      "source_bytes": 2833,
+      "source_sha256": "8ae55786edc1e4aadd391915135fc25d5d7af4ce6742db2e3ecaf51c44c9147b",
+      "repository_bytes": 2833,
+      "repository_sha256": "8ae55786edc1e4aadd391915135fc25d5d7af4ce6742db2e3ecaf51c44c9147b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event_builder_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event_builder_test.py",
+      "source_bytes": 3054,
+      "source_sha256": "f9c3710249e9b213ecd27ae305d4b3fbf8174a17a01d6fc949f9653fe0e36acf",
+      "repository_bytes": 3054,
+      "repository_sha256": "f9c3710249e9b213ecd27ae305d4b3fbf8174a17a01d6fc949f9653fe0e36acf",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/dp_event_test.py",
+      "source_bytes": 4159,
+      "source_sha256": "a55b7be98157588516555cca95df866c6469d2a604ca41e66469da70fbe175c9",
+      "repository_bytes": 4159,
+      "repository_sha256": "a55b7be98157588516555cca95df866c6469d2a604ca41e66469da70fbe175c9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/gaussian_mechanism.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/gaussian_mechanism.py",
+      "source_bytes": 3156,
+      "source_sha256": "98f0c35c2faf49a717879f62895c0e4de85c0eff5446738c2e66daacfef5a01c",
+      "repository_bytes": 3156,
+      "repository_sha256": "98f0c35c2faf49a717879f62895c0e4de85c0eff5446738c2e66daacfef5a01c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/gaussian_mechanism_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/gaussian_mechanism_test.py",
+      "source_bytes": 1827,
+      "source_sha256": "bcfa8b91503c9997b066927046f874f59318549b5cfb2b47b29fefc56d4812de",
+      "repository_bytes": 1827,
+      "repository_sha256": "bcfa8b91503c9997b066927046f874f59318549b5cfb2b47b29fefc56d4812de",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/mechanism_calibration.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/mechanism_calibration.py",
+      "source_bytes": 10331,
+      "source_sha256": "63b11e24151cd66c404377cc1e6df637e8f5c813340173df3f17cf02c996d512",
+      "repository_bytes": 10331,
+      "repository_sha256": "63b11e24151cd66c404377cc1e6df637e8f5c813340173df3f17cf02c996d512",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/mechanism_calibration_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/mechanism_calibration_test.py",
+      "source_bytes": 11661,
+      "source_sha256": "0ae969e19b2948c9afceebb85dee02e989d6ff7dfb512bcbbaf27b6ba6a6d08f",
+      "repository_bytes": 11661,
+      "repository_sha256": "0ae969e19b2948c9afceebb85dee02e989d6ff7dfb512bcbbaf27b6ba6a6d08f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/__init__.py",
+      "source_bytes": 953,
+      "source_sha256": "7dd4f9ee7ec361f0a88d536d071398ee92a2434dbbf7237502c19890abdb01b9",
+      "repository_bytes": 953,
+      "repository_sha256": "7dd4f9ee7ec361f0a88d536d071398ee92a2434dbbf7237502c19890abdb01b9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/accountant.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/accountant.py",
+      "source_bytes": 13307,
+      "source_sha256": "b8ac997f684a5aca57a36e7cca38e4e4d41deceeafa0d863cc15656f96889f3c",
+      "repository_bytes": 13307,
+      "repository_sha256": "b8ac997f684a5aca57a36e7cca38e4e4d41deceeafa0d863cc15656f96889f3c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/accountant_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/accountant_test.py",
+      "source_bytes": 8425,
+      "source_sha256": "07cb6308bcb3e85b257ed436ba14100ebaea9ddf6fc55a310a6dd402ade44852",
+      "repository_bytes": 8425,
+      "repository_sha256": "07cb6308bcb3e85b257ed436ba14100ebaea9ddf6fc55a310a6dd402ade44852",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/common.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/common.py",
+      "source_bytes": 13562,
+      "source_sha256": "65f256b54a617a1c2a8ef9b63125612f5e7641302ee7f033a87a0e3b150dca0a",
+      "repository_bytes": 13562,
+      "repository_sha256": "65f256b54a617a1c2a8ef9b63125612f5e7641302ee7f033a87a0e3b150dca0a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/common_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/common_test.py",
+      "source_bytes": 9801,
+      "source_sha256": "ce46bc9cd226695e30ec29bcbd835527bd85fd058fa5f07ea5e967e92a1cd417",
+      "repository_bytes": 9801,
+      "repository_sha256": "ce46bc9cd226695e30ec29bcbd835527bd85fd058fa5f07ea5e967e92a1cd417",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_pmf.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_pmf.py",
+      "source_bytes": 35575,
+      "source_sha256": "08388be869d6cc5822cff88bf55d1fdfc37ddca96c488d72a7a869989f91168a",
+      "repository_bytes": 35575,
+      "repository_sha256": "08388be869d6cc5822cff88bf55d1fdfc37ddca96c488d72a7a869989f91168a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_pmf_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_pmf_test.py",
+      "source_bytes": 34080,
+      "source_sha256": "64bf6e3fe809ee7446aa0f7e345ce153ebcc48a9e6f0724103d82b900f30ed26",
+      "repository_bytes": 34080,
+      "repository_sha256": "64bf6e3fe809ee7446aa0f7e345ce153ebcc48a9e6f0724103d82b900f30ed26",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_privacy_accountant.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_privacy_accountant.py",
+      "source_bytes": 10586,
+      "source_sha256": "2284911d7c1586d4bea1aa6b6fe271025a3834b6bb926a8aa7f2217061c565bf",
+      "repository_bytes": 10586,
+      "repository_sha256": "2284911d7c1586d4bea1aa6b6fe271025a3834b6bb926a8aa7f2217061c565bf",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_privacy_accountant_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/pld_privacy_accountant_test.py",
+      "source_bytes": 13975,
+      "source_sha256": "cbfea26d1405d1161827b4f1e54ef647e5481111f013269bf645e7275bcf0b83",
+      "repository_bytes": 13975,
+      "repository_sha256": "cbfea26d1405d1161827b4f1e54ef647e5481111f013269bf645e7275bcf0b83",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_distribution.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_distribution.py",
+      "source_bytes": 57072,
+      "source_sha256": "524b941d4ba1bf363b6c228e2d21a6b4e0cfd76f23d174bf27b35c58592cdaea",
+      "repository_bytes": 57072,
+      "repository_sha256": "524b941d4ba1bf363b6c228e2d21a6b4e0cfd76f23d174bf27b35c58592cdaea",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_distribution_basic_example.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_distribution_basic_example.py",
+      "source_bytes": 2565,
+      "source_sha256": "c8ea1aa6b71baf23a3deb3fa4d46ca40308326eaf25ad9bb6ca6137868c0469a",
+      "repository_bytes": 2565,
+      "repository_sha256": "c8ea1aa6b71baf23a3deb3fa4d46ca40308326eaf25ad9bb6ca6137868c0469a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_distribution_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_distribution_test.py",
+      "source_bytes": 95556,
+      "source_sha256": "17fb82a122215db261521702b6ffa014ac23499f8e6ccfa2f277f60a90e284f5",
+      "repository_bytes": 95556,
+      "repository_sha256": "17fb82a122215db261521702b6ffa014ac23499f8e6ccfa2f277f60a90e284f5",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_mechanism.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_mechanism.py",
+      "source_bytes": 110802,
+      "source_sha256": "e38b703bee8f44343741c7714427dee707e0862b2b4626ab9401d0d279d322dc",
+      "repository_bytes": 110802,
+      "repository_sha256": "e38b703bee8f44343741c7714427dee707e0862b2b4626ab9401d0d279d322dc",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_mechanism_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/privacy_loss_mechanism_test.py",
+      "source_bytes": 104164,
+      "source_sha256": "0e592dff4d427c3709f4ec87fa870906bfa6b9b1d9303a6e70452f6f4d6f646e",
+      "repository_bytes": 104164,
+      "repository_sha256": "0e592dff4d427c3709f4ec87fa870906bfa6b9b1d9303a6e70452f6f4d6f646e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/test_util.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/test_util.py",
+      "source_bytes": 3054,
+      "source_sha256": "cdfe483d1f63f619df9dc778f8a5c8ce1b0678ffaa024d0a271d697cfd4a6964",
+      "repository_bytes": 3054,
+      "repository_sha256": "cdfe483d1f63f619df9dc778f8a5c8ce1b0678ffaa024d0a271d697cfd4a6964",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/test_util_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/pld/test_util_test.py",
+      "source_bytes": 3648,
+      "source_sha256": "9181cca95a9f4ec3df7a7ddb9a7ec02a868515914daa3782f0710fd540c5e216",
+      "repository_bytes": 3648,
+      "repository_sha256": "9181cca95a9f4ec3df7a7ddb9a7ec02a868515914daa3782f0710fd540c5e216",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/privacy_accountant.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/privacy_accountant.py",
+      "source_bytes": 5579,
+      "source_sha256": "668d7d745747e75035b04317e12bdff9c9d6989d12631c0929e12a953fd42909",
+      "repository_bytes": 5579,
+      "repository_sha256": "668d7d745747e75035b04317e12bdff9c9d6989d12631c0929e12a953fd42909",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/privacy_accountant_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/privacy_accountant_test.py",
+      "source_bytes": 4643,
+      "source_sha256": "d1e7ed604ce10b0a1c0df55c45ef8973b0d2f9a168813441d93bed8dd021b59c",
+      "repository_bytes": 4643,
+      "repository_sha256": "d1e7ed604ce10b0a1c0df55c45ef8973b0d2f9a168813441d93bed8dd021b59c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/rdp/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/rdp/__init__.py",
+      "source_bytes": 797,
+      "source_sha256": "be356a4efd506ddbfe2411e4d523e3165864b61591819094a491b953fce3d27d",
+      "repository_bytes": 797,
+      "repository_sha256": "be356a4efd506ddbfe2411e4d523e3165864b61591819094a491b953fce3d27d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/rdp/rdp_privacy_accountant.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/rdp/rdp_privacy_accountant.py",
+      "source_bytes": 41377,
+      "source_sha256": "21a5e45b2a70c6f43283e258abe6b033d6389c919d1151067dcd298fc4eea0e4",
+      "repository_bytes": 41377,
+      "repository_sha256": "21a5e45b2a70c6f43283e258abe6b033d6389c919d1151067dcd298fc4eea0e4",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/rdp/rdp_privacy_accountant_test.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting/rdp/rdp_privacy_accountant_test.py",
+      "source_bytes": 36415,
+      "source_sha256": "853797b02dc676150586b6e5ead7cc06dbcd7d8353b6a1a09d4ebcbd067b3b32",
+      "repository_bytes": 36415,
+      "repository_sha256": "853797b02dc676150586b6e5ead7cc06dbcd7d8353b6a1a09d4ebcbd067b3b32",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/INSTALLER",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/INSTALLER",
+      "source_bytes": 4,
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "repository_bytes": 4,
+      "repository_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/METADATA",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/METADATA",
+      "source_bytes": 2054,
+      "source_sha256": "05f3738f2ac22c671fe929c1f3a63bb5df547c383aa46a50eedcae940cf2d5aa",
+      "repository_bytes": 2054,
+      "repository_sha256": "05f3738f2ac22c671fe929c1f3a63bb5df547c383aa46a50eedcae940cf2d5aa",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/RECORD",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/RECORD",
+      "source_bytes": 5383,
+      "source_sha256": "98e72e70cc8ebf449a5f88dba4ea85fbe5ae324112de2ff876e1887c4e6e6477",
+      "repository_bytes": 5383,
+      "repository_sha256": "98e72e70cc8ebf449a5f88dba4ea85fbe5ae324112de2ff876e1887c4e6e6477",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/REQUESTED",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/REQUESTED",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/WHEEL",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/WHEEL",
+      "source_bytes": 91,
+      "source_sha256": "6027f0606398322e49870d9f538c8d83012bc9b6f6217e4f13004a57865b741a",
+      "repository_bytes": 91,
+      "repository_sha256": "6027f0606398322e49870d9f538c8d83012bc9b6f6217e4f13004a57865b741a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/top_level.txt",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/dp_accounting-0.6.0.dist-info/top_level.txt",
+      "source_bytes": 14,
+      "source_sha256": "0ca3f33f715d4766d9f3db11587a30dbee1087989a0fae8b6f36c92371b0c84a",
+      "repository_bytes": 14,
+      "repository_sha256": "0ca3f33f715d4766d9f3db11587a30dbee1087989a0fae8b6f36c92371b0c84a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/__init__.py",
+      "source_bytes": 8765,
+      "source_sha256": "b241584d2c1fc0304b0a1015ea923749d7b0800411dd406dcab7c82bf25d9fe8",
+      "repository_bytes": 8765,
+      "repository_sha256": "b241584d2c1fc0304b0a1015ea923749d7b0800411dd406dcab7c82bf25d9fe8",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/__init__.py",
+      "source_bytes": 162,
+      "source_sha256": "500802209d5899a7b24eaa4dce306509919e2332ed51930412997df5558d8eeb",
+      "repository_bytes": 162,
+      "repository_sha256": "500802209d5899a7b24eaa4dce306509919e2332ed51930412997df5558d8eeb",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/approximation.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/approximation.py",
+      "source_bytes": 8817,
+      "source_sha256": "bf2ceedd823aafadceab52851eb433d369865c0707db77a6a8d62126e51a159e",
+      "repository_bytes": 8817,
+      "repository_sha256": "bf2ceedd823aafadceab52851eb433d369865c0707db77a6a8d62126e51a159e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/calculus.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/calculus.py",
+      "source_bytes": 112,
+      "source_sha256": "034812a748714b21037ee80956263709e59a945faf2bbd3561fb73ae3490cd0e",
+      "repository_bytes": 112,
+      "repository_sha256": "034812a748714b21037ee80956263709e59a945faf2bbd3561fb73ae3490cd0e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/differentiation.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/differentiation.py",
+      "source_bytes": 20226,
+      "source_sha256": "d8be82063f31b57f628a9f7c34f6cab0bb70b518f18b9ef5c1899330715e2fdd",
+      "repository_bytes": 20226,
+      "repository_sha256": "d8be82063f31b57f628a9f7c34f6cab0bb70b518f18b9ef5c1899330715e2fdd",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/extrapolation.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/extrapolation.py",
+      "source_bytes": 73306,
+      "source_sha256": "c4cd2bbe4d83144178891d49865f98dda4bdde25bd555257ef2f481a99b30be0",
+      "repository_bytes": 73306,
+      "repository_sha256": "c4cd2bbe4d83144178891d49865f98dda4bdde25bd555257ef2f481a99b30be0",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/inverselaplace.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/inverselaplace.py",
+      "source_bytes": 36056,
+      "source_sha256": "e7ea67f0dfedd0fb600535e2c6c5d9e31c6b8a12b6279818b157d329f0f1e200",
+      "repository_bytes": 36056,
+      "repository_sha256": "e7ea67f0dfedd0fb600535e2c6c5d9e31c6b8a12b6279818b157d329f0f1e200",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/odes.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/odes.py",
+      "source_bytes": 9908,
+      "source_sha256": "81a1e2c3b2098ec38d35301aea2cc53d9a66720f6ec93a7c3142e719dcd3206a",
+      "repository_bytes": 9908,
+      "repository_sha256": "81a1e2c3b2098ec38d35301aea2cc53d9a66720f6ec93a7c3142e719dcd3206a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/optimization.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/optimization.py",
+      "source_bytes": 32856,
+      "source_sha256": "6ca9d285712504e9953883a515e92c0ec602a7d7d84a66302a65c3b74cf6e8c3",
+      "repository_bytes": 32856,
+      "repository_sha256": "6ca9d285712504e9953883a515e92c0ec602a7d7d84a66302a65c3b74cf6e8c3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/polynomials.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/polynomials.py",
+      "source_bytes": 7877,
+      "source_sha256": "0f5e81854fd21db562d3a2313700011d1f87efb23296774db0dde6b8f4ee158b",
+      "repository_bytes": 7877,
+      "repository_sha256": "0f5e81854fd21db562d3a2313700011d1f87efb23296774db0dde6b8f4ee158b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/quadrature.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/calculus/quadrature.py",
+      "source_bytes": 42432,
+      "source_sha256": "9fe6afb52f04e377e857ee6daf99687e03816a2314604f0026341c588f5070a9",
+      "repository_bytes": 42432,
+      "repository_sha256": "9fe6afb52f04e377e857ee6daf99687e03816a2314604f0026341c588f5070a9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_base.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_base.py",
+      "source_bytes": 15985,
+      "source_sha256": "adf8e67ccc80e79c7c47f716148354c165531257d99b2c797ab28375ab92115c",
+      "repository_bytes": 15985,
+      "repository_sha256": "adf8e67ccc80e79c7c47f716148354c165531257d99b2c797ab28375ab92115c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_fp.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_fp.py",
+      "source_bytes": 6572,
+      "source_sha256": "72d523c7f3685348855a4d397170d808bd99b4b64e956b359fa65aa37a5b1b68",
+      "repository_bytes": 6572,
+      "repository_sha256": "72d523c7f3685348855a4d397170d808bd99b4b64e956b359fa65aa37a5b1b68",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_iv.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_iv.py",
+      "source_bytes": 17211,
+      "source_sha256": "b6a74cafe1837e4664d4486819e0806a3cbba50bfe456b6b56a8588df23caf88",
+      "repository_bytes": 17211,
+      "repository_sha256": "b6a74cafe1837e4664d4486819e0806a3cbba50bfe456b6b56a8588df23caf88",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_mp.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_mp.py",
+      "source_bytes": 49452,
+      "source_sha256": "777af8b7bc4736a485b66aac03d06dab5369cb759333ea5c336fe3782c840b16",
+      "repository_bytes": 49452,
+      "repository_sha256": "777af8b7bc4736a485b66aac03d06dab5369cb759333ea5c336fe3782c840b16",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_mp_python.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/ctx_mp_python.py",
+      "source_bytes": 37815,
+      "source_sha256": "de89585a8e259354a743403f21a675f35aaa1bcbb9a7119ab7fbfe2f842d9f76",
+      "repository_bytes": 37815,
+      "repository_sha256": "de89585a8e259354a743403f21a675f35aaa1bcbb9a7119ab7fbfe2f842d9f76",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/function_docs.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/function_docs.py",
+      "source_bytes": 283512,
+      "source_sha256": "8383cff27e882d798770bc80e74b312ba4e6a7f678fe944dfb00c4ad4f03d62e",
+      "repository_bytes": 283512,
+      "repository_sha256": "8383cff27e882d798770bc80e74b312ba4e6a7f678fe944dfb00c4ad4f03d62e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/__init__.py",
+      "source_bytes": 330,
+      "source_sha256": "61755d86abfee8b2a6e9caf9c71b53353b6e0fdcc33ca19097c1a64b4c73db1a",
+      "repository_bytes": 330,
+      "repository_sha256": "61755d86abfee8b2a6e9caf9c71b53353b6e0fdcc33ca19097c1a64b4c73db1a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/bessel.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/bessel.py",
+      "source_bytes": 37938,
+      "source_sha256": "7543cbbbc7eb94afaf99fdfe8ab5ffeeebf0cb0e3171cbfa1088b398867cf243",
+      "repository_bytes": 37938,
+      "repository_sha256": "7543cbbbc7eb94afaf99fdfe8ab5ffeeebf0cb0e3171cbfa1088b398867cf243",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/elliptic.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/elliptic.py",
+      "source_bytes": 42237,
+      "source_sha256": "ab3d3254c6f895611e3930cbfc35b3e6ee5ac261883ca02cb991495e0c0724d5",
+      "repository_bytes": 42237,
+      "repository_sha256": "ab3d3254c6f895611e3930cbfc35b3e6ee5ac261883ca02cb991495e0c0724d5",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/expintegrals.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/expintegrals.py",
+      "source_bytes": 11644,
+      "source_sha256": "ef95ff31175873517f5fbddb80d88e26ac11952da1a80cdc14b97744cdad0837",
+      "repository_bytes": 11644,
+      "repository_sha256": "ef95ff31175873517f5fbddb80d88e26ac11952da1a80cdc14b97744cdad0837",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/factorials.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/factorials.py",
+      "source_bytes": 5273,
+      "source_sha256": "f3fea4091edee24d46c31880389bb435169d785e23036f2ac78862761bb820b9",
+      "repository_bytes": 5273,
+      "repository_sha256": "f3fea4091edee24d46c31880389bb435169d785e23036f2ac78862761bb820b9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/functions.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/functions.py",
+      "source_bytes": 18100,
+      "source_sha256": "b9bd89131beacc258b926e72026ef616be9f756999654927abdff7c3d3048a02",
+      "repository_bytes": 18100,
+      "repository_sha256": "b9bd89131beacc258b926e72026ef616be9f756999654927abdff7c3d3048a02",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/hypergeometric.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/hypergeometric.py",
+      "source_bytes": 51570,
+      "source_sha256": "67438c00c0b8ca52b8da7fd29da9b21559d4c7acc72f208b0a8243499d49ac76",
+      "repository_bytes": 51570,
+      "repository_sha256": "67438c00c0b8ca52b8da7fd29da9b21559d4c7acc72f208b0a8243499d49ac76",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/orthogonal.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/orthogonal.py",
+      "source_bytes": 16097,
+      "source_sha256": "15a6e4c4a7c1a12b1e0397e55aed5adeb7bed8161a7b0f5aba0a88b13f0b68bc",
+      "repository_bytes": 16097,
+      "repository_sha256": "15a6e4c4a7c1a12b1e0397e55aed5adeb7bed8161a7b0f5aba0a88b13f0b68bc",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/qfunctions.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/qfunctions.py",
+      "source_bytes": 7633,
+      "source_sha256": "6b710718a42dfe331de31f48efbd89cfe4c6167198f9aad6a8fbd91b3f5049ed",
+      "repository_bytes": 7633,
+      "repository_sha256": "6b710718a42dfe331de31f48efbd89cfe4c6167198f9aad6a8fbd91b3f5049ed",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/rszeta.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/rszeta.py",
+      "source_bytes": 46184,
+      "source_sha256": "cae515a788a52320e65f21375930710c38f07c424dca92676cf4bec4f1f91e8c",
+      "repository_bytes": 46184,
+      "repository_sha256": "cae515a788a52320e65f21375930710c38f07c424dca92676cf4bec4f1f91e8c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/signals.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/signals.py",
+      "source_bytes": 703,
+      "source_sha256": "10ba2dc10696d420e9bfe79e273399e5cdb73617da65c8fdfc691bde9b2f4b44",
+      "repository_bytes": 703,
+      "repository_sha256": "10ba2dc10696d420e9bfe79e273399e5cdb73617da65c8fdfc691bde9b2f4b44",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/theta.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/theta.py",
+      "source_bytes": 37320,
+      "source_sha256": "2a080ea1c733a0c1bafc73286a5e2810fee267848a3a8bbd24513e5b3636af73",
+      "repository_bytes": 37320,
+      "repository_sha256": "2a080ea1c733a0c1bafc73286a5e2810fee267848a3a8bbd24513e5b3636af73",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/zeta.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/zeta.py",
+      "source_bytes": 36410,
+      "source_sha256": "b9eec963b197034a17f2ad3cb10265d82491ad9ee43adf07b1fb695639d3c2b1",
+      "repository_bytes": 36410,
+      "repository_sha256": "b9eec963b197034a17f2ad3cb10265d82491ad9ee43adf07b1fb695639d3c2b1",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/zetazeros.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/functions/zetazeros.py",
+      "source_bytes": 30858,
+      "source_sha256": "baae93572641718d8c2d7ed549d55f9f44ce928c012ccf5f5ed9f2484c1a373c",
+      "repository_bytes": 30858,
+      "repository_sha256": "baae93572641718d8c2d7ed549d55f9f44ce928c012ccf5f5ed9f2484c1a373c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/identification.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/identification.py",
+      "source_bytes": 29253,
+      "source_sha256": "eda31d9e044069e2ff31a7c350d6e61089464129251c367ca663c5b7e38b824c",
+      "repository_bytes": 29253,
+      "repository_sha256": "eda31d9e044069e2ff31a7c350d6e61089464129251c367ca663c5b7e38b824c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/__init__.py",
+      "source_bytes": 3790,
+      "source_sha256": "5020e32d9c386eb6e495a0a64a2c4270f74b747933f2c17ffba17fc2bd1db808",
+      "repository_bytes": 3790,
+      "repository_sha256": "5020e32d9c386eb6e495a0a64a2c4270f74b747933f2c17ffba17fc2bd1db808",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/backend.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/backend.py",
+      "source_bytes": 3360,
+      "source_sha256": "dba03ca5491a1a8bf6eafaeb14d415c962792c3b4af2c977507ad82de71a4e30",
+      "repository_bytes": 3360,
+      "repository_sha256": "dba03ca5491a1a8bf6eafaeb14d415c962792c3b4af2c977507ad82de71a4e30",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/gammazeta.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/gammazeta.py",
+      "source_bytes": 71469,
+      "source_sha256": "5ea770e8f328b300da49c6bfb0eb3e220951ba4ddf6fc73da78dccfe56dcae57",
+      "repository_bytes": 71469,
+      "repository_sha256": "5ea770e8f328b300da49c6bfb0eb3e220951ba4ddf6fc73da78dccfe56dcae57",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libelefun.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libelefun.py",
+      "source_bytes": 43861,
+      "source_sha256": "8e80593f814e7713df89e5aca352cfb52afa747c9da46fcb42217f6d841858c8",
+      "repository_bytes": 43861,
+      "repository_sha256": "8e80593f814e7713df89e5aca352cfb52afa747c9da46fcb42217f6d841858c8",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libhyper.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libhyper.py",
+      "source_bytes": 36624,
+      "source_sha256": "27d7e674317abb6ec472cb045af06e55a01ade11633ef3cdd5281182ed5d11b7",
+      "repository_bytes": 36624,
+      "repository_sha256": "27d7e674317abb6ec472cb045af06e55a01ade11633ef3cdd5281182ed5d11b7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libintmath.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libintmath.py",
+      "source_bytes": 16688,
+      "source_sha256": "688453d2b91467fb1d1907f74cd08b77ea4132fb505a3b2c6ef14b7caed4d237",
+      "repository_bytes": 16688,
+      "repository_sha256": "688453d2b91467fb1d1907f74cd08b77ea4132fb505a3b2c6ef14b7caed4d237",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libmpc.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libmpc.py",
+      "source_bytes": 26875,
+      "source_sha256": "2819dd523b396154b7dbe21dddf7e50df620a5d5b53ebc7acdfa3c133e506ebb",
+      "repository_bytes": 26875,
+      "repository_sha256": "2819dd523b396154b7dbe21dddf7e50df620a5d5b53ebc7acdfa3c133e506ebb",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libmpf.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libmpf.py",
+      "source_bytes": 45021,
+      "source_sha256": "be93f490d56449c6c2568668809e166ad97823b09ed1de1dcc75637d57b9eeca",
+      "repository_bytes": 45021,
+      "repository_sha256": "be93f490d56449c6c2568668809e166ad97823b09ed1de1dcc75637d57b9eeca",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libmpi.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/libmp/libmpi.py",
+      "source_bytes": 27622,
+      "source_sha256": "bb4239122c24a9afb8f9d5c44e2e64eccb9ac417996ef0803c5b65f7753d605d",
+      "repository_bytes": 27622,
+      "repository_sha256": "bb4239122c24a9afb8f9d5c44e2e64eccb9ac417996ef0803c5b65f7753d605d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/math2.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/math2.py",
+      "source_bytes": 18561,
+      "source_sha256": "3b90e0960f354ac5b4c1f1c3509717383f3e70268bbdb548bf2c34b159916e92",
+      "repository_bytes": 18561,
+      "repository_sha256": "3b90e0960f354ac5b4c1f1c3509717383f3e70268bbdb548bf2c34b159916e92",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/__init__.py",
+      "source_bytes": 94,
+      "source_sha256": "113cc60dc8986eaf5fb622b068c6c9d79108f8a3571ebcd16fe6477a186a163b",
+      "repository_bytes": 94,
+      "repository_sha256": "113cc60dc8986eaf5fb622b068c6c9d79108f8a3571ebcd16fe6477a186a163b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/calculus.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/calculus.py",
+      "source_bytes": 18609,
+      "source_sha256": "3cd46afa9da7c604fe7f30b9e0ad9d7a98bc75d85dc7a43ce86f2aa548877946",
+      "repository_bytes": 18609,
+      "repository_sha256": "3cd46afa9da7c604fe7f30b9e0ad9d7a98bc75d85dc7a43ce86f2aa548877946",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/eigen.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/eigen.py",
+      "source_bytes": 24394,
+      "source_sha256": "19b0d72370a2c7311d5f1af51bceae5169009e002f77ed39326490f93b2eff99",
+      "repository_bytes": 24394,
+      "repository_sha256": "19b0d72370a2c7311d5f1af51bceae5169009e002f77ed39326490f93b2eff99",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/eigen_symmetric.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/eigen_symmetric.py",
+      "source_bytes": 58534,
+      "source_sha256": "14f28f790af5706630e98e9e6b7d9ad587445900cb3fa265407100d967cd2d88",
+      "repository_bytes": 58534,
+      "repository_sha256": "14f28f790af5706630e98e9e6b7d9ad587445900cb3fa265407100d967cd2d88",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/linalg.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/linalg.py",
+      "source_bytes": 26958,
+      "source_sha256": "d380b78a3ccc1689bba1be5f5c10837f23cf768dc121ba08784f31d80eafa85d",
+      "repository_bytes": 26958,
+      "repository_sha256": "d380b78a3ccc1689bba1be5f5c10837f23cf768dc121ba08784f31d80eafa85d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/matrices.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/matrices/matrices.py",
+      "source_bytes": 32331,
+      "source_sha256": "a3bf04abad841d09f172c4742c1a160c419110ea0de0bda20ccd6addd42bc34a",
+      "repository_bytes": 32331,
+      "repository_sha256": "a3bf04abad841d09f172c4742c1a160c419110ea0de0bda20ccd6addd42bc34a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/rational.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/rational.py",
+      "source_bytes": 5976,
+      "source_sha256": "eb8779e9fbd95e7818653ee73801de151517efb789d40d11deba5f58153e992a",
+      "repository_bytes": 5976,
+      "repository_sha256": "eb8779e9fbd95e7818653ee73801de151517efb789d40d11deba5f58153e992a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/__init__.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/__init__.py",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/extratest_gamma.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/extratest_gamma.py",
+      "source_bytes": 7228,
+      "source_sha256": "c627615d47a520b731b623c6a130478ea50e28827311a67fbf79e7b464325994",
+      "repository_bytes": 7228,
+      "repository_sha256": "c627615d47a520b731b623c6a130478ea50e28827311a67fbf79e7b464325994",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/extratest_zeta.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/extratest_zeta.py",
+      "source_bytes": 1003,
+      "source_sha256": "b20d748fd4618c1a55d84754ab2621195d84456bccfbe12fc30188cfa1d39a5c",
+      "repository_bytes": 1003,
+      "repository_sha256": "b20d748fd4618c1a55d84754ab2621195d84456bccfbe12fc30188cfa1d39a5c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/runtests.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/runtests.py",
+      "source_bytes": 5189,
+      "source_sha256": "ecd515f361772bfe40854f2608b5057f93a26ed4fbba5a050b03f233797bd703",
+      "repository_bytes": 5189,
+      "repository_sha256": "ecd515f361772bfe40854f2608b5057f93a26ed4fbba5a050b03f233797bd703",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_basic_ops.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_basic_ops.py",
+      "source_bytes": 15348,
+      "source_sha256": "76c07c0d11be1ab3f305a67e6c86ae61a6da7aa5db7ea068f5220ff41a9c4d2b",
+      "repository_bytes": 15348,
+      "repository_sha256": "76c07c0d11be1ab3f305a67e6c86ae61a6da7aa5db7ea068f5220ff41a9c4d2b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_bitwise.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_bitwise.py",
+      "source_bytes": 7686,
+      "source_sha256": "fa72d886041b843cdadd240ceb706192d627b4009a82a318c7d89bddd3e74ca3",
+      "repository_bytes": 7686,
+      "repository_sha256": "fa72d886041b843cdadd240ceb706192d627b4009a82a318c7d89bddd3e74ca3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_calculus.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_calculus.py",
+      "source_bytes": 9187,
+      "source_sha256": "e28c6d35f3293b844b2e83b3aefeebf7e87c05ca9f06c24813a529b077bb738c",
+      "repository_bytes": 9187,
+      "repository_sha256": "e28c6d35f3293b844b2e83b3aefeebf7e87c05ca9f06c24813a529b077bb738c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_compatibility.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_compatibility.py",
+      "source_bytes": 2306,
+      "source_sha256": "feddc0499de385f00c9cdd6fa165fb3c33480f39fedcfa24909188753d71ef2d",
+      "repository_bytes": 2306,
+      "repository_sha256": "feddc0499de385f00c9cdd6fa165fb3c33480f39fedcfa24909188753d71ef2d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_convert.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_convert.py",
+      "source_bytes": 8834,
+      "source_sha256": "24f7037132485a1e69ac8c63c790ccd5a35682a954a05d8aa47bc080adee1e2e",
+      "repository_bytes": 8834,
+      "repository_sha256": "24f7037132485a1e69ac8c63c790ccd5a35682a954a05d8aa47bc080adee1e2e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_diff.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_diff.py",
+      "source_bytes": 2466,
+      "source_sha256": "aa3885f0dc50f2fb9eb99e591c63d0fa48dc8ff23b261fdf11d16d680f03cc42",
+      "repository_bytes": 2466,
+      "repository_sha256": "aa3885f0dc50f2fb9eb99e591c63d0fa48dc8ff23b261fdf11d16d680f03cc42",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_division.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_division.py",
+      "source_bytes": 5340,
+      "source_sha256": "ea551e65f99a056befb3376a9562cc1e05cf8d5b31bd6d56669778fa31560a95",
+      "repository_bytes": 5340,
+      "repository_sha256": "ea551e65f99a056befb3376a9562cc1e05cf8d5b31bd6d56669778fa31560a95",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_eigen.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_eigen.py",
+      "source_bytes": 3905,
+      "source_sha256": "da69ea5404c66ec264bd25473e98ad7c093cf35b7015f6f72ec3b75e2915f47b",
+      "repository_bytes": 3905,
+      "repository_sha256": "da69ea5404c66ec264bd25473e98ad7c093cf35b7015f6f72ec3b75e2915f47b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_eigen_symmetric.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_eigen_symmetric.py",
+      "source_bytes": 8778,
+      "source_sha256": "bf456298289c214da8c0048330168ffadfb7d2eabea5772c825b7de4a06d34ee",
+      "repository_bytes": 8778,
+      "repository_sha256": "bf456298289c214da8c0048330168ffadfb7d2eabea5772c825b7de4a06d34ee",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_elliptic.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_elliptic.py",
+      "source_bytes": 26225,
+      "source_sha256": "2a38b0abd05be8dfce3b3cd67b0190d4cfcf31aeef46ce36574b7dd20968671a",
+      "repository_bytes": 26225,
+      "repository_sha256": "2a38b0abd05be8dfce3b3cd67b0190d4cfcf31aeef46ce36574b7dd20968671a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_fp.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_fp.py",
+      "source_bytes": 89997,
+      "source_sha256": "009a34153c87e01b949d4b2fd7be8b0fde7aa26df4f0a1989ddcbe6f9e0a1b13",
+      "repository_bytes": 89997,
+      "repository_sha256": "009a34153c87e01b949d4b2fd7be8b0fde7aa26df4f0a1989ddcbe6f9e0a1b13",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_functions.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_functions.py",
+      "source_bytes": 30955,
+      "source_sha256": "6f8ed5cb07689a8397e8a98c9b3f7e8afd88a95232770292b94c36a569451eb6",
+      "repository_bytes": 30955,
+      "repository_sha256": "6f8ed5cb07689a8397e8a98c9b3f7e8afd88a95232770292b94c36a569451eb6",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_functions2.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_functions2.py",
+      "source_bytes": 96990,
+      "source_sha256": "be5c3645684bd684dc89f9ce303c756bf63337de9480d34813949378a46fd476",
+      "repository_bytes": 96990,
+      "repository_sha256": "be5c3645684bd684dc89f9ce303c756bf63337de9480d34813949378a46fd476",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_gammazeta.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_gammazeta.py",
+      "source_bytes": 27917,
+      "source_sha256": "001df83b40d5ec09447fd6786eb9c269d790539fae030856470e4565ab3ae430",
+      "repository_bytes": 27917,
+      "repository_sha256": "001df83b40d5ec09447fd6786eb9c269d790539fae030856470e4565ab3ae430",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_hp.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_hp.py",
+      "source_bytes": 10461,
+      "source_sha256": "ea170436ee937b69253c489349e2c12113e51fb3c00e527014a6f1f31a673a18",
+      "repository_bytes": 10461,
+      "repository_sha256": "ea170436ee937b69253c489349e2c12113e51fb3c00e527014a6f1f31a673a18",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_identify.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_identify.py",
+      "source_bytes": 692,
+      "source_sha256": "9465083dfac1da9693834705528eb81a633317bec5f60b3d1508d7ee0c461d5f",
+      "repository_bytes": 692,
+      "repository_sha256": "9465083dfac1da9693834705528eb81a633317bec5f60b3d1508d7ee0c461d5f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_interval.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_interval.py",
+      "source_bytes": 17527,
+      "source_sha256": "4e361dedaf5c6ba8912622e3c34ea2b0b7994ee1a81803e68257836747187c9d",
+      "repository_bytes": 17527,
+      "repository_sha256": "4e361dedaf5c6ba8912622e3c34ea2b0b7994ee1a81803e68257836747187c9d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_levin.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_levin.py",
+      "source_bytes": 5090,
+      "source_sha256": "3fc335d72575763fe075236fe71bb00b316217ce90c910ed3cc8d4472eb0276f",
+      "repository_bytes": 5090,
+      "repository_sha256": "3fc335d72575763fe075236fe71bb00b316217ce90c910ed3cc8d4472eb0276f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_linalg.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_linalg.py",
+      "source_bytes": 10440,
+      "source_sha256": "9a22849f007c8b0595d77862d5b175720de1801e2b4ca391d1fbc355f5a65ddb",
+      "repository_bytes": 10440,
+      "repository_sha256": "9a22849f007c8b0595d77862d5b175720de1801e2b4ca391d1fbc355f5a65ddb",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_matrices.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_matrices.py",
+      "source_bytes": 7944,
+      "source_sha256": "ab2038325d82bcdbd6d37e25cc1d351bac1580dafb52b819aa1db090c5eda733",
+      "repository_bytes": 7944,
+      "repository_sha256": "ab2038325d82bcdbd6d37e25cc1d351bac1580dafb52b819aa1db090c5eda733",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_mpmath.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_mpmath.py",
+      "source_bytes": 196,
+      "source_sha256": "2d5c8951ea1f89ac56fb32ca595042cf9f4bf5442c8e55b44ecf7fa01884bffe",
+      "repository_bytes": 196,
+      "repository_sha256": "2d5c8951ea1f89ac56fb32ca595042cf9f4bf5442c8e55b44ecf7fa01884bffe",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_ode.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_ode.py",
+      "source_bytes": 1822,
+      "source_sha256": "cc0c5ec411f87e798534ee1bbc41dbba0d4d2560b9cea7c56950e56228e8c246",
+      "repository_bytes": 1822,
+      "repository_sha256": "cc0c5ec411f87e798534ee1bbc41dbba0d4d2560b9cea7c56950e56228e8c246",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_pickle.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_pickle.py",
+      "source_bytes": 401,
+      "source_sha256": "63c08a9832c5b091d4a86f020da070e6296b3cfe184f5c628d576e2e943b5c51",
+      "repository_bytes": 401,
+      "repository_sha256": "63c08a9832c5b091d4a86f020da070e6296b3cfe184f5c628d576e2e943b5c51",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_power.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_power.py",
+      "source_bytes": 5227,
+      "source_sha256": "b33fcad364a6371a5ae8a6f5b892cdfcde2d5d3246750ffffef3d1b2110dec69",
+      "repository_bytes": 5227,
+      "repository_sha256": "b33fcad364a6371a5ae8a6f5b892cdfcde2d5d3246750ffffef3d1b2110dec69",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_quad.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_quad.py",
+      "source_bytes": 3893,
+      "source_sha256": "e3d2ed7edd2f67f91d28b2f9b3e2a3f81cc05681792cf54451e354cdd3a48212",
+      "repository_bytes": 3893,
+      "repository_sha256": "e3d2ed7edd2f67f91d28b2f9b3e2a3f81cc05681792cf54451e354cdd3a48212",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_rootfinding.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_rootfinding.py",
+      "source_bytes": 3132,
+      "source_sha256": "ba641e80468a1e660e125e63132a03f952ca0ed5ec4c92647a9284af8734742d",
+      "repository_bytes": 3132,
+      "repository_sha256": "ba641e80468a1e660e125e63132a03f952ca0ed5ec4c92647a9284af8734742d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_special.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_special.py",
+      "source_bytes": 2848,
+      "source_sha256": "61b308a0c224244bef2982334b4097b612451b4fbe8faba7efeb5c13a6fb14f3",
+      "repository_bytes": 2848,
+      "repository_sha256": "61b308a0c224244bef2982334b4097b612451b4fbe8faba7efeb5c13a6fb14f3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_str.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_str.py",
+      "source_bytes": 544,
+      "source_sha256": "d16b060fd84c3d18bccdcb98300f42bb698ebd088216c90fc0cb0c7fc9410cae",
+      "repository_bytes": 544,
+      "repository_sha256": "d16b060fd84c3d18bccdcb98300f42bb698ebd088216c90fc0cb0c7fc9410cae",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_summation.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_summation.py",
+      "source_bytes": 2035,
+      "source_sha256": "7dd365b2f4553ac6d6c5b865c832c36843b64bc91326b44c288bc1e7e68d722d",
+      "repository_bytes": 2035,
+      "repository_sha256": "7dd365b2f4553ac6d6c5b865c832c36843b64bc91326b44c288bc1e7e68d722d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_trig.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_trig.py",
+      "source_bytes": 4799,
+      "source_sha256": "ccfb642049d9693871716babe24ec15fcfb62668fe0213b5f754afbfb00d6145",
+      "repository_bytes": 4799,
+      "repository_sha256": "ccfb642049d9693871716babe24ec15fcfb62668fe0213b5f754afbfb00d6145",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_visualization.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/test_visualization.py",
+      "source_bytes": 944,
+      "source_sha256": "d4faad928531f96b0a6204d18aee68f6905cf3993085fd65cd4d9ea1b0d00893",
+      "repository_bytes": 944,
+      "repository_sha256": "d4faad928531f96b0a6204d18aee68f6905cf3993085fd65cd4d9ea1b0d00893",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/torture.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/tests/torture.py",
+      "source_bytes": 7868,
+      "source_sha256": "2c3f79a044bb258d8aae810b2be9be8e1bed6ef65a282867b740aaee414c342c",
+      "repository_bytes": 7868,
+      "repository_sha256": "2c3f79a044bb258d8aae810b2be9be8e1bed6ef65a282867b740aaee414c342c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/usertools.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/usertools.py",
+      "source_bytes": 3029,
+      "source_sha256": "6be4c3c3b5d246c3dd0447dfc4ea280d5e160c57ee5e73b9f0fef975c003f3b2",
+      "repository_bytes": 3029,
+      "repository_sha256": "6be4c3c3b5d246c3dd0447dfc4ea280d5e160c57ee5e73b9f0fef975c003f3b2",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/visualization.py",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath/visualization.py",
+      "source_bytes": 10627,
+      "source_sha256": "a679db8dc77d02115544165abd85f9823c78cad2bf917a030e2b1847a1295e1b",
+      "repository_bytes": 10627,
+      "repository_sha256": "a679db8dc77d02115544165abd85f9823c78cad2bf917a030e2b1847a1295e1b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/INSTALLER",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/INSTALLER",
+      "source_bytes": 4,
+      "source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "repository_bytes": 4,
+      "repository_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/LICENSE",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/LICENSE",
+      "source_bytes": 1537,
+      "source_sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+      "repository_bytes": 1537,
+      "repository_sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/METADATA",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/METADATA",
+      "source_bytes": 8630,
+      "source_sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406",
+      "repository_bytes": 8630,
+      "repository_sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/RECORD",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/RECORD",
+      "source_bytes": 12773,
+      "source_sha256": "631ffb63282ac4c1792216f2b0f26f6fd4f3ae58410436a6a7118eeaf62b951a",
+      "repository_bytes": 12773,
+      "repository_sha256": "631ffb63282ac4c1792216f2b0f26f6fd4f3ae58410436a6a7118eeaf62b951a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/REQUESTED",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/REQUESTED",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository_bytes": 0,
+      "repository_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/WHEEL",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/WHEEL",
+      "source_bytes": 92,
+      "source_sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+      "repository_bytes": 92,
+      "repository_sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/top_level.txt",
+      "repository_path": "PPHF_modules/dp_fhf/_privacy_dependencies/mpmath-1.3.0.dist-info/top_level.txt",
+      "source_bytes": 7,
+      "source_sha256": "054556ae1f0456590e84cd67dd7f52f26b13695702fb7b3a4a3b7ad1abc762eb",
+      "repository_bytes": 7,
+      "repository_sha256": "054556ae1f0456590e84cd67dd7f52f26b13695702fb7b3a4a3b7ad1abc762eb",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/ausgrid_sampling_sweep.py",
+      "repository_path": "PPHF_modules/dp_fhf/ausgrid_sampling_sweep.py",
+      "source_bytes": 3329,
+      "source_sha256": "0c001c152233d0427df69b0b4486547cd69deabab42bb84c812fe383c87892d7",
+      "repository_bytes": 3329,
+      "repository_sha256": "0c001c152233d0427df69b0b4486547cd69deabab42bb84c812fe383c87892d7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/calculate_sampling_privacy.py",
+      "repository_path": "PPHF_modules/dp_fhf/calculate_sampling_privacy.py",
+      "source_bytes": 5016,
+      "source_sha256": "d5c7c805b6a037540774a77d3767cdadb2a5447268b4689fce5cffc1029e487d",
+      "repository_bytes": 5016,
+      "repository_sha256": "d5c7c805b6a037540774a77d3767cdadb2a5447268b4689fce5cffc1029e487d",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/dp_covariance.py",
+      "repository_path": "PPHF_modules/dp_fhf/dp_covariance.py",
+      "source_bytes": 19202,
+      "source_sha256": "fda8aef04d10eef62bd33d93339d173f8385a2bffc42d8b34c3bee57082e88f7",
+      "repository_bytes": 19202,
+      "repository_sha256": "fda8aef04d10eef62bd33d93339d173f8385a2bffc42d8b34c3bee57082e88f7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/make_notebooks.py",
+      "repository_path": "PPHF_modules/dp_fhf/make_notebooks.py",
+      "source_bytes": 13189,
+      "source_sha256": "cf0c8f2848d25ec7962878c25c513c465d8df861d9c5765522081be5b56987d9",
+      "repository_bytes": 13189,
+      "repository_sha256": "cf0c8f2848d25ec7962878c25c513c465d8df861d9c5765522081be5b56987d9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/notebook_runtime.py",
+      "repository_path": "PPHF_modules/dp_fhf/notebook_runtime.py",
+      "source_bytes": 31614,
+      "source_sha256": "be5d29678cbe8de0c131a91294c8a88f326993382d3e175f28c22ff5eac3ce3c",
+      "repository_bytes": 31614,
+      "repository_sha256": "be5d29678cbe8de0c131a91294c8a88f326993382d3e175f28c22ff5eac3ce3c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/privacy_accounting.py",
+      "repository_path": "PPHF_modules/dp_fhf/privacy_accounting.py",
+      "source_bytes": 8275,
+      "source_sha256": "6d9062b21afbe5ec9cc981abf4442cc2fe46e9806b0ae0c9a39db5e4315b143e",
+      "repository_bytes": 8275,
+      "repository_sha256": "6d9062b21afbe5ec9cc981abf4442cc2fe46e9806b0ae0c9a39db5e4315b143e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/reconciliation_100round.py",
+      "repository_path": "PPHF_modules/dp_fhf/reconciliation_100round.py",
+      "source_bytes": 10054,
+      "source_sha256": "730891801e5e0711859882be01839c88b5351bb53db57eba085df8b39f4b08a0",
+      "repository_bytes": 10054,
+      "repository_sha256": "730891801e5e0711859882be01839c88b5351bb53db57eba085df8b39f4b08a0",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/recover_dp_sweep.py",
+      "repository_path": "PPHF_modules/dp_fhf/recover_dp_sweep.py",
+      "source_bytes": 9215,
+      "source_sha256": "74ced28255aafb96ce8fd12b35107b0d42f854cf6712e1fc793415508d0e1a78",
+      "repository_bytes": 9215,
+      "repository_sha256": "74ced28255aafb96ce8fd12b35107b0d42f854cf6712e1fc793415508d0e1a78",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/requirements-privacy.txt",
+      "repository_path": "PPHF_modules/dp_fhf/requirements-privacy.txt",
+      "source_bytes": 146,
+      "source_sha256": "cc7faa17bb3cc20b20e1269d4d792e8e2105099a3e6b4bc9bc3921691599ed97",
+      "repository_bytes": 146,
+      "repository_sha256": "cc7faa17bb3cc20b20e1269d4d792e8e2105099a3e6b4bc9bc3921691599ed97",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/run_covariance_multiscale.py",
+      "repository_path": "PPHF_modules/dp_fhf/run_covariance_multiscale.py",
+      "source_bytes": 12039,
+      "source_sha256": "d522b5c2223ba3eaff05eba55bb715b9cd63fc3b0b7eacabcf83114fa346c12f",
+      "repository_bytes": 12039,
+      "repository_sha256": "d522b5c2223ba3eaff05eba55bb715b9cd63fc3b0b7eacabcf83114fa346c12f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/run_covariance_no_debias_comparison.py",
+      "repository_path": "PPHF_modules/dp_fhf/run_covariance_no_debias_comparison.py",
+      "source_bytes": 11083,
+      "source_sha256": "ab861fe3ba0152fee06832345cffb2c43a3b012cc7c57418390e8ce85bd5597c",
+      "repository_bytes": 11083,
+      "repository_sha256": "ab861fe3ba0152fee06832345cffb2c43a3b012cc7c57418390e8ce85bd5597c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/run_dp_covariance.py",
+      "repository_path": "PPHF_modules/dp_fhf/run_dp_covariance.py",
+      "source_bytes": 21055,
+      "source_sha256": "af59fad411d3399483b69b4fd1ce531d90fac32783d4d7004a32f14b231b17c9",
+      "repository_bytes": 21055,
+      "repository_sha256": "af59fad411d3399483b69b4fd1ce531d90fac32783d4d7004a32f14b231b17c9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/run_dp_fedavg.py",
+      "repository_path": "PPHF_modules/dp_fhf/run_dp_fedavg.py",
+      "source_bytes": 20387,
+      "source_sha256": "1a88732bf1ccbc7595082bace1e2c9b43c6ebfb1890a0480cc5282cedb1b4536",
+      "repository_bytes": 20387,
+      "repository_sha256": "1a88732bf1ccbc7595082bace1e2c9b43c6ebfb1890a0480cc5282cedb1b4536",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/run_dp_o2mr_saved_p.py",
+      "repository_path": "PPHF_modules/dp_fhf/run_dp_o2mr_saved_p.py",
+      "source_bytes": 16029,
+      "source_sha256": "bc82b8544c1e2bc76c67b1763026774467441428e1c694fa382695c425e6c9d9",
+      "repository_bytes": 16029,
+      "repository_sha256": "bc82b8544c1e2bc76c67b1763026774467441428e1c694fa382695c425e6c9d9",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/summarize_covariance_multiscale.py",
+      "repository_path": "PPHF_modules/dp_fhf/summarize_covariance_multiscale.py",
+      "source_bytes": 5914,
+      "source_sha256": "67e4e48465a991e469de880b8c4422178daf9727ba4dcf8721cb916d6a58b5be",
+      "repository_bytes": 5914,
+      "repository_sha256": "67e4e48465a991e469de880b8c4422178daf9727ba4dcf8721cb916d6a58b5be",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/summarize_covariance_no_debias.py",
+      "repository_path": "PPHF_modules/dp_fhf/summarize_covariance_no_debias.py",
+      "source_bytes": 5807,
+      "source_sha256": "42fa14e915bc161574249c6950536a90e3d6d6b5585a1233d08dba1624902d09",
+      "repository_bytes": 5807,
+      "repository_sha256": "42fa14e915bc161574249c6950536a90e3d6d6b5585a1233d08dba1624902d09",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/sweep_reconciliation.py",
+      "repository_path": "PPHF_modules/dp_fhf/sweep_reconciliation.py",
+      "source_bytes": 18850,
+      "source_sha256": "b1723673a23458db19ea5224c6d5ce5638f1a7ca936f7e77458b2d3efef3ee2a",
+      "repository_bytes": 18850,
+      "repository_sha256": "b1723673a23458db19ea5224c6d5ce5638f1a7ca936f7e77458b2d3efef3ee2a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_accounting_recovery.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_accounting_recovery.py",
+      "source_bytes": 7347,
+      "source_sha256": "7e761f0841bf73d82a76243a2e2dfb8757051dfdc009b89df0302abb5fc27683",
+      "repository_bytes": 7347,
+      "repository_sha256": "7e761f0841bf73d82a76243a2e2dfb8757051dfdc009b89df0302abb5fc27683",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_ausgrid_sampling_sweep.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_ausgrid_sampling_sweep.py",
+      "source_bytes": 6263,
+      "source_sha256": "c5a67ec48cf062105943b3dde684613efdfcbe8cb8c4eec00ad308e0b14d3309",
+      "repository_bytes": 6263,
+      "repository_sha256": "c5a67ec48cf062105943b3dde684613efdfcbe8cb8c4eec00ad308e0b14d3309",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_client_sampling.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_client_sampling.py",
+      "source_bytes": 9030,
+      "source_sha256": "97c7d39e395ee05fe2dffada09edf0c683b45ba7f7baeb545c81b748638c8f14",
+      "repository_bytes": 9030,
+      "repository_sha256": "97c7d39e395ee05fe2dffada09edf0c683b45ba7f7baeb545c81b748638c8f14",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_covariance_paper_defaults.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_covariance_paper_defaults.py",
+      "source_bytes": 2717,
+      "source_sha256": "0822068e797de070cb70210eedc97cd8a6e83ead5f6158d3904e8b245bc9b02c",
+      "repository_bytes": 2717,
+      "repository_sha256": "0822068e797de070cb70210eedc97cd8a6e83ead5f6158d3904e8b245bc9b02c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_dp_fedavg.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_dp_fedavg.py",
+      "source_bytes": 9737,
+      "source_sha256": "9f57d7c6602c6a18b86309ac7d0a16356e44ea339b0b0a02468e454404cd7441",
+      "repository_bytes": 9737,
+      "repository_sha256": "9f57d7c6602c6a18b86309ac7d0a16356e44ea339b0b0a02468e454404cd7441",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_sampling_accounting.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_sampling_accounting.py",
+      "source_bytes": 6746,
+      "source_sha256": "6fb3e05e20737aa590cc5986ea7854ab2b59da0a9a8f845026ae22058e495a64",
+      "repository_bytes": 6746,
+      "repository_sha256": "6fb3e05e20737aa590cc5986ea7854ab2b59da0a9a8f845026ae22058e495a64",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/test_sweep_reconciliation.py",
+      "repository_path": "PPHF_modules/dp_fhf/test_sweep_reconciliation.py",
+      "source_bytes": 13108,
+      "source_sha256": "59b113c5672a819f3cd5ca407f0901f765f9a3fc9f1aeeafee37d8d168ce1cc0",
+      "repository_bytes": 13108,
+      "repository_sha256": "59b113c5672a819f3cd5ca407f0901f765f9a3fc9f1aeeafee37d8d168ce1cc0",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/dp_fhf/update_non_dp_notebooks.py",
+      "repository_path": "PPHF_modules/dp_fhf/update_non_dp_notebooks.py",
+      "source_bytes": 4883,
+      "source_sha256": "7606c744aeb9d9b8f85a94ece30c29fe4a1a30da69fe58f1ddd4556e7b47594b",
+      "repository_bytes": 4883,
+      "repository_sha256": "7606c744aeb9d9b8f85a94ece30c29fe4a1a30da69fe58f1ddd4556e7b47594b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_Client.py",
+      "repository_path": "PPHF_modules/fhf/FHF_Client.py",
+      "source_bytes": 17699,
+      "source_sha256": "7a930952779173572edd2de518816a1e8d8dff468e15fc7d88c716915caf1e1a",
+      "repository_bytes": 17699,
+      "repository_sha256": "7a930952779173572edd2de518816a1e8d8dff468e15fc7d88c716915caf1e1a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_Cloud.py",
+      "repository_path": "PPHF_modules/fhf/FHF_Cloud.py",
+      "source_bytes": 14198,
+      "source_sha256": "e7ba1f466f7476718f78421dd3e8418ecd9a8f27bca30314e5fa01e2616015e1",
+      "repository_bytes": 14198,
+      "repository_sha256": "e7ba1f466f7476718f78421dd3e8418ecd9a8f27bca30314e5fa01e2616015e1",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_DP.py",
+      "repository_path": "PPHF_modules/fhf/FHF_DP.py",
+      "source_bytes": 19368,
+      "source_sha256": "7f674051401ee8aab5a6058af8fedab9949817524b39729a86ed79e76728f3f7",
+      "repository_bytes": 19368,
+      "repository_sha256": "7f674051401ee8aab5a6058af8fedab9949817524b39729a86ed79e76728f3f7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_HF2.py",
+      "repository_path": "PPHF_modules/fhf/FHF_HF2.py",
+      "source_bytes": 961,
+      "source_sha256": "1c4a345e63c6d6af8066fb44c4d603ccfa3fe51ccc547d020aeddc35628ed716",
+      "repository_bytes": 961,
+      "repository_sha256": "1c4a345e63c6d6af8066fb44c4d603ccfa3fe51ccc547d020aeddc35628ed716",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_models.py",
+      "repository_path": "PPHF_modules/fhf/FHF_models.py",
+      "source_bytes": 11647,
+      "source_sha256": "360071365ecadbc8f9493a511b09bb1d62efade53f98f56cc2796ed087496aa5",
+      "repository_bytes": 11647,
+      "repository_sha256": "360071365ecadbc8f9493a511b09bb1d62efade53f98f56cc2796ed087496aa5",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_nf.py",
+      "repository_path": "PPHF_modules/fhf/FHF_nf.py",
+      "source_bytes": 5787,
+      "source_sha256": "75cd0ea3687261d455e53d5c6bc4c67a6c76ede971ba05eafc83b5dba71d6aaa",
+      "repository_bytes": 5787,
+      "repository_sha256": "75cd0ea3687261d455e53d5c6bc4c67a6c76ede971ba05eafc83b5dba71d6aaa",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/FHF_runner.py",
+      "repository_path": "PPHF_modules/fhf/FHF_runner.py",
+      "source_bytes": 24833,
+      "source_sha256": "11a3bdc988e7eae2aa082c0fbf06e6e89655307512f868c9cb5cb94f01cbc8db",
+      "repository_bytes": 24833,
+      "repository_sha256": "11a3bdc988e7eae2aa082c0fbf06e6e89655307512f868c9cb5cb94f01cbc8db",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/HFL_recon.py",
+      "repository_path": "PPHF_modules/fhf/HFL_recon.py",
+      "source_bytes": 4905,
+      "source_sha256": "d4fbc6236218d81fc0a4152697d9f81f4fe2db9bcb66a82cd6466daa2d28cb13",
+      "repository_bytes": 4905,
+      "repository_sha256": "d4fbc6236218d81fc0a4152697d9f81f4fe2db9bcb66a82cd6466daa2d28cb13",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/HFL_runner_timed.py",
+      "repository_path": "PPHF_modules/fhf/HFL_runner_timed.py",
+      "source_bytes": 29336,
+      "source_sha256": "ddf5e9da3279aa099af91f312aee3f5401e82c69e6235a4b0b2660683d5266d1",
+      "repository_bytes": 29336,
+      "repository_sha256": "ddf5e9da3279aa099af91f312aee3f5401e82c69e6235a4b0b2660683d5266d1",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/HFL_servers.py",
+      "repository_path": "PPHF_modules/fhf/HFL_servers.py",
+      "source_bytes": 21988,
+      "source_sha256": "76369bacd83cc720d7f53d0933e34291acd12ef3946e1d3d5a46b48eb1fe5553",
+      "repository_bytes": 21988,
+      "repository_sha256": "76369bacd83cc720d7f53d0933e34291acd12ef3946e1d3d5a46b48eb1fe5553",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/HFL_topology.py",
+      "repository_path": "PPHF_modules/fhf/HFL_topology.py",
+      "source_bytes": 7138,
+      "source_sha256": "7eedc7c7aa6cba3627a6e043fbfc0a1b353ef3321eedd143d1ecd37a43e394da",
+      "repository_bytes": 7138,
+      "repository_sha256": "7eedc7c7aa6cba3627a6e043fbfc0a1b353ef3321eedd143d1ecd37a43e394da",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/__init__.py",
+      "repository_path": "PPHF_modules/fhf/__init__.py",
+      "source_bytes": 80,
+      "source_sha256": "fe104f5b4965991006a7d41cc8d3e09f636660c62f65dae9dc61284e7be2d742",
+      "repository_bytes": 80,
+      "repository_sha256": "fe104f5b4965991006a7d41cc8d3e09f636660c62f65dae9dc61284e7be2d742",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/aggregation.py",
+      "repository_path": "PPHF_modules/fhf/aggregation.py",
+      "source_bytes": 10581,
+      "source_sha256": "140436beb9210e694e45604bb39ac8773ee7d6e1cbc6cc992f94973105041ab6",
+      "repository_bytes": 10581,
+      "repository_sha256": "140436beb9210e694e45604bb39ac8773ee7d6e1cbc6cc992f94973105041ab6",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/client_sampling.py",
+      "repository_path": "PPHF_modules/fhf/client_sampling.py",
+      "source_bytes": 3054,
+      "source_sha256": "d5f45ea36afb5b21686123c0d3ec363d589d80a076df827905c1eb8743741ab3",
+      "repository_bytes": 3054,
+      "repository_sha256": "d5f45ea36afb5b21686123c0d3ec363d589d80a076df827905c1eb8743741ab3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/clstm.py",
+      "repository_path": "PPHF_modules/fhf/clstm.py",
+      "source_bytes": 34713,
+      "source_sha256": "c13d83473c93cd41c330721c276b3f0f29678356fd7f8224410b3e8236f8375f",
+      "repository_bytes": 34713,
+      "repository_sha256": "c13d83473c93cd41c330721c276b3f0f29678356fd7f8224410b3e8236f8375f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/fl_timing.py",
+      "repository_path": "PPHF_modules/fhf/fl_timing.py",
+      "source_bytes": 833,
+      "source_sha256": "63e009766ee0b99ff9428dd2bb89ef88559ad5347757b673ff0e7cb317722ec5",
+      "repository_bytes": 833,
+      "repository_sha256": "63e009766ee0b99ff9428dd2bb89ef88559ad5347757b673ff0e7cb317722ec5",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/generate_experiment_notebooks.py",
+      "repository_path": "PPHF_modules/fhf/generate_experiment_notebooks.py",
+      "source_bytes": 12963,
+      "source_sha256": "913fb498073f9706a30e31343710ee0031c6c00f7e535009f351d1433a3c4a7a",
+      "repository_bytes": 12963,
+      "repository_sha256": "913fb498073f9706a30e31343710ee0031c6c00f7e535009f351d1433a3c4a7a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/generate_sampling_notebooks.py",
+      "repository_path": "PPHF_modules/fhf/generate_sampling_notebooks.py",
+      "source_bytes": 7811,
+      "source_sha256": "ea75d29b303011660e0b019b192b9255c01ecc963de86937f8670bbedba51859",
+      "repository_bytes": 7811,
+      "repository_sha256": "ea75d29b303011660e0b019b192b9255c01ecc963de86937f8670bbedba51859",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/llstm.py",
+      "repository_path": "PPHF_modules/fhf/llstm.py",
+      "source_bytes": 30597,
+      "source_sha256": "17ecbb2cc3b77873cef267c19af0207be65223f5fa22eac7fa2657bde2712e12",
+      "repository_bytes": 30597,
+      "repository_sha256": "17ecbb2cc3b77873cef267c19af0207be65223f5fa22eac7fa2657bde2712e12",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/fhf/training_artifacts.py",
+      "repository_path": "PPHF_modules/fhf/training_artifacts.py",
+      "source_bytes": 10372,
+      "source_sha256": "de3cf1089520ea3050e774b2bb35546f53d5f576d895f1799ec1af03f86fa6e2",
+      "repository_bytes": 10372,
+      "repository_sha256": "de3cf1089520ea3050e774b2bb35546f53d5f576d895f1799ec1af03f86fa6e2",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/notebook_paths.py",
+      "repository_path": "PPHF_modules/notebook_paths.py",
+      "source_bytes": 2558,
+      "source_sha256": "e961e075d2eab807ddc22dca007c469ca9f6c4999be951b68c2276270f0627a4",
+      "repository_bytes": 2558,
+      "repository_sha256": "e961e075d2eab807ddc22dca007c469ca9f6c4999be951b68c2276270f0627a4",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/paths.py",
+      "repository_path": "PPHF_modules/paths.py",
+      "source_bytes": 962,
+      "source_sha256": "04e8e5df05ba9b5db48ab7c38e161b7bdbf55287ca0548c86d2d0faf3843485b",
+      "repository_bytes": 962,
+      "repository_sha256": "04e8e5df05ba9b5db48ab7c38e161b7bdbf55287ca0548c86d2d0faf3843485b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/__init__.py",
+      "repository_path": "PPHF_modules/results_check/__init__.py",
+      "source_bytes": 369,
+      "source_sha256": "084ec4eb9da864a225a10e03f5edf4d14ce2c19a96055e51e36d6ac5fdff31d5",
+      "repository_bytes": 369,
+      "repository_sha256": "084ec4eb9da864a225a10e03f5edf4d14ce2c19a96055e51e36d6ac5fdff31d5",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/audit_paper_results.py",
+      "repository_path": "PPHF_modules/results_check/audit_paper_results.py",
+      "source_bytes": 15397,
+      "source_sha256": "73169e233d5b10fa6626ee5ca6f055a465eeb1c2a312e41194a5a27348bf4c9a",
+      "repository_bytes": 15397,
+      "repository_sha256": "73169e233d5b10fa6626ee5ca6f055a465eeb1c2a312e41194a5a27348bf4c9a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013.R",
+      "repository_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013.R",
+      "source_bytes": 241,
+      "source_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "repository_bytes": 241,
+      "repository_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013_2.R",
+      "repository_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013_2.R",
+      "source_bytes": 241,
+      "source_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "repository_bytes": 241,
+      "repository_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013_3.R",
+      "repository_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013_3.R",
+      "source_bytes": 241,
+      "source_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "repository_bytes": 241,
+      "repository_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013_3_modified.R",
+      "repository_path": "PPHF_modules/results_check/ausgrid2013_results/mcb_ausgrid2013_3_modified.R",
+      "source_bytes": 241,
+      "source_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "repository_bytes": 241,
+      "repository_sha256": "187ac1b22045f74aea5188d8b4045b80e6f4adffcb0e077b73aebc7c0534417b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/ausgrid2013_results/render_mcb_figures.R",
+      "repository_path": "PPHF_modules/results_check/ausgrid2013_results/render_mcb_figures.R",
+      "source_bytes": 348,
+      "source_sha256": "28235a5a062351d1f7d07c97c6df5b17b47495153cee65fcf20081cbda42e254",
+      "repository_bytes": 348,
+      "repository_sha256": "28235a5a062351d1f7d07c97c6df5b17b47495153cee65fcf20081cbda42e254",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/current_results.py",
+      "repository_path": "PPHF_modules/results_check/current_results.py",
+      "source_bytes": 12783,
+      "source_sha256": "1f55c2bba9aafa547807c1207a0b354770dd777f7d4700174905cd07e4f14072",
+      "repository_bytes": 12783,
+      "repository_sha256": "1f55c2bba9aafa547807c1207a0b354770dd777f7d4700174905cd07e4f14072",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/__init__.py",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/__init__.py",
+      "source_bytes": 369,
+      "source_sha256": "f4f419a647e0476798dfda70bd42873cdf3def9591dff41cef9c1dd26b1c7a8e",
+      "repository_bytes": 369,
+      "repository_sha256": "f4f419a647e0476798dfda70bd42873cdf3def9591dff41cef9c1dd26b1c7a8e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/add_masi.py",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/add_masi.py",
+      "source_bytes": 10091,
+      "source_sha256": "14039cd509bde842a79ea88cfbc59ea06681ca2f0494634a0c148207b8ba34b3",
+      "repository_bytes": 10091,
+      "repository_sha256": "14039cd509bde842a79ea88cfbc59ea06681ca2f0494634a0c148207b8ba34b3",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/generate_deduplication_results.py",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/generate_deduplication_results.py",
+      "source_bytes": 26155,
+      "source_sha256": "d1f1b050e9b5dda4230f9cd9e071444ffcb8fba43dfa422806c9782b071f5433",
+      "repository_bytes": 26155,
+      "repository_sha256": "d1f1b050e9b5dda4230f9cd9e071444ffcb8fba43dfa422806c9782b071f5433",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/plot_single_parent_ratios_dimension.R",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/plot_single_parent_ratios_dimension.R",
+      "source_bytes": 8447,
+      "source_sha256": "6a8705e4cfb5ee1ac671c1db31327e9e0a839115794a20342a666d82458bc504",
+      "repository_bytes": 8447,
+      "repository_sha256": "6a8705e4cfb5ee1ac671c1db31327e9e0a839115794a20342a666d82458bc504",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/render_mcb_figures.R",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/render_mcb_figures.R",
+      "source_bytes": 9981,
+      "source_sha256": "517732d1e17441f144b6198957b502a3ed896e8f5714259e689fcaeebaf2219c",
+      "repository_bytes": 9981,
+      "repository_sha256": "517732d1e17441f144b6198957b502a3ed896e8f5714259e689fcaeebaf2219c",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/render_scaled_incoherence.py",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/render_scaled_incoherence.py",
+      "source_bytes": 4711,
+      "source_sha256": "fc8171abaf31089b1fbad53a85463a2bd2c333b3a4a2b7d1c52dffd8b6acf18b",
+      "repository_bytes": 4711,
+      "repository_sha256": "fc8171abaf31089b1fbad53a85463a2bd2c333b3a4a2b7d1c52dffd8b6acf18b",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/deduplication_results/test_add_masi.py",
+      "repository_path": "PPHF_modules/results_check/deduplication_results/test_add_masi.py",
+      "source_bytes": 2097,
+      "source_sha256": "4363f34622422091d02b25be42b8b821e671bef8872868aa089c6f4be1fe38f7",
+      "repository_bytes": 2097,
+      "repository_sha256": "4363f34622422091d02b25be42b8b821e671bef8872868aa089c6f4be1fe38f7",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/error_analysis/__init__.py",
+      "repository_path": "PPHF_modules/results_check/error_analysis/__init__.py",
+      "source_bytes": 369,
+      "source_sha256": "f4f419a647e0476798dfda70bd42873cdf3def9591dff41cef9c1dd26b1c7a8e",
+      "repository_bytes": 369,
+      "repository_sha256": "f4f419a647e0476798dfda70bd42873cdf3def9591dff41cef9c1dd26b1c7a8e",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/error_analysis/error_redistribution_analysis.py",
+      "repository_path": "PPHF_modules/results_check/error_analysis/error_redistribution_analysis.py",
+      "source_bytes": 25828,
+      "source_sha256": "65310b59506ec08977d9fef4e2c65b44cd5c5b268406110a1ae4fa98f299e21f",
+      "repository_bytes": 25828,
+      "repository_sha256": "65310b59506ec08977d9fef4e2c65b44cd5c5b268406110a1ae4fa98f299e21f",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/error_analysis/test_error_redistribution_analysis.py",
+      "repository_path": "PPHF_modules/results_check/error_analysis/test_error_redistribution_analysis.py",
+      "source_bytes": 2986,
+      "source_sha256": "42ddc2edacbaa935cffc9a793d97d788355992c3ae61f7f375c4c5a519493050",
+      "repository_bytes": 2986,
+      "repository_sha256": "42ddc2edacbaa935cffc9a793d97d788355992c3ae61f7f375c4c5a519493050",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/execute_notebooks.py",
+      "repository_path": "PPHF_modules/results_check/execute_notebooks.py",
+      "source_bytes": 1432,
+      "source_sha256": "45cde4531091d71086069af70037a0ecabf7310348e7fecfde5a8b67acc78900",
+      "repository_bytes": 1432,
+      "repository_sha256": "45cde4531091d71086069af70037a0ecabf7310348e7fecfde5a8b67acc78900",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/make_current_notebooks.py",
+      "repository_path": "PPHF_modules/results_check/make_current_notebooks.py",
+      "source_bytes": 10544,
+      "source_sha256": "dacd95bfe59c9a4151d2161e792de55feb4735baf8cbebaa28edd558070fa5de",
+      "repository_bytes": 10544,
+      "repository_sha256": "dacd95bfe59c9a4151d2161e792de55feb4735baf8cbebaa28edd558070fa5de",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 10999,
+      "source_sha256": "bc9684d8bd76507933887e8f1a01835ec2d750a61dd4a22379b34b3bd2830f8a",
+      "repository_bytes": 10999,
+      "repository_sha256": "bc9684d8bd76507933887e8f1a01835ec2d750a61dd4a22379b34b3bd2830f8a",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/publication_labels.py",
+      "repository_path": "PPHF_modules/results_check/publication_labels.py",
+      "source_bytes": 1068,
+      "source_sha256": "774752e7b3c9a5080edaa04464d09389a4c95b9ff9acd78f652d099abf11e912",
+      "repository_bytes": 1068,
+      "repository_sha256": "774752e7b3c9a5080edaa04464d09389a4c95b9ff9acd78f652d099abf11e912",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/results_check/sampling_results_check.py",
+      "repository_path": "PPHF_modules/results_check/sampling_results_check.py",
+      "source_bytes": 9004,
+      "source_sha256": "e4564152928f981fd547c6c1de64af32f3566f06ef64c55f2750b1eebdb5d639",
+      "repository_bytes": 9004,
+      "repository_sha256": "e4564152928f981fd547c6c1de64af32f3566f06ef64c55f2750b1eebdb5d639",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/validation/__init__.py",
+      "repository_path": "PPHF_modules/validation/__init__.py",
+      "source_bytes": 46,
+      "source_sha256": "62f5d63af39223c926fc1e138aa8234c84146a19165e681798e88cea55963995",
+      "repository_bytes": 46,
+      "repository_sha256": "62f5d63af39223c926fc1e138aa8234c84146a19165e681798e88cea55963995",
+      "action": "copied"
+    },
+    {
+      "source_path": "PPHF_modules/validation/check_notebooks.py",
+      "repository_path": "PPHF_modules/validation/check_notebooks.py",
+      "source_bytes": 12690,
+      "source_sha256": "037438704882632f6ce1bdc6087277a64fc3d696e2cb0d76b6fbb55c6159199b",
+      "repository_bytes": 12690,
+      "repository_sha256": "037438704882632f6ce1bdc6087277a64fc3d696e2cb0d76b6fbb55c6159199b",
+      "action": "copied"
+    },
+    {
+      "source_path": "README.md",
+      "repository_path": "docs/README_migration_original_zh.md",
+      "source_bytes": 3765,
+      "source_sha256": "68b1caffb253c4f48d0e5f4a631dda998a2f10b884e8d9761d88423efbfc6006",
+      "repository_bytes": 3765,
+      "repository_sha256": "68b1caffb253c4f48d0e5f4a631dda998a2f10b884e8d9761d88423efbfc6006",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/README.md",
+      "repository_path": "Results_check/README.md",
+      "source_bytes": 370,
+      "source_sha256": "79f3a161c1a366d2a49caa20b9b348611ff1f6d2581a9e4576dc904358ec202b",
+      "repository_bytes": 370,
+      "repository_sha256": "79f3a161c1a366d2a49caa20b9b348611ff1f6d2581a9e4576dc904358ec202b",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/ausgrid2013_results/ausgrid2013_results.ipynb",
+      "repository_path": "Results_check/ausgrid2013_results/ausgrid2013_results.ipynb",
+      "source_bytes": 160085,
+      "source_sha256": "ffa6deb7b6b6ae03a03c98d1941c15e5f8fd63896ed85878366fef8c4a37cd15",
+      "repository_bytes": 6708,
+      "repository_sha256": "c70de5ff8ad7bc6045deb2a5e1e3b369969cfbdda352de3dea43864222eb0c81",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/MASI_comparison.md",
+      "repository_path": "Results_check/deduplication_results/MASI_comparison.md",
+      "source_bytes": 2015,
+      "source_sha256": "e32b394c7eca5d34647dd8da1ad339858876093cda2d979dd0632312a1bd6f09",
+      "repository_bytes": 2015,
+      "repository_sha256": "e32b394c7eca5d34647dd8da1ad339858876093cda2d979dd0632312a1bd6f09",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/README.md",
+      "repository_path": "Results_check/deduplication_results/README.md",
+      "source_bytes": 5663,
+      "source_sha256": "649b57cd7a9817c75f0d44da045dc92776c6731c292ed20897dec5e055a76298",
+      "repository_bytes": 5663,
+      "repository_sha256": "649b57cd7a9817c75f0d44da045dc92776c6731c292ed20897dec5e055a76298",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/ausgrid2013/MCB_MASE.pdf",
+      "repository_path": "Results_check/deduplication_results/ausgrid2013/MCB_MASE.pdf",
+      "source_bytes": 8440,
+      "source_sha256": "e72809efd7306883beba943bda9792e9aada9797ebb9ec6268f16a0ce1de91e1",
+      "repository_bytes": 8440,
+      "repository_sha256": "e72809efd7306883beba943bda9792e9aada9797ebb9ec6268f16a0ce1de91e1",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/ausgrid2013/MCB_RMSSE.pdf",
+      "repository_path": "Results_check/deduplication_results/ausgrid2013/MCB_RMSSE.pdf",
+      "source_bytes": 8393,
+      "source_sha256": "af555980e50fedc758bc54ae32232c7b2df85bed87b5dab8220d50c011a0a839",
+      "repository_bytes": 8393,
+      "repository_sha256": "af555980e50fedc758bc54ae32232c7b2df85bed87b5dab8220d50c011a0a839",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/ausgrid2013/training_loss.pdf",
+      "repository_path": "Results_check/deduplication_results/ausgrid2013/training_loss.pdf",
+      "source_bytes": 15623,
+      "source_sha256": "8b4e6e478c3697f32e30b90215d9caff37b56321a793a4f3cc9a3160c5db8957",
+      "repository_bytes": 15623,
+      "repository_sha256": "8b4e6e478c3697f32e30b90215d9caff37b56321a793a4f3cc9a3160c5db8957",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/ausgrid2013/training_time_per_round.pdf",
+      "repository_path": "Results_check/deduplication_results/ausgrid2013/training_time_per_round.pdf",
+      "source_bytes": 11577,
+      "source_sha256": "386ec02ff30d5ab86c03a82e3cb6a9e2843d16ded552b35dde590c28cc5cb6fa",
+      "repository_bytes": 11577,
+      "repository_sha256": "386ec02ff30d5ab86c03a82e3cb6a9e2843d16ded552b35dde590c28cc5cb6fa",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/dp_sampling/README_results_check_zh.txt",
+      "repository_path": "Results_check/deduplication_results/dp_sampling/README_results_check_zh.txt",
+      "source_bytes": 3585,
+      "source_sha256": "88939541268f6b75c1625696d50ae5ed65e13bf874e6bf002e93830dd3ad76e8",
+      "repository_bytes": 3585,
+      "repository_sha256": "88939541268f6b75c1625696d50ae5ed65e13bf874e6bf002e93830dd3ad76e8",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/dp_sampling/R_session_info.txt",
+      "repository_path": "Results_check/deduplication_results/dp_sampling/R_session_info.txt",
+      "source_bytes": 1242,
+      "source_sha256": "f75d352a6a991038a49cd85ec9da0a40f1298f8bb2170b898e5b27582acc2e82",
+      "repository_bytes": 1242,
+      "repository_sha256": "f75d352a6a991038a49cd85ec9da0a40f1298f8bb2170b898e5b27582acc2e82",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/dp_sampling/figures/01_MASE_RMSSE_node_average_L1_L2_L3.pdf",
+      "repository_path": "Results_check/deduplication_results/dp_sampling/figures/01_MASE_RMSSE_node_average_L1_L2_L3.pdf",
+      "source_bytes": 7245,
+      "source_sha256": "46ef28dee8cb9d62d04ab16b7fbbff96f05e306d2d814141eac396d7c0c50762",
+      "repository_bytes": 7245,
+      "repository_sha256": "46ef28dee8cb9d62d04ab16b7fbbff96f05e306d2d814141eac396d7c0c50762",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/dp_sampling/figures/02_privacy_utility_MASE_RMSSE_by_scope.pdf",
+      "repository_path": "Results_check/deduplication_results/dp_sampling/figures/02_privacy_utility_MASE_RMSSE_by_scope.pdf",
+      "source_bytes": 6905,
+      "source_sha256": "76f979710e6b7ce87f5d343fc5933cd3dddd20813a066650a1a2b22bea6cd88e",
+      "repository_bytes": 6905,
+      "repository_sha256": "76f979710e6b7ce87f5d343fc5933cd3dddd20813a066650a1a2b22bea6cd88e",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/dp_sampling/figures/03_forecast_examples_L1_L2_L3_72h.pdf",
+      "repository_path": "Results_check/deduplication_results/dp_sampling/figures/03_forecast_examples_L1_L2_L3_72h.pdf",
+      "source_bytes": 16233,
+      "source_sha256": "8296bbe78bc604b913c9f9a1bf6fee37598f158606a472e628f2886a4bdf5927",
+      "repository_bytes": 16233,
+      "repository_sha256": "8296bbe78bc604b913c9f9a1bf6fee37598f158606a472e628f2886a4bdf5927",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 10999,
+      "source_sha256": "bc9684d8bd76507933887e8f1a01835ec2d750a61dd4a22379b34b3bd2830f8a",
+      "repository_bytes": 10999,
+      "repository_sha256": "bc9684d8bd76507933887e8f1a01835ec2d750a61dd4a22379b34b3bd2830f8a",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/error_redistribution_heatmap.pdf",
+      "repository_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/error_redistribution_heatmap.pdf",
+      "source_bytes": 179100,
+      "source_sha256": "58c6b88d3c567324b102390e7af36b40fc662032374f9f4b17b20d87d20ab30f",
+      "repository_bytes": 179100,
+      "repository_sha256": "58c6b88d3c567324b102390e7af36b40fc662032374f9f4b17b20d87d20ab30f",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/paper_analysis_en.md",
+      "repository_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/paper_analysis_en.md",
+      "source_bytes": 1612,
+      "source_sha256": "d28f06e50eb07c65cff4cdae4c2be217d9407fcb8c5479195d46cc4a9726a567",
+      "repository_bytes": 1612,
+      "repository_sha256": "d28f06e50eb07c65cff4cdae4c2be217d9407fcb8c5479195d46cc4a9726a567",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/results_interpretation_zh.md",
+      "repository_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/results_interpretation_zh.md",
+      "source_bytes": 1733,
+      "source_sha256": "67bb24e2b2cf5f69fc3c943be70653b2bae10758a5b4e2ab39a6dab1027c7bf2",
+      "repository_bytes": 1733,
+      "repository_sha256": "67bb24e2b2cf5f69fc3c943be70653b2bae10758a5b4e2ab39a6dab1027c7bf2",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_analysis/gef2017/error_redistribution_heatmap.pdf",
+      "repository_path": "Results_check/deduplication_results/error_analysis/gef2017/error_redistribution_heatmap.pdf",
+      "source_bytes": 495296,
+      "source_sha256": "98e47029dfe5e423536b01ca7c1d35aca55fecfe230ab6e6e5485d8b4df05a8e",
+      "repository_bytes": 495296,
+      "repository_sha256": "98e47029dfe5e423536b01ca7c1d35aca55fecfe230ab6e6e5485d8b4df05a8e",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_analysis/gef2017/paper_analysis_en.md",
+      "repository_path": "Results_check/deduplication_results/error_analysis/gef2017/paper_analysis_en.md",
+      "source_bytes": 4058,
+      "source_sha256": "b77df2eb7b9d0c4a83a6e12005e765b44f6f90b417895da7cdb65b48b86183a1",
+      "repository_bytes": 4058,
+      "repository_sha256": "b77df2eb7b9d0c4a83a6e12005e765b44f6f90b417895da7cdb65b48b86183a1",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_analysis/gef2017/results_interpretation_zh.md",
+      "repository_path": "Results_check/deduplication_results/error_analysis/gef2017/results_interpretation_zh.md",
+      "source_bytes": 4587,
+      "source_sha256": "11e9bf16ad8064e97b7d3bc805d932b06ffaf0b87301ba1804c3ba2844e6d232",
+      "repository_bytes": 4587,
+      "repository_sha256": "11e9bf16ad8064e97b7d3bc805d932b06ffaf0b87301ba1804c3ba2844e6d232",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/error_ratio_illustration/single_parent_ratios_dimension_bold.pdf",
+      "repository_path": "Results_check/deduplication_results/error_ratio_illustration/single_parent_ratios_dimension_bold.pdf",
+      "source_bytes": 69937,
+      "source_sha256": "f4152b8e3a9c62540a26fa1f203169ae71f17c889b821eef16f9a5a01b701ec7",
+      "repository_bytes": 69937,
+      "repository_sha256": "f4152b8e3a9c62540a26fa1f203169ae71f17c889b821eef16f9a5a01b701ec7",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/MCB_MASE_h1.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/MCB_MASE_h1.pdf",
+      "source_bytes": 8358,
+      "source_sha256": "488a3f52774fc8c359e566fe7179de35b3004afa653e0d28844f10bc6c119beb",
+      "repository_bytes": 8358,
+      "repository_sha256": "488a3f52774fc8c359e566fe7179de35b3004afa653e0d28844f10bc6c119beb",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/MCB_MASE_h3.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/MCB_MASE_h3.pdf",
+      "source_bytes": 8301,
+      "source_sha256": "c7943a1fc46eceb634d11d1888bcc46bffe7a5711ef43eddf329edc72cac66e5",
+      "repository_bytes": 8301,
+      "repository_sha256": "c7943a1fc46eceb634d11d1888bcc46bffe7a5711ef43eddf329edc72cac66e5",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/MCB_MASE_h6.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/MCB_MASE_h6.pdf",
+      "source_bytes": 8354,
+      "source_sha256": "c0bba4f07f85e65d55da84fca5f8a0797c149e719bce5b9588b83228677f90c0",
+      "repository_bytes": 8354,
+      "repository_sha256": "c0bba4f07f85e65d55da84fca5f8a0797c149e719bce5b9588b83228677f90c0",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/MCB_RMSSE_h1.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/MCB_RMSSE_h1.pdf",
+      "source_bytes": 8350,
+      "source_sha256": "970e68dfde012ba15d20ae983fbb6731da4c4bd9b9408ca75f66c19c7a6b5bef",
+      "repository_bytes": 8350,
+      "repository_sha256": "970e68dfde012ba15d20ae983fbb6731da4c4bd9b9408ca75f66c19c7a6b5bef",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/MCB_RMSSE_h3.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/MCB_RMSSE_h3.pdf",
+      "source_bytes": 8371,
+      "source_sha256": "fb85015c6cf6214e1b202d247a055b24ff6ee7c606e558fb9166c8a5f1756d82",
+      "repository_bytes": 8371,
+      "repository_sha256": "fb85015c6cf6214e1b202d247a055b24ff6ee7c606e558fb9166c8a5f1756d82",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/MCB_RMSSE_h6.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/MCB_RMSSE_h6.pdf",
+      "source_bytes": 8415,
+      "source_sha256": "77ff7cceeb0a8c448e8f42736646a7bdcd914f8be9c11a033821df37af6d2ef3",
+      "repository_bytes": 8415,
+      "repository_sha256": "77ff7cceeb0a8c448e8f42736646a7bdcd914f8be9c11a033821df37af6d2ef3",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/training_loss.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/training_loss.pdf",
+      "source_bytes": 22634,
+      "source_sha256": "51399716d8fb079cc8ab68d7a93ef9dfc82360c99262870452bf1e72e49717be",
+      "repository_bytes": 22634,
+      "repository_sha256": "51399716d8fb079cc8ab68d7a93ef9dfc82360c99262870452bf1e72e49717be",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/gef2017/training_time_per_round.pdf",
+      "repository_path": "Results_check/deduplication_results/gef2017/training_time_per_round.pdf",
+      "source_bytes": 12231,
+      "source_sha256": "33a44d3f64ba299181ee8ce33f07e81d547a4c2509d7abf16274f4d49d77c9ea",
+      "repository_bytes": 12231,
+      "repository_sha256": "33a44d3f64ba299181ee8ce33f07e81d547a4c2509d7abf16274f4d49d77c9ea",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/paper_current/AUDIT_20260928_zh.md",
+      "repository_path": "Results_check/deduplication_results/paper_current/AUDIT_20260928_zh.md",
+      "source_bytes": 4202,
+      "source_sha256": "47d2e29f4e3126f8e9845def41f0c9502f5c75bbb1642771c9578ea23a8e5047",
+      "repository_bytes": 4202,
+      "repository_sha256": "47d2e29f4e3126f8e9845def41f0c9502f5c75bbb1642771c9578ea23a8e5047",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/paper_current/README.md",
+      "repository_path": "Results_check/deduplication_results/paper_current/README.md",
+      "source_bytes": 3070,
+      "source_sha256": "2ef894aac10dafea3cee96a2d5ed89ac8c1ae48d7093821a7a0eb6ab027b280e",
+      "repository_bytes": 3070,
+      "repository_sha256": "2ef894aac10dafea3cee96a2d5ed89ac8c1ae48d7093821a7a0eb6ab027b280e",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/scaled_incoherence_figures/error_scaled_incoherence.pdf",
+      "repository_path": "Results_check/deduplication_results/scaled_incoherence_figures/error_scaled_incoherence.pdf",
+      "source_bytes": 76624,
+      "source_sha256": "6e219b4bfba4153c4b76d0ae0bec72165aeedc1f8f6f38d5af5b381d4c295aa6",
+      "repository_bytes": 76624,
+      "repository_sha256": "6e219b4bfba4153c4b76d0ae0bec72165aeedc1f8f6f38d5af5b381d4c295aa6",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/deduplication_results/scaled_incoherence_figures/forecast_scaled_incoherence.pdf",
+      "repository_path": "Results_check/deduplication_results/scaled_incoherence_figures/forecast_scaled_incoherence.pdf",
+      "source_bytes": 76406,
+      "source_sha256": "e704a7db39991eecb53a484d6634ebd4d9bf517b225617d9692a786bb4edd0d3",
+      "repository_bytes": 76406,
+      "repository_sha256": "e704a7db39991eecb53a484d6634ebd4d9bf517b225617d9692a786bb4edd0d3",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/error_analysis/error_redistribution_analysis.ipynb",
+      "repository_path": "Results_check/error_analysis/error_redistribution_analysis.ipynb",
+      "source_bytes": 1060650,
+      "source_sha256": "c71b2c1dfafd83f2963690a47b77d65f6db6c825d67a4a5a638eb3b8de0d580f",
+      "repository_bytes": 5121,
+      "repository_sha256": "910cb20d1ac1d679262903ea86724d464bffa9dc4e0cba4dc9b055712d04cc0e",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Results_check/full_gef2017_results/full_gef2017_results.ipynb",
+      "repository_path": "Results_check/full_gef2017_results/full_gef2017_results.ipynb",
+      "source_bytes": 127945,
+      "source_sha256": "ce74dced973835bab60251a50461328e845c06e5d5ec1f2013ed36fc6f41fec8",
+      "repository_bytes": 5984,
+      "repository_sha256": "0f3a49f693dacf984101345aeb1a59cf4b37300de44c149852de77b9e9570503",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Results_check/gef2017_results/gef2017_results.ipynb",
+      "repository_path": "Results_check/gef2017_results/gef2017_results.ipynb",
+      "source_bytes": 275117,
+      "source_sha256": "a3985f355bda269efe65f06eb7f46eb240249732b4d109afeb1bb12e3acc502f",
+      "repository_bytes": 6703,
+      "repository_sha256": "6683577c7d7216f45b5ae837c931a63e71f67e04512698d91317e9f08d03c1e7",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_aligning_q_epsilon_labels/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_aligning_q_epsilon_labels/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 10243,
+      "source_sha256": "10f3dcd614d7464bde486201084655728139c70a597ca679bf2e79f3c4100b9b",
+      "repository_bytes": 10243,
+      "repository_sha256": "10f3dcd614d7464bde486201084655728139c70a597ca679bf2e79f3c4100b9b",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_aligning_q_epsilon_labels/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_aligning_q_epsilon_labels/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 10243,
+      "source_sha256": "10f3dcd614d7464bde486201084655728139c70a597ca679bf2e79f3c4100b9b",
+      "repository_bytes": 10243,
+      "repository_sha256": "10f3dcd614d7464bde486201084655728139c70a597ca679bf2e79f3c4100b9b",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_darkening_second_figure/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_darkening_second_figure/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9831,
+      "source_sha256": "e5a3ea50a33e5b44a0fd496c91068398e340ff35489b91609e0862960d10d26c",
+      "repository_bytes": 9831,
+      "repository_sha256": "e5a3ea50a33e5b44a0fd496c91068398e340ff35489b91609e0862960d10d26c",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_darkening_second_figure/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_darkening_second_figure/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9831,
+      "source_sha256": "e5a3ea50a33e5b44a0fd496c91068398e340ff35489b91609e0862960d10d26c",
+      "repository_bytes": 9831,
+      "repository_sha256": "e5a3ea50a33e5b44a0fd496c91068398e340ff35489b91609e0862960d10d26c",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_enlarging_second_figure_text/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_enlarging_second_figure_text/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9453,
+      "source_sha256": "513319202f0af14b4cc6fad367d1371d2330be5c580b19fcb50a06401228b847",
+      "repository_bytes": 9453,
+      "repository_sha256": "513319202f0af14b4cc6fad367d1371d2330be5c580b19fcb50a06401228b847",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_enlarging_second_figure_text/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_enlarging_second_figure_text/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9453,
+      "source_sha256": "513319202f0af14b4cc6fad367d1371d2330be5c580b19fcb50a06401228b847",
+      "repository_bytes": 9453,
+      "repository_sha256": "513319202f0af14b4cc6fad367d1371d2330be5c580b19fcb50a06401228b847",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_legacy_legend/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_legacy_legend/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9493,
+      "source_sha256": "be88b1dacd30d75fbf15fcc8b0cb69212429d3f8efea6137b8b964d34cba4ecf",
+      "repository_bytes": 9493,
+      "repository_sha256": "be88b1dacd30d75fbf15fcc8b0cb69212429d3f8efea6137b8b964d34cba4ecf",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_legacy_legend/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_legacy_legend/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9493,
+      "source_sha256": "be88b1dacd30d75fbf15fcc8b0cb69212429d3f8efea6137b8b964d34cba4ecf",
+      "repository_bytes": 9493,
+      "repository_sha256": "be88b1dacd30d75fbf15fcc8b0cb69212429d3f8efea6137b8b964d34cba4ecf",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_lower_is_better/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_lower_is_better/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9538,
+      "source_sha256": "cbeb3271703dd6e3e3751feed1e7aee70c49068fbc9ea2fe33247bb4545da257",
+      "repository_bytes": 9538,
+      "repository_sha256": "cbeb3271703dd6e3e3751feed1e7aee70c49068fbc9ea2fe33247bb4545da257",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_lower_is_better/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_lower_is_better/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9538,
+      "source_sha256": "cbeb3271703dd6e3e3751feed1e7aee70c49068fbc9ea2fe33247bb4545da257",
+      "repository_bytes": 9538,
+      "repository_sha256": "cbeb3271703dd6e3e3751feed1e7aee70c49068fbc9ea2fe33247bb4545da257",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_main_titles/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_main_titles/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9846,
+      "source_sha256": "2a6abd2a7e0aec925b22ca71516cdf0f532492cab823a20e5a48a55f109d3774",
+      "repository_bytes": 9846,
+      "repository_sha256": "2a6abd2a7e0aec925b22ca71516cdf0f532492cab823a20e5a48a55f109d3774",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_main_titles/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_main_titles/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9846,
+      "source_sha256": "2a6abd2a7e0aec925b22ca71516cdf0f532492cab823a20e5a48a55f109d3774",
+      "repository_bytes": 9846,
+      "repository_sha256": "2a6abd2a7e0aec925b22ca71516cdf0f532492cab823a20e5a48a55f109d3774",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_reported/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_reported/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9502,
+      "source_sha256": "963723a89fc2049c3d17c47bf355b71846f295233153ec0d7a84d7ffbf77b88b",
+      "repository_bytes": 9502,
+      "repository_sha256": "963723a89fc2049c3d17c47bf355b71846f295233153ec0d7a84d7ffbf77b88b",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_reported/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_reported/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9502,
+      "source_sha256": "963723a89fc2049c3d17c47bf355b71846f295233153ec0d7a84d7ffbf77b88b",
+      "repository_bytes": 9502,
+      "repository_sha256": "963723a89fc2049c3d17c47bf355b71846f295233153ec0d7a84d7ffbf77b88b",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_subtitles/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_subtitles/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9738,
+      "source_sha256": "fdcbd72f24ee6cd5a41df6b001094004be67d3cfd2e89c0e31d703bcbb318812",
+      "repository_bytes": 9738,
+      "repository_sha256": "fdcbd72f24ee6cd5a41df6b001094004be67d3cfd2e89c0e31d703bcbb318812",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_removing_subtitles/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_removing_subtitles/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9738,
+      "source_sha256": "fdcbd72f24ee6cd5a41df6b001094004be67d3cfd2e89c0e31d703bcbb318812",
+      "repository_bytes": 9738,
+      "repository_sha256": "fdcbd72f24ee6cd5a41df6b001094004be67d3cfd2e89c0e31d703bcbb318812",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_renaming_fhf_pphf_legend/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_renaming_fhf_pphf_legend/PPHF_modules/results_check/plot_sampling_comparison.R",
+      "source_bytes": 9840,
+      "source_sha256": "0c61cf7281316919455444ccae31cd57eb7652a2262d1f23a7d12c9194c8dedf",
+      "repository_bytes": 9840,
+      "repository_sha256": "0c61cf7281316919455444ccae31cd57eb7652a2262d1f23a7d12c9194c8dedf",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/before_renaming_fhf_pphf_legend/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "repository_path": "Results_check/runs/20261113/before_renaming_fhf_pphf_legend/Results_check/deduplication_results/dp_sampling/plot_sampling_comparison.R",
+      "source_bytes": 9840,
+      "source_sha256": "0c61cf7281316919455444ccae31cd57eb7652a2262d1f23a7d12c9194c8dedf",
+      "repository_bytes": 9840,
+      "repository_sha256": "0c61cf7281316919455444ccae31cd57eb7652a2262d1f23a7d12c9194c8dedf",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/current_results.py",
+      "repository_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/current_results.py",
+      "source_bytes": 12699,
+      "source_sha256": "aa6400446247706472ce8a1e80f7e9abc762f4c0779bd72ee4f24189e0d9f2bd",
+      "repository_bytes": 12699,
+      "repository_sha256": "aa6400446247706472ce8a1e80f7e9abc762f4c0779bd72ee4f24189e0d9f2bd",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/deduplication_results/generate_deduplication_results.py",
+      "repository_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/deduplication_results/generate_deduplication_results.py",
+      "source_bytes": 25593,
+      "source_sha256": "486306c1a972d79a58b920e1759338a03c1d69d804d3fe8205ba433c26d04506",
+      "repository_bytes": 25593,
+      "repository_sha256": "486306c1a972d79a58b920e1759338a03c1d69d804d3fe8205ba433c26d04506",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/deduplication_results/render_mcb_figures.R",
+      "repository_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/deduplication_results/render_mcb_figures.R",
+      "source_bytes": 9998,
+      "source_sha256": "b9b309ed31a611678771c0482dd232c5f04279d6d12de19d4762360dc810c240",
+      "repository_bytes": 9998,
+      "repository_sha256": "b9b309ed31a611678771c0482dd232c5f04279d6d12de19d4762360dc810c240",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/error_analysis/error_redistribution_analysis.py",
+      "repository_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/error_analysis/error_redistribution_analysis.py",
+      "source_bytes": 25440,
+      "source_sha256": "fc1f8c5b2b9ca2ba64cb34159b123702a63517a5ca6d54c40dca338934806ecc",
+      "repository_bytes": 25440,
+      "repository_sha256": "fc1f8c5b2b9ca2ba64cb34159b123702a63517a5ca6d54c40dca338934806ecc",
+      "action": "copied"
+    },
+    {
+      "source_path": "Results_check/runs/20261113/rebuild_current_results.py",
+      "repository_path": "Results_check/runs/20261113/rebuild_current_results.py",
+      "source_bytes": 2651,
+      "source_sha256": "511d549186012ec8df57174c2306304710f7fa0ace4337959915d097e553c1b2",
+      "repository_bytes": 2651,
+      "repository_sha256": "511d549186012ec8df57174c2306304710f7fa0ace4337959915d097e553c1b2",
+      "action": "copied"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/FHF_Sampling_fh1.ipynb",
+      "repository_path": "fhf_dedup_ausgrid2013/FHF_Sampling_fh1.ipynb",
+      "source_bytes": 31647,
+      "source_sha256": "2bd5b4cd310049a0f56198a7e159354281e5fff4dfe9a4e1460de570cb4558ac",
+      "repository_bytes": 31647,
+      "repository_sha256": "2bd5b4cd310049a0f56198a7e159354281e5fff4dfe9a4e1460de570cb4558ac",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/FHF_fh1.ipynb",
+      "repository_path": "fhf_dedup_ausgrid2013/FHF_fh1.ipynb",
+      "source_bytes": 76693,
+      "source_sha256": "72e1f3dcb18b59accddd72bbd64d39bda86360c519a8248d049517af86130ef8",
+      "repository_bytes": 31225,
+      "repository_sha256": "16d98231afa4a4600e3e87519a7e7ca297084a1c5347ba8504effaf91f9bacb3",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/HFFPS_Sampling_fh1.ipynb",
+      "repository_path": "fhf_dedup_ausgrid2013/HFFPS_Sampling_fh1.ipynb",
+      "source_bytes": 33037,
+      "source_sha256": "a81ae5bb1729186851a3cd14e8f67547c74b7b0820c0251594bfe6669ada5eac",
+      "repository_bytes": 33037,
+      "repository_sha256": "a81ae5bb1729186851a3cd14e8f67547c74b7b0820c0251594bfe6669ada5eac",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/HFFPS_fh1.ipynb",
+      "repository_path": "fhf_dedup_ausgrid2013/HFFPS_fh1.ipynb",
+      "source_bytes": 87344,
+      "source_sha256": "153570a8f8813c01c4161928e9190d68a87346a1d0638ac153735de943d0c956",
+      "repository_bytes": 32620,
+      "repository_sha256": "8609ce5e19f0a69262b5b85cbbeafe6ba35d530ad15442471a733785ca6886a5",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/HFF_Sampling_fh1.ipynb",
+      "repository_path": "fhf_dedup_ausgrid2013/HFF_Sampling_fh1.ipynb",
+      "source_bytes": 33282,
+      "source_sha256": "b61e75eb78cb509192e76e162b96710a3f9b925acebe18eb7703999184491b93",
+      "repository_bytes": 33282,
+      "repository_sha256": "b61e75eb78cb509192e76e162b96710a3f9b925acebe18eb7703999184491b93",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/HFF_fh1.ipynb",
+      "repository_path": "fhf_dedup_ausgrid2013/HFF_fh1.ipynb",
+      "source_bytes": 99356,
+      "source_sha256": "3133a917e591ee8f1608da866dc68928401c1c27bec38374c10beebcafc7781d",
+      "repository_bytes": 32865,
+      "repository_sha256": "6d70f49d2b258599777e97824b7426ddf38c8a4770c0a82f58bb6dc112f8cb51",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_ausgrid2013/README.md",
+      "repository_path": "fhf_dedup_ausgrid2013/README.md",
+      "source_bytes": 1168,
+      "source_sha256": "e185c61d489b688fc62b4756bf1a77f3a16ae1c857fd6dc463679b3a852cfe3e",
+      "repository_bytes": 1168,
+      "repository_sha256": "e185c61d489b688fc62b4756bf1a77f3a16ae1c857fd6dc463679b3a852cfe3e",
+      "action": "copied"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/FHF_Sampling_fh1.ipynb",
+      "repository_path": "fhf_dedup_gef2017/FHF_Sampling_fh1.ipynb",
+      "source_bytes": 31471,
+      "source_sha256": "a902b992b96bcb046a8d1782c0eaf8e12f49956f5a50a49d42ed36a3d0feaacc",
+      "repository_bytes": 31471,
+      "repository_sha256": "a902b992b96bcb046a8d1782c0eaf8e12f49956f5a50a49d42ed36a3d0feaacc",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/FHF_fh1.ipynb",
+      "repository_path": "fhf_dedup_gef2017/FHF_fh1.ipynb",
+      "source_bytes": 76398,
+      "source_sha256": "6e9c975060b29146901f1400c689549d753dc42e482c58a01fee667cd9dbc68d",
+      "repository_bytes": 31024,
+      "repository_sha256": "b195b67fe99725b3e9b4d97a402b03b592aa727e2e2d95030bc7d8b22575f62e",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/FHF_fh3.ipynb",
+      "repository_path": "fhf_dedup_gef2017/FHF_fh3.ipynb",
+      "source_bytes": 76426,
+      "source_sha256": "e708e723c959c74ef028effcf33a1b3d45c66720c43cf3433977f8784c7539d4",
+      "repository_bytes": 31187,
+      "repository_sha256": "8421de990474c1549acfc16bd2cd4baafafd268edb66bca273d84702adf99571",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/FHF_fh6.ipynb",
+      "repository_path": "fhf_dedup_gef2017/FHF_fh6.ipynb",
+      "source_bytes": 76322,
+      "source_sha256": "4a84c0f2f36f61ff10c14f2b3e0e3cde26f010fb2a80d03fad7a5c5ec6a078b7",
+      "repository_bytes": 31187,
+      "repository_sha256": "6528500805f27b4e96abe4c5b7efc81b82082bdd5133d2f8e871d1e78bd579a6",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFFPS_Sampling_fh1.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFFPS_Sampling_fh1.ipynb",
+      "source_bytes": 33004,
+      "source_sha256": "0297ced62b2ced22eb591af14933ab5eca26399957197f70685e03214af50140",
+      "repository_bytes": 33004,
+      "repository_sha256": "0297ced62b2ced22eb591af14933ab5eca26399957197f70685e03214af50140",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFFPS_fh1.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFFPS_fh1.ipynb",
+      "source_bytes": 86598,
+      "source_sha256": "bbbe9f0dea739299d5edc5a0dc717c0bfa8a50d88eb71c2c66c429ee6214e961",
+      "repository_bytes": 32586,
+      "repository_sha256": "21cd37040ae74bb1549f24242be39211a80d9d46f0743d990656fed66dae2da0",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFFPS_fh3.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFFPS_fh3.ipynb",
+      "source_bytes": 86652,
+      "source_sha256": "684d0e7525a7af94e694affe6f6d9b4a24460f127d6b310cc854be9cdaa23d2f",
+      "repository_bytes": 32586,
+      "repository_sha256": "9fbed07d53a42e5eb29d9eb40fcdc2304e62de6264826e8838d40cb0a63f3437",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFFPS_fh6.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFFPS_fh6.ipynb",
+      "source_bytes": 86642,
+      "source_sha256": "541a48f70dc0c6d24e779e5f7d3b3876e227416f757cf9a4475c5a353b4f6ac4",
+      "repository_bytes": 32586,
+      "repository_sha256": "9ad84671eb0b3e73197472df4d1dc9419c2191b11ea4ff0bb6d62e2901107fb8",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFF_Sampling_fh1.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFF_Sampling_fh1.ipynb",
+      "source_bytes": 33524,
+      "source_sha256": "442845d4b2d1533061171697e8bde1f42dc5095fed2532f91ca0cb10373835bd",
+      "repository_bytes": 33524,
+      "repository_sha256": "442845d4b2d1533061171697e8bde1f42dc5095fed2532f91ca0cb10373835bd",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFF_fh1.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFF_fh1.ipynb",
+      "source_bytes": 97818,
+      "source_sha256": "bb199cb4d4ead2b3eff3f5fe28c8d3ad0727060b140cb9eb3ac36b19b501a7cd",
+      "repository_bytes": 33157,
+      "repository_sha256": "91883d635470b9b31272a9e116f4f4518a7ecc2454f93784c2fb4096ab20176d",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFF_fh3.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFF_fh3.ipynb",
+      "source_bytes": 97693,
+      "source_sha256": "46118690dd497af62ef59d5d777edbfca47e5265f4502f4a4e4f4782206d532c",
+      "repository_bytes": 32994,
+      "repository_sha256": "005366db3ce3f2af0d3585659eba8898c8b7b9d599600c6ac8e569a78d80968e",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/HFF_fh6.ipynb",
+      "repository_path": "fhf_dedup_gef2017/HFF_fh6.ipynb",
+      "source_bytes": 97523,
+      "source_sha256": "69433fe66e796abf3a984decffb93976cfe380c0e05145584ff8ba70d8ff3081",
+      "repository_bytes": 32831,
+      "repository_sha256": "617920be92d0e8589d0e7268c1aaaa55a58cd09009c14594205599a130634449",
+      "action": "notebook_outputs_cleared"
+    },
+    {
+      "source_path": "fhf_dedup_gef2017/README.md",
+      "repository_path": "fhf_dedup_gef2017/README.md",
+      "source_bytes": 1160,
+      "source_sha256": "de2d7627f012981c6e0435db4ace39f6d9b7e7d180d87b79097779010a750534",
+      "repository_bytes": 1160,
+      "repository_sha256": "de2d7627f012981c6e0435db4ace39f6d9b7e7d180d87b79097779010a750534",
+      "action": "copied"
+    },
+    {
+      "source_path": "windows_gpu/README_zh.md",
+      "repository_path": "windows_gpu/README_zh.md",
+      "source_bytes": 6628,
+      "source_sha256": "ce07cf6785f47d0f9b2ac8ea7105f9c0a63ca69d0f944a2a2fd66d73e990be54",
+      "repository_bytes": 6628,
+      "repository_sha256": "ce07cf6785f47d0f9b2ac8ea7105f9c0a63ca69d0f944a2a2fd66d73e990be54",
+      "action": "copied"
+    },
+    {
+      "source_path": "windows_gpu/benchmark.py",
+      "repository_path": "windows_gpu/benchmark.py",
+      "source_bytes": 6369,
+      "source_sha256": "bbe30416cd364dd303899ebed265f771f73b3d41d7f87b4755730a4a4b76113d",
+      "repository_bytes": 6369,
+      "repository_sha256": "bbe30416cd364dd303899ebed265f771f73b3d41d7f87b4755730a4a4b76113d",
+      "action": "copied"
+    },
+    {
+      "source_path": "windows_gpu/check_environment.py",
+      "repository_path": "windows_gpu/check_environment.py",
+      "source_bytes": 4785,
+      "source_sha256": "f1f36cbdc9ee95ceef99e76ea267e09819655c091d02f6539b5f0100eeea23db",
+      "repository_bytes": 4785,
+      "repository_sha256": "f1f36cbdc9ee95ceef99e76ea267e09819655c091d02f6539b5f0100eeea23db",
+      "action": "copied"
+    },
+    {
+      "source_path": "windows_gpu/requirements.txt",
+      "repository_path": "windows_gpu/requirements.txt",
+      "source_bytes": 582,
+      "source_sha256": "598c2316cab8cb45f1fabb184872ac333eb8b499050bf942d8d65784089c996f",
+      "repository_bytes": 582,
+      "repository_sha256": "598c2316cab8cb45f1fabb184872ac333eb8b499050bf942d8d65784089c996f",
+      "action": "copied"
+    },
+    {
+      "source_path": "windows_gpu/setup.bat",
+      "repository_path": "windows_gpu/setup.bat",
+      "source_bytes": 1330,
+      "source_sha256": "4dfeea775b16598cdc1831468fa87038978d32308c04196b9f8c9b747a4cc58d",
+      "repository_bytes": 1330,
+      "repository_sha256": "4dfeea775b16598cdc1831468fa87038978d32308c04196b9f8c9b747a4cc58d",
+      "action": "copied"
+    },
+    {
+      "source_path": "windows_gpu/start_jupyter.bat",
+      "repository_path": "windows_gpu/start_jupyter.bat",
+      "source_bytes": 328,
+      "source_sha256": "778118c5202575df8c8ad4c5f006ae51c1b1322298515f1a6fefa70571f328f9",
+      "repository_bytes": 328,
+      "repository_sha256": "778118c5202575df8c8ad4c5f006ae51c1b1322298515f1a6fefa70571f328f9",
+      "action": "copied"
+    }
+  ]
+}

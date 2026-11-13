@@ -1,0 +1,11 @@
+unique_id,Total/CT,Total/MASS/NEMASSBOST,Total/MASS/SEMASS,Total/MASS/WCMASS,Total/ME,Total/NH,Total/RI,Total/VT
+Total,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Total/CT,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total/MASS,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+Total/ME,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Total/NH,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Total/RI,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Total/VT,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Total/MASS/NEMASSBOST,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total/MASS/SEMASS,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+Total/MASS/WCMASS,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,46 @@
+# Privacy-Preserving Hierarchical Foreacsting
+
+Research code and input datasets for privacy-preserving federated hierarchical forecasting (PPHF), including FHF, HFF/HFFPS, DP-FedAvg, reconciliation, privacy accounting, and result analysis. This repository snapshot was prepared on 13 November 2026.
+
+## Included files
+
+- `Datasets/`: AusGrid2013 and GEFCOM2017 source and prepared input data, hierarchy matrices, mappings, tags, preparation notebooks, and source documentation.
+- `PPHF_modules/`: training, aggregation, reconciliation, privacy accounting, analysis, validation, and the existing vendored privacy-accounting dependencies with their metadata and license files.
+- `fhf_dedup_ausgrid2013/` and `fhf_dedup_gef2017/`: experiment notebooks.
+- `DP_fhf/notebooks/`: DP experiment, sampling, sweep, and summary notebooks.
+- `Results_check/`: analysis notebooks, current result PDFs, and small source scripts. Historical source scripts under `Results_check/runs/` are retained as provenance; historical figure copies are omitted.
+- `windows_gpu/`: Windows setup scripts, environment checks, and dependency versions.
+
+Generated forecast CSVs, residuals, trained models, NPZ training artifacts, experiment logs, caches, notebook checkpoints, and notebook cell outputs are omitted. Figures are supplied as PDFs. No training runs were rerun to prepare this repository.
+
+## Restore and verify the datasets
+
+Six large input CSV files are stored as lossless `.csv.gz` archives. All other dataset files retain their original format. From the repository root, run:
+
+```sh
+python tools/restore_datasets.py
+```
+
+Use `python3` if that is the Python command on your machine. The script restores the original CSV filenames and verifies SHA-256 checksums. It preserves the archives and refuses to overwrite a different existing file. Restoration needs approximately 838 MiB for the complete input dataset collection, in addition to the retained compressed archives.
+
+To verify the included archives and dataset files without restoring CSVs:
+
+```sh
+python tools/restore_datasets.py --verify-only
+```
+
+`Datasets/DATASET_MANIFEST.json` records original and uploaded file sizes and checksums. `UPLOAD_MANIFEST.json` records the original project files selected for this snapshot, including notebook output clearing and lossless compression. Repository-specific README, restore script, and Git configuration files are additional files.
+
+## Run the experiments
+
+1. Restore datasets as above. The prepared inputs are included; use the notebooks in `Datasets/` if you need to rebuild them.
+2. Set up the Python environment. The existing dependency versions are in `windows_gpu/requirements.txt`, and privacy-accounting requirements are in `PPHF_modules/dp_fhf/requirements-privacy.txt`. PyTorch is installed separately. Windows GPU setup instructions are in `windows_gpu/README_zh.md`.
+3. Run the ordinary experiments in `fhf_dedup_ausgrid2013/` and `fhf_dedup_gef2017/`. These generate the forecasts and training artifacts required by the saved-result analyses.
+4. Run the analysis notebooks under `Results_check/` after generating those required results.
+5. For DP-FedAvg and sampling experiments, follow `DP_fhf/notebooks/README.md`. Generate each experiment's outputs before running its summary or reconciliation notebook. DP covariance and O2MR use the saved ordinary FHF results.
+
+Run notebooks from this repository's directory structure so their canonical `PPHF_modules` imports and relative dataset paths resolve. Generated output directories are created by the code.
+
+The earlier migration README is preserved at `docs/README_migration_original_zh.md` for its detailed run sequence. Its statements about package contents describe the earlier migration package; this GitHub snapshot additionally includes result PDFs and compressed datasets as documented above.
+
+Dataset source documents are retained in their respective dataset folders. This repository does not add or change the original dataset or third-party dependency licensing terms.
