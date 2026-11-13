@@ -6,36 +6,40 @@
       "repository_path": "DP_fhf/README.md",
       "source_bytes": 431,
       "source_sha256": "bf428932dfc0954b12c2f083feca8555fd7ceaed619ce4e5376b03057bd6fc14",
-      "repository_bytes": 431,
-      "repository_sha256": "bf428932dfc0954b12c2f083feca8555fd7ceaed619ce4e5376b03057bd6fc14",
-      "action": "copied"
+      "repository_bytes": 521,
+      "repository_sha256": "1e7d835c0c59a0128969d1f8760fb8cd66642ac9d3741462b6d4f79404889796",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "DP_fhf/notebooks/01_0.1_DPFedAvg_Sampling_AusGrid2013.ipynb",
       "repository_path": "DP_fhf/notebooks/01_0.1_DPFedAvg_Sampling_AusGrid2013.ipynb",
       "source_bytes": 23441,
       "source_sha256": "c7137da06ace825b4fa5f26638752f5f735985003d4d3038933cccfbf9661e93",
-      "repository_bytes": 4870,
-      "repository_sha256": "a97efcf350018351182d81f4d72ac8adb4d4b98fc1a5f16cc3792e695d38b4a9",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 5043,
+      "repository_sha256": "88a0f1d5b769d5449b7e0539a5550c4844828be6d1467f733b1b726360b58ae0",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "DP_fhf/notebooks/01_0.5_DPFedAvg_Sampling_AusGrid2013.ipynb",
       "repository_path": "DP_fhf/notebooks/01_0.5_DPFedAvg_Sampling_AusGrid2013.ipynb",
       "source_bytes": 33232,
       "source_sha256": "310cc3be7715513e59c60d4f718d3e192cb943c38e900a2ebf85bb289b66afcc",
-      "repository_bytes": 4870,
-      "repository_sha256": "8306cfa24b370c3611a7a3e278013ad95644a96da911fa0aaf14ee1d4d2b1129",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 5043,
+      "repository_sha256": "44e43ed774063e813813e3ac58de6f444e3eb9b768ea9eb33c75b5b1585ceecf",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "DP_fhf/notebooks/01_DPFedAvg_100Round_Reconciliation.ipynb",
       "repository_path": "DP_fhf/notebooks/01_DPFedAvg_100Round_Reconciliation.ipynb",
       "source_bytes": 7167,
       "source_sha256": "42fcc1ff8890edbf4ed73d238949cbb011c03be7d1a49fb714e2ab3e61a3335b",
-      "repository_bytes": 7167,
-      "repository_sha256": "42fcc1ff8890edbf4ed73d238949cbb011c03be7d1a49fb714e2ab3e61a3335b",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 7476,
+      "repository_sha256": "4f70d4a33a5fafeab709f7e1c32b98c705975ff564a368d9b27d25625f0dd726",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "DP_fhf/notebooks/01_DPFedAvg_AusGrid2013_Sweep_q0p1.ipynb",
@@ -114,9 +118,10 @@
       "repository_path": "DP_fhf/notebooks/01_DPFedAvg_Sweep_Reconciliation.ipynb",
       "source_bytes": 9332,
       "source_sha256": "0d67099d3e0dd0a0113aa6fc89a9b4503c345fc0452b04587bb407d25f82134a",
-      "repository_bytes": 9332,
-      "repository_sha256": "0d67099d3e0dd0a0113aa6fc89a9b4503c345fc0452b04587bb407d25f82134a",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 9750,
+      "repository_sha256": "d54a13689c07a0f3c4230b66dedff7cd7389452767863adb3ccd8a72adbfe563",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "DP_fhf/notebooks/02_DP_Covariance_Estimation.ipynb",
@@ -159,9 +164,10 @@
       "repository_path": "DP_fhf/notebooks/z01_DPFedAvg_Sampling_GEF2017.ipynb",
       "source_bytes": 5329,
       "source_sha256": "a4352d35bb130979b3850b53d3ae45f347145bb91f413738507f15c0d592522b",
-      "repository_bytes": 5329,
-      "repository_sha256": "a4352d35bb130979b3850b53d3ae45f347145bb91f413738507f15c0d592522b",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 5510,
+      "repository_sha256": "aaf5ba09e46d6390ebaeb8871645bdfad2c7b88f9f7460038758df69d2e78058",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Datasets/AusGrid2013/2012-2013 Solar home electricity data v2.csv",
@@ -240,18 +246,20 @@
       "repository_path": "Datasets/AusGrid2013/AusgridLook-Copy1.ipynb",
       "source_bytes": 7854,
       "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-      "repository_bytes": 7854,
-      "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 7850,
+      "repository_sha256": "a6549817efb3cd4ad349033fbe4f7515b0ab739d427a31d4306807655cbe803c",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
       "repository_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
       "source_bytes": 7854,
       "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-      "repository_bytes": 7854,
-      "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 7850,
+      "repository_sha256": "a6549817efb3cd4ad349033fbe4f7515b0ab739d427a31d4306807655cbe803c",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Datasets/AusGrid2013/tags.pkl",
@@ -276,18 +284,20 @@
       "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation.ipynb",
       "source_bytes": 10129,
       "source_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
-      "repository_bytes": 10129,
-      "repository_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 10239,
+      "repository_sha256": "cf9e8f98e709f68213e57064345332d77b76cafd22bb71f46c50467588647c56",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
       "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
       "source_bytes": 12822,
       "source_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
-      "repository_bytes": 12822,
-      "repository_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 12999,
+      "repository_sha256": "3eff22c5c727b30bd973713a0b6db9fcec73b1299ccba3550bff73c2ea79cfd2",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Datasets/GEFCOM2017/GEF2017_170101_dedup.csv",
@@ -375,9 +385,10 @@
       "repository_path": "FIX_README_zh.md",
       "source_bytes": 2323,
       "source_sha256": "e9358587ba72047764825bbd4a7a24af5d2d982a82fa0e4718ba028be45c5432",
-      "repository_bytes": 2323,
-      "repository_sha256": "e9358587ba72047764825bbd4a7a24af5d2d982a82fa0e4718ba028be45c5432",
-      "action": "copied"
+      "repository_bytes": 2730,
+      "repository_sha256": "49bec53f574aa1ba4dcb15bf260345054591c23b882fd9f07183ab4d9095fed1",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/README.md",
@@ -2256,9 +2267,10 @@
       "repository_path": "PPHF_modules/dp_fhf/reconciliation_100round.py",
       "source_bytes": 10054,
       "source_sha256": "730891801e5e0711859882be01839c88b5351bb53db57eba085df8b39f4b08a0",
-      "repository_bytes": 10054,
-      "repository_sha256": "730891801e5e0711859882be01839c88b5351bb53db57eba085df8b39f4b08a0",
-      "action": "copied"
+      "repository_bytes": 10263,
+      "repository_sha256": "4b306a79ef5b35b9981c974b6898b8eb2edffbbc0c2a858d72be24872cebe32b",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/dp_fhf/recover_dp_sweep.py",
@@ -2328,18 +2340,20 @@
       "repository_path": "PPHF_modules/dp_fhf/summarize_covariance_multiscale.py",
       "source_bytes": 5914,
       "source_sha256": "67e4e48465a991e469de880b8c4422178daf9727ba4dcf8721cb916d6a58b5be",
-      "repository_bytes": 5914,
-      "repository_sha256": "67e4e48465a991e469de880b8c4422178daf9727ba4dcf8721cb916d6a58b5be",
-      "action": "copied"
+      "repository_bytes": 6090,
+      "repository_sha256": "bdfd0ce1773a69b2c56ccc1ba3f928051c210dd2657812ed4a03b00e5f444e33",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/dp_fhf/summarize_covariance_no_debias.py",
       "repository_path": "PPHF_modules/dp_fhf/summarize_covariance_no_debias.py",
       "source_bytes": 5807,
       "source_sha256": "42fa14e915bc161574249c6950536a90e3d6d6b5585a1233d08dba1624902d09",
-      "repository_bytes": 5807,
-      "repository_sha256": "42fa14e915bc161574249c6950536a90e3d6d6b5585a1233d08dba1624902d09",
-      "action": "copied"
+      "repository_bytes": 5849,
+      "repository_sha256": "b4d5934049d5d4e9be3cb9900c7bb5e723b6350f593cb0e5186a525364b847e6",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/dp_fhf/sweep_reconciliation.py",
@@ -2463,18 +2477,20 @@
       "repository_path": "PPHF_modules/fhf/FHF_models.py",
       "source_bytes": 11647,
       "source_sha256": "360071365ecadbc8f9493a511b09bb1d62efade53f98f56cc2796ed087496aa5",
-      "repository_bytes": 11647,
-      "repository_sha256": "360071365ecadbc8f9493a511b09bb1d62efade53f98f56cc2796ed087496aa5",
-      "action": "copied"
+      "repository_bytes": 11678,
+      "repository_sha256": "9b8a095b07fd6faa1dfd1f385f8093a52673732431a87087be411e510e266f6a",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/fhf/FHF_nf.py",
       "repository_path": "PPHF_modules/fhf/FHF_nf.py",
       "source_bytes": 5787,
       "source_sha256": "75cd0ea3687261d455e53d5c6bc4c67a6c76ede971ba05eafc83b5dba71d6aaa",
-      "repository_bytes": 5787,
-      "repository_sha256": "75cd0ea3687261d455e53d5c6bc4c67a6c76ede971ba05eafc83b5dba71d6aaa",
-      "action": "copied"
+      "repository_bytes": 5821,
+      "repository_sha256": "52ecfb9eb4bbe37a6ae7997e0486415e133f69a1362485beb0f13366f7a7dc76",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/fhf/FHF_runner.py",
@@ -2535,9 +2551,10 @@
       "repository_path": "PPHF_modules/fhf/aggregation.py",
       "source_bytes": 10581,
       "source_sha256": "140436beb9210e694e45604bb39ac8773ee7d6e1cbc6cc992f94973105041ab6",
-      "repository_bytes": 10581,
-      "repository_sha256": "140436beb9210e694e45604bb39ac8773ee7d6e1cbc6cc992f94973105041ab6",
-      "action": "copied"
+      "repository_bytes": 10631,
+      "repository_sha256": "510a7072b494eaf7990761d2c9f25b9a552e35d43acd87947c8d8ff4765e6025",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/fhf/client_sampling.py",
@@ -2580,9 +2597,10 @@
       "repository_path": "PPHF_modules/fhf/generate_sampling_notebooks.py",
       "source_bytes": 7811,
       "source_sha256": "ea75d29b303011660e0b019b192b9255c01ecc963de86937f8670bbedba51859",
-      "repository_bytes": 7811,
-      "repository_sha256": "ea75d29b303011660e0b019b192b9255c01ecc963de86937f8670bbedba51859",
-      "action": "copied"
+      "repository_bytes": 8054,
+      "repository_sha256": "ace60d54374d591e914f64fc3a6744bf2723526434c3e7c805e291bf5f1425f9",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/fhf/llstm.py",
@@ -2769,9 +2787,10 @@
       "repository_path": "PPHF_modules/results_check/error_analysis/error_redistribution_analysis.py",
       "source_bytes": 25828,
       "source_sha256": "65310b59506ec08977d9fef4e2c65b44cd5c5b268406110a1ae4fa98f299e21f",
-      "repository_bytes": 25828,
-      "repository_sha256": "65310b59506ec08977d9fef4e2c65b44cd5c5b268406110a1ae4fa98f299e21f",
-      "action": "copied"
+      "repository_bytes": 25913,
+      "repository_sha256": "cc69e976e3d39dc26e5d0522b5118386f3cc184b0fb58d8551b603811fa756e7",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/results_check/error_analysis/test_error_redistribution_analysis.py",
@@ -2796,9 +2815,10 @@
       "repository_path": "PPHF_modules/results_check/make_current_notebooks.py",
       "source_bytes": 10544,
       "source_sha256": "dacd95bfe59c9a4151d2161e792de55feb4735baf8cbebaa28edd558070fa5de",
-      "repository_bytes": 10544,
-      "repository_sha256": "dacd95bfe59c9a4151d2161e792de55feb4735baf8cbebaa28edd558070fa5de",
-      "action": "copied"
+      "repository_bytes": 11340,
+      "repository_sha256": "bdc8d4c794360e0cec7bf70660403226d12523345fab11cae1492ce5e4784520",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "PPHF_modules/results_check/plot_sampling_comparison.R",
@@ -2850,27 +2870,30 @@
       "repository_path": "docs/README_migration_original_zh.md",
       "source_bytes": 3765,
       "source_sha256": "68b1caffb253c4f48d0e5f4a631dda998a2f10b884e8d9761d88423efbfc6006",
-      "repository_bytes": 3765,
-      "repository_sha256": "68b1caffb253c4f48d0e5f4a631dda998a2f10b884e8d9761d88423efbfc6006",
-      "action": "copied"
+      "repository_bytes": 4588,
+      "repository_sha256": "d88033b2079c8fca85b05568afc46026e8e017b88e1920f11fc30c6fb91dea8b",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/README.md",
       "repository_path": "Results_check/README.md",
       "source_bytes": 370,
       "source_sha256": "79f3a161c1a366d2a49caa20b9b348611ff1f6d2581a9e4576dc904358ec202b",
-      "repository_bytes": 370,
-      "repository_sha256": "79f3a161c1a366d2a49caa20b9b348611ff1f6d2581a9e4576dc904358ec202b",
-      "action": "copied"
+      "repository_bytes": 477,
+      "repository_sha256": "28a7ff4e3bdcdd0d6305b59d47c883ca7ac20c629fa039bdca4fba87e9416934",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/ausgrid2013_results/ausgrid2013_results.ipynb",
       "repository_path": "Results_check/ausgrid2013_results/ausgrid2013_results.ipynb",
       "source_bytes": 160085,
       "source_sha256": "ffa6deb7b6b6ae03a03c98d1941c15e5f8fd63896ed85878366fef8c4a37cd15",
-      "repository_bytes": 6708,
-      "repository_sha256": "c70de5ff8ad7bc6045deb2a5e1e3b369969cfbdda352de3dea43864222eb0c81",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 7043,
+      "repository_sha256": "e790a5053d95eb3a32147e6e13dcf2a832fc78d8612f5e57662e2cc89fe185bb",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/deduplication_results/MASI_comparison.md",
@@ -2931,9 +2954,10 @@
       "repository_path": "Results_check/deduplication_results/dp_sampling/README_results_check_zh.txt",
       "source_bytes": 3585,
       "source_sha256": "88939541268f6b75c1625696d50ae5ed65e13bf874e6bf002e93830dd3ad76e8",
-      "repository_bytes": 3585,
-      "repository_sha256": "88939541268f6b75c1625696d50ae5ed65e13bf874e6bf002e93830dd3ad76e8",
-      "action": "copied"
+      "repository_bytes": 4184,
+      "repository_sha256": "ee5eecaf453ae794e31508f2fb0b2dbaa8d4937dbd481e39db053952952a5d22",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/deduplication_results/dp_sampling/R_session_info.txt",
@@ -3003,9 +3027,10 @@
       "repository_path": "Results_check/deduplication_results/error_analysis/ausgrid2013/results_interpretation_zh.md",
       "source_bytes": 1733,
       "source_sha256": "67bb24e2b2cf5f69fc3c943be70653b2bae10758a5b4e2ab39a6dab1027c7bf2",
-      "repository_bytes": 1733,
-      "repository_sha256": "67bb24e2b2cf5f69fc3c943be70653b2bae10758a5b4e2ab39a6dab1027c7bf2",
-      "action": "copied"
+      "repository_bytes": 1853,
+      "repository_sha256": "80f09c7078197f36e1945d85c49bfaf4fcac56c131de1f011034d330d7b7233e",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/deduplication_results/error_analysis/gef2017/error_redistribution_heatmap.pdf",
@@ -3030,9 +3055,10 @@
       "repository_path": "Results_check/deduplication_results/error_analysis/gef2017/results_interpretation_zh.md",
       "source_bytes": 4587,
       "source_sha256": "11e9bf16ad8064e97b7d3bc805d932b06ffaf0b87301ba1804c3ba2844e6d232",
-      "repository_bytes": 4587,
-      "repository_sha256": "11e9bf16ad8064e97b7d3bc805d932b06ffaf0b87301ba1804c3ba2844e6d232",
-      "action": "copied"
+      "repository_bytes": 4791,
+      "repository_sha256": "13d10bdd01efb8e8d47c650cdcb09c67a807dcbf13e46003c9e2fdea55716b8f",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/deduplication_results/error_ratio_illustration/single_parent_ratios_dimension_bold.pdf",
@@ -3120,18 +3146,20 @@
       "repository_path": "Results_check/deduplication_results/paper_current/AUDIT_20260928_zh.md",
       "source_bytes": 4202,
       "source_sha256": "47d2e29f4e3126f8e9845def41f0c9502f5c75bbb1642771c9578ea23a8e5047",
-      "repository_bytes": 4202,
-      "repository_sha256": "47d2e29f4e3126f8e9845def41f0c9502f5c75bbb1642771c9578ea23a8e5047",
-      "action": "copied"
+      "repository_bytes": 5454,
+      "repository_sha256": "192a9684f141edeec405f067e05f084ebf202c28dcaba02f74bab2d69f729582",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/deduplication_results/paper_current/README.md",
       "repository_path": "Results_check/deduplication_results/paper_current/README.md",
       "source_bytes": 3070,
       "source_sha256": "2ef894aac10dafea3cee96a2d5ed89ac8c1ae48d7093821a7a0eb6ab027b280e",
-      "repository_bytes": 3070,
-      "repository_sha256": "2ef894aac10dafea3cee96a2d5ed89ac8c1ae48d7093821a7a0eb6ab027b280e",
-      "action": "copied"
+      "repository_bytes": 3704,
+      "repository_sha256": "3236365c7d2263278f3e56191ef5063e1e689c20e268757b0a3510e29a472e90",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/deduplication_results/scaled_incoherence_figures/error_scaled_incoherence.pdf",
@@ -3156,27 +3184,30 @@
       "repository_path": "Results_check/error_analysis/error_redistribution_analysis.ipynb",
       "source_bytes": 1060650,
       "source_sha256": "c71b2c1dfafd83f2963690a47b77d65f6db6c825d67a4a5a638eb3b8de0d580f",
-      "repository_bytes": 5121,
-      "repository_sha256": "910cb20d1ac1d679262903ea86724d464bffa9dc4e0cba4dc9b055712d04cc0e",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 5315,
+      "repository_sha256": "73ab5c2aa84f23cbd6f012950a1566d21b5e29881bcf29049e4e5a11fc9fea9c",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/full_gef2017_results/full_gef2017_results.ipynb",
       "repository_path": "Results_check/full_gef2017_results/full_gef2017_results.ipynb",
       "source_bytes": 127945,
       "source_sha256": "ce74dced973835bab60251a50461328e845c06e5d5ec1f2013ed36fc6f41fec8",
-      "repository_bytes": 5984,
-      "repository_sha256": "0f3a49f693dacf984101345aeb1a59cf4b37300de44c149852de77b9e9570503",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 6230,
+      "repository_sha256": "01623fd04cd356d853095d2fb1ef5f65624cc398b13a67513a358fd823443aaf",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/gef2017_results/gef2017_results.ipynb",
       "repository_path": "Results_check/gef2017_results/gef2017_results.ipynb",
       "source_bytes": 275117,
       "source_sha256": "a3985f355bda269efe65f06eb7f46eb240249732b4d109afeb1bb12e3acc502f",
-      "repository_bytes": 6703,
-      "repository_sha256": "6683577c7d7216f45b5ae837c931a63e71f67e04512698d91317e9f08d03c1e7",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 7047,
+      "repository_sha256": "26ab813fa2cfc112d58f8539d236aa508791711715c6ea53d0a499bcb7fc46f9",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/runs/20261113/before_aligning_q_epsilon_labels/PPHF_modules/results_check/plot_sampling_comparison.R",
@@ -3372,9 +3403,10 @@
       "repository_path": "Results_check/runs/20261113/original_code_before_level_change/PPHF_modules/results_check/error_analysis/error_redistribution_analysis.py",
       "source_bytes": 25440,
       "source_sha256": "fc1f8c5b2b9ca2ba64cb34159b123702a63517a5ca6d54c40dca338934806ecc",
-      "repository_bytes": 25440,
-      "repository_sha256": "fc1f8c5b2b9ca2ba64cb34159b123702a63517a5ca6d54c40dca338934806ecc",
-      "action": "copied"
+      "repository_bytes": 25525,
+      "repository_sha256": "758b8d4572ef5203db87d376c924765f25857c98486624bbae80c8ec8de634ed",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "Results_check/runs/20261113/rebuild_current_results.py",
@@ -3390,27 +3422,30 @@
       "repository_path": "fhf_dedup_ausgrid2013/FHF_Sampling_fh1.ipynb",
       "source_bytes": 31647,
       "source_sha256": "2bd5b4cd310049a0f56198a7e159354281e5fff4dfe9a4e1460de570cb4558ac",
-      "repository_bytes": 31647,
-      "repository_sha256": "2bd5b4cd310049a0f56198a7e159354281e5fff4dfe9a4e1460de570cb4558ac",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 31740,
+      "repository_sha256": "23ad14ff16035bbb451656a0fc2cf914864a884f03ebde9f88691ec9dfd322cb",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_ausgrid2013/FHF_fh1.ipynb",
       "repository_path": "fhf_dedup_ausgrid2013/FHF_fh1.ipynb",
       "source_bytes": 76693,
       "source_sha256": "72e1f3dcb18b59accddd72bbd64d39bda86360c519a8248d049517af86130ef8",
-      "repository_bytes": 31225,
-      "repository_sha256": "16d98231afa4a4600e3e87519a7e7ca297084a1c5347ba8504effaf91f9bacb3",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 31240,
+      "repository_sha256": "2c97a6c048f13e8eae1a8c05611f0dff548acac234448d7bd2903592d90cb552",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_ausgrid2013/HFFPS_Sampling_fh1.ipynb",
       "repository_path": "fhf_dedup_ausgrid2013/HFFPS_Sampling_fh1.ipynb",
       "source_bytes": 33037,
       "source_sha256": "a81ae5bb1729186851a3cd14e8f67547c74b7b0820c0251594bfe6669ada5eac",
-      "repository_bytes": 33037,
-      "repository_sha256": "a81ae5bb1729186851a3cd14e8f67547c74b7b0820c0251594bfe6669ada5eac",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 33115,
+      "repository_sha256": "520615a461534387d8698bfa68a486d2d2613394b01253f7394ca331d4e54776",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_ausgrid2013/HFFPS_fh1.ipynb",
@@ -3426,9 +3461,10 @@
       "repository_path": "fhf_dedup_ausgrid2013/HFF_Sampling_fh1.ipynb",
       "source_bytes": 33282,
       "source_sha256": "b61e75eb78cb509192e76e162b96710a3f9b925acebe18eb7703999184491b93",
-      "repository_bytes": 33282,
-      "repository_sha256": "b61e75eb78cb509192e76e162b96710a3f9b925acebe18eb7703999184491b93",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 33360,
+      "repository_sha256": "7da6b59d79a975fca768f786f50a2f18802fb4ece626c483566f995fdfe7a89d",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_ausgrid2013/HFF_fh1.ipynb",
@@ -3453,45 +3489,50 @@
       "repository_path": "fhf_dedup_gef2017/FHF_Sampling_fh1.ipynb",
       "source_bytes": 31471,
       "source_sha256": "a902b992b96bcb046a8d1782c0eaf8e12f49956f5a50a49d42ed36a3d0feaacc",
-      "repository_bytes": 31471,
-      "repository_sha256": "a902b992b96bcb046a8d1782c0eaf8e12f49956f5a50a49d42ed36a3d0feaacc",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 31564,
+      "repository_sha256": "d1c53918a8178b7c7a380fbe4c300bcddfe964a30341b887016a737dd78a975c",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_gef2017/FHF_fh1.ipynb",
       "repository_path": "fhf_dedup_gef2017/FHF_fh1.ipynb",
       "source_bytes": 76398,
       "source_sha256": "6e9c975060b29146901f1400c689549d753dc42e482c58a01fee667cd9dbc68d",
-      "repository_bytes": 31024,
-      "repository_sha256": "b195b67fe99725b3e9b4d97a402b03b592aa727e2e2d95030bc7d8b22575f62e",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 31039,
+      "repository_sha256": "0078491c418a69d7dcb9a8e4a60941c2a1188f9cd5a04f70385ba5c9030a1b50",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_gef2017/FHF_fh3.ipynb",
       "repository_path": "fhf_dedup_gef2017/FHF_fh3.ipynb",
       "source_bytes": 76426,
       "source_sha256": "e708e723c959c74ef028effcf33a1b3d45c66720c43cf3433977f8784c7539d4",
-      "repository_bytes": 31187,
-      "repository_sha256": "8421de990474c1549acfc16bd2cd4baafafd268edb66bca273d84702adf99571",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 31202,
+      "repository_sha256": "eea0d4ec946d2875447ea417619bb332904f7ab3188cd0b636394af2d632eb2a",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_gef2017/FHF_fh6.ipynb",
       "repository_path": "fhf_dedup_gef2017/FHF_fh6.ipynb",
       "source_bytes": 76322,
       "source_sha256": "4a84c0f2f36f61ff10c14f2b3e0e3cde26f010fb2a80d03fad7a5c5ec6a078b7",
-      "repository_bytes": 31187,
-      "repository_sha256": "6528500805f27b4e96abe4c5b7efc81b82082bdd5133d2f8e871d1e78bd579a6",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 31202,
+      "repository_sha256": "fd0be8422db4eafbeb230f38e3c066847d69297ba225b35a98d850e0fffc26f8",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_gef2017/HFFPS_Sampling_fh1.ipynb",
       "repository_path": "fhf_dedup_gef2017/HFFPS_Sampling_fh1.ipynb",
       "source_bytes": 33004,
       "source_sha256": "0297ced62b2ced22eb591af14933ab5eca26399957197f70685e03214af50140",
-      "repository_bytes": 33004,
-      "repository_sha256": "0297ced62b2ced22eb591af14933ab5eca26399957197f70685e03214af50140",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 33082,
+      "repository_sha256": "ae39789d82860cabac9b057dc950a60167e51268fddd9c9cdd6b856048128c42",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_gef2017/HFFPS_fh1.ipynb",
@@ -3525,9 +3566,10 @@
       "repository_path": "fhf_dedup_gef2017/HFF_Sampling_fh1.ipynb",
       "source_bytes": 33524,
       "source_sha256": "442845d4b2d1533061171697e8bde1f42dc5095fed2532f91ca0cb10373835bd",
-      "repository_bytes": 33524,
-      "repository_sha256": "442845d4b2d1533061171697e8bde1f42dc5095fed2532f91ca0cb10373835bd",
-      "action": "notebook_outputs_cleared"
+      "repository_bytes": 33602,
+      "repository_sha256": "01f6dbc0459ad1ca08087629bd8072febe34236ec258a0d2955986cabe5faef2",
+      "action": "notebook_outputs_cleared",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "fhf_dedup_gef2017/HFF_fh1.ipynb",
@@ -3570,9 +3612,10 @@
       "repository_path": "windows_gpu/README_zh.md",
       "source_bytes": 6628,
       "source_sha256": "ce07cf6785f47d0f9b2ac8ea7105f9c0a63ca69d0f944a2a2fd66d73e990be54",
-      "repository_bytes": 6628,
-      "repository_sha256": "ce07cf6785f47d0f9b2ac8ea7105f9c0a63ca69d0f944a2a2fd66d73e990be54",
-      "action": "copied"
+      "repository_bytes": 7273,
+      "repository_sha256": "ee3b1295f49a7c4c27ad19d6a95ed8f6db674cc9ed4b17b50b4c8d1088cb2640",
+      "action": "copied",
+      "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
     },
     {
       "source_path": "windows_gpu/benchmark.py",
@@ -3619,5 +3662,7 @@
       "repository_sha256": "778118c5202575df8c8ad4c5f006ae51c1b1322298515f1a6fefa70571f328f9",
       "action": "copied"
     }
-  ]
+  ],
+  "english_translation_date": "2026-11-13",
+  "checksum_note": "source_sha256 identifies the original pre-translation local file; repository_sha256 identifies the current repository file."
 }

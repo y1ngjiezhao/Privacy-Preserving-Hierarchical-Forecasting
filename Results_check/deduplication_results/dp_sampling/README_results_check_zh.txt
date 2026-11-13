@@ -1,55 +1,55 @@
-本次结果重新计算于 2026-11-13，所有输出位于本项目，不依赖 OneDrive。
-三张图已取消大标题和副标题，仅保留面板标题和图例。
-图中已移除 lower is better 的方向性描述。
-三张图图例中的 legacy 标记已移除。
+These results were recomputed on 2026-11-13. All outputs are inside this project and do not depend on OneDrive.
+The three figures omit overall titles and subtitles, retaining panel titles and legends.
+The directional phrase "lower is better" has been removed.
+The legacy labels have been removed from all three figure legends.
 
-已执行
-  常规 FHF、HFF、HFFPS：AusGrid fh1 共 3 组，GEF fh1/fh3/fh6 共 9 组。
-  四份 Results_check notebook 已执行并写入输出，无错误单元格。
-  12 组常规实验完成 2000 次区块 bootstrap、误差重分布和指标复现核查。
-  AusGrid 39 组 DP 已保存结果及 1 个无 DP 基线已重新计算准确度。
-  39 组包括 36 组 20 轮扫描和 3 组 100 轮 DP 实验。
+Completed work
+  Ordinary FHF, HFF, HFFPS: 3 AusGrid fh1 runs and 9 GEF fh1/fh3/fh6 runs.
+  All four Results_check notebooks were executed and saved outputs without error cells.
+  The 12 ordinary experiments completed 2000 block-bootstrap replicates, error redistribution analysis, and metric reproduction checks.
+  Accuracy was recomputed for 39 saved AusGrid DP runs and 1 non-DP baseline.
+  The 39 DP runs comprise 36 runs in the 20-round sweep and 3 runs with 100 rounds.
 
-分层
-  AusGrid2013：评价层级 L1/L2/L3 = 1/60/299。
-  GEF2017：按最新要求使用结构深度 L1/L2/L3 = 1/6/3。
-  GEF 的 5 个浅层终端节点保留在 L2。
-  两套数据的相干性仍按实际结构父子关系计算。
+Levels
+  AusGrid2013: evaluation levels L1/L2/L3 = 1/60/299.
+  GEF2017: structural depths L1/L2/L3 = 1/6/3, following the latest requested convention.
+  The 5 shallow terminal GEF nodes remain in L2.
+  Coherence for both datasets still uses the actual structural parent-child relationships.
 
-三张图位于 figures/，均有 300 dpi PNG 和矢量 PDF。
-  01：Average、L1、L2、L3 的 MASE/RMSSE，2×2 布局。
-  02：相同四个面板的记录隐私预算与误差。
-  03：三个代表序列在测试前 72 小时的预测曲线，保持此前三个序列。
-  颜色区分设置，圆点为 MASE，三角为 RMSSE，取消底部说明文字。
-  三张图图例统一为 FHF (q=1)、PPHF (q=1)、PPHF (q=0.5)、PPHF (q=0.1)。
-  第二张图使用加深的灰、蓝、绿、红色，同步应用于数据点、标注和图例。
-  第二张图横坐标刻度显示为整数 0、25、50、75。
-  第二张图纵坐标刻度保留一位小数。
-  第二张图 Setting 和 Metric 图例并排放在同一行。
-  第二张图左上角面板标题简化为 Average。
-  第二张图每组 q 与 epsilon 文字组内左对齐，整组居中放在对应数据点上方。
-  展示结果按四舍五入保留三位小数，计算和原始 CSV 保留完整精度。
-  sampling_100rounds_by_scope_3dp.csv 是三位小数展示表。
-  第二张图已放大文字：坐标刻度和图例 14 pt，轴标题和面板标题 16 pt，图内标注 4.2 mm；增加上方留白以容纳标注。
+The three figures are in figures/, with 300 dpi PNG and vector PDF versions in the full experiment outputs. This GitHub snapshot retains the PDFs.
+  01: MASE/RMSSE for Average, L1, L2, and L3 in a 2×2 layout.
+  02: recorded privacy budgets and errors for the same four panels.
+  03: forecasts for three representative series during the first 72 test hours, retaining the previously selected series.
+  Color distinguishes settings; circles denote MASE and triangles denote RMSSE. The bottom explanatory text has been removed.
+  All three legends use FHF (q=1), PPHF (q=1), PPHF (q=0.5), and PPHF (q=0.1).
+  Figure 02 uses darker gray, blue, green, and red consistently for points, annotations, and legends.
+  Its horizontal tick labels are integers: 0, 25, 50, and 75.
+  Its vertical tick labels have one decimal place.
+  Its Setting and Metric legends share one row.
+  Its upper-left panel title is Average.
+  Each q/epsilon annotation group is internally left-aligned and centered above its data point.
+  Displayed results are rounded to three decimal places; calculations and original CSVs retain full precision.
+  sampling_100rounds_by_scope_3dp.csv is the three-decimal display table.
+  Figure 02 uses larger text: 14 pt tick labels and legends, 16 pt axis and panel titles, and 4.2 mm annotations, with additional top space.
 
-数据范围
-  三张图使用匹配的 100 轮结果，sigma=1.2、C=1.0、delta=1e-5。
-  20 轮扫描结果另存 sampling_20round_sweep_by_scope.csv，没有混入这三张图。
-  当前目录缺失的历史 q=1 100 轮 DP 基线从本机 FHF_backup 恢复。
-  恢复文件的来源及校验值见 Results_check/runs/20261113/restored_baseline_manifest.json。
-  所有 DP 结果的训练目标、测试键和真实值已与当前无 DP 基线核对一致。
-  旧版 q=1 固定 DP seed=42，记录的 epsilon 为假设随机机制下的计算值。
-  部分参与使用 fresh randomness 和 2 倍敏感度标定，旧版 q=1 使用 1 倍。
-  隐私预算来自原 privacy.json 或原有 recovery 记录，未重写隐私完成标记。
-  预算覆盖 global model，不覆盖本地预测或诊断的发布。
+Data scope
+  The three figures use matched 100-round results with sigma=1.2, C=1.0, and delta=1e-5.
+  The 20-round sweep results are stored separately in sampling_20round_sweep_by_scope.csv and are excluded from these figures.
+  The historical q=1, 100-round DP baseline missing from the current directory was recovered from the local FHF_backup.
+  Its source and checksums are recorded in Results_check/runs/20261113/restored_baseline_manifest.json in the full local experiment archive.
+  Training targets, test keys, and observations for all DP runs were checked against the current non-DP baseline.
+  The old q=1 configuration used fixed DP seed=42; its recorded epsilon is computed for the hypothetical randomized mechanism.
+  Partial participation uses fresh randomness and 2× sensitivity calibration; the old q=1 configuration uses 1× calibration.
+  Privacy budgets come from the original privacy.json files or existing recovery records; privacy completion markers were not rewritten.
+  These budgets cover the global model, not releases of local forecasts or diagnostics.
 
-重新运行
-  Python 环境：/Users/yingjiezhao/miniforge3/envs/neural-network/bin/python
-  常规检查：Results_check/runs/20261113/rebuild_current_results.py --datasets ausgrid2013 gef2017 --execute-notebooks
-  DP 检查：PPHF_modules/results_check/sampling_results_check.py
-  ggplot2：Rscript PPHF_modules/results_check/plot_sampling_comparison.R
-  本目录也保留 plot_sampling_comparison.R 副本，可直接用 Rscript 运行。
+Rerun
+  Python environment: /Users/yingjiezhao/miniforge3/envs/neural-network/bin/python
+  Ordinary checks: Results_check/runs/20261113/rebuild_current_results.py --datasets ausgrid2013 gef2017 --execute-notebooks
+  DP checks: PPHF_modules/results_check/sampling_results_check.py
+  ggplot2: Rscript PPHF_modules/results_check/plot_sampling_comparison.R
+  A copy of plot_sampling_comparison.R is retained in this directory and can be run directly with Rscript.
 
-当前归档
-  本次新结果目录为 ausgrid2013、gef2017、error_analysis、dp_sampling。
-  paper_current 中的旧论文审计记录属于历史文件，未作为本次结果输入。
+Current archive
+  The new result directories are ausgrid2013, gef2017, error_analysis, and dp_sampling.
+  The older paper audits in paper_current are historical records and were not inputs to this recomputation.

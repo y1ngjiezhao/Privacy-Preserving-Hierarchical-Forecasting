@@ -41,39 +41,39 @@ from PPHF_modules.results_check.current_results import (
 def overview(dataset, title, relative):
     cells=[cell('markdown',f'''# {title}
 
-使用本项目 `fhf_dedup_{dataset}/` 中的普通 FHF、HFF、HFFPS 已完成实验。
-显示当前去重数据上的精度、训练记录、耗时和层级一致性。Naive 基线只保留一份。
-全部统计从当前逐节点指标、预测 CSV 和训练残差文件重建，不启动模型训练。'''),
+Use the completed ordinary FHF, HFF, and HFFPS experiments in this project's `fhf_dedup_{dataset}/` directory.
+Show accuracy, training records, timing, and hierarchy consistency on the current deduplicated data. Include one shared Naive baseline.
+Rebuild all statistics from the current per-node metrics, forecast CSVs, and training residual files, without starting model training.'''),
         cell('code',SETUP),
         cell('code',f'''DATASET = {dataset!r}
 SOURCE_DIR = ROOT / 'fhf_dedup_{dataset}'
 OUTPUT_DIR = ROOT / 'Results_check' / 'deduplication_results' / DATASET
-RECOMPUTE = False  # 输入文件内容变化时会自动重建。True 强制重新计算。
+RECOMPUTE = False  # Rebuild automatically when input contents change. True forces recomputation.
 print('Source:', SOURCE_DIR)
 print('Output:', OUTPUT_DIR)'''),
         cell('code', '''tables = prepare_current_results(DATASET, root=ROOT, source_dir=SOURCE_DIR,
                                  output_dir=OUTPUT_DIR, force=RECOMPUTE)
 display(tables['hierarchy_audit'])'''),
-        cell('markdown','''## 精度比较
+        cell('markdown','''## Accuracy comparison
 
-MAE、MASE、RMSSE 先逐节点计算，再在语义评估层级内等权平均。
-去重后成为叶节点的序列归入底层，结构深度保留用于后续父子约束检查。
-核心表包含 base、BU、MinT-shrinkage、WLSv 和共享 Naive；完整方法见 `accuracy_by_level.csv`。'''),
+Compute MAE, MASE, and RMSSE per node, then average equally within each semantic evaluation level.
+Series that become leaves after deduplication belong to the bottom level. Retain structural depth for subsequent parent-child constraint checks.
+The core table includes base, BU, MinT-shrinkage, WLSv, and the shared Naive baseline. See `accuracy_by_level.csv` for all methods.'''),
         cell('code', '''core = core_accuracy_table(tables)
 display(core)
 core.to_csv(OUTPUT_DIR / 'core_accuracy_by_level.csv')'''),
-        cell('markdown','''## 全方法与 MCB 输入
+        cell('markdown','''## All methods and MCB inputs
 
-下表保留全部协调方法。MCB 输入按预测步数和节点配对，两个 CSV 分别为
-`mcb_mase.csv` 和 `mcb_rmsse.csv`。MCB 输入采用三个框架的 base、BU、MinT-shrinkage、WLSv
-以及共享 Naive，共 13 种方法；完整精度表保留全部协调方法。'''),
+The table below retains all reconciliation methods. Pair MCB inputs by forecast horizon and node in the two CSVs,
+`mcb_mase.csv` and `mcb_rmsse.csv`. MCB uses base, BU, MinT-shrinkage, and WLSv for each of the three frameworks,
+plus the shared Naive baseline, giving 13 methods. The full accuracy table retains all reconciliation methods.'''),
         cell('code', '''display(tables['accuracy_by_level'])
 print('MCB MASE shape:', tables['mcb_mase'].shape)
 display(tables['mcb_mase'].head())'''),
-        cell('markdown','''## 训练损失与耗时
+        cell('markdown','''## Training loss and timing
 
-图表使用源实验保存的日志和计时，不代表当前电脑重新运行的速度。
-HFF/HFFPS 的轮数以 cloud round 为准。'''),
+Figures use logs and timings saved by the source experiments, rather than runtimes measured on the current computer.
+HFF/HFFPS round counts refer to cloud rounds.'''),
         cell('code', '''figure = plot_training(tables, OUTPUT_DIR)
 plt.close(figure)
 display(Image(filename=str(OUTPUT_DIR / 'training_loss.png')))
@@ -81,10 +81,10 @@ display(tables['timings'])
 figure = plot_timing(tables, OUTPUT_DIR)
 plt.close(figure)
 display(Image(filename=str(OUTPUT_DIR / 'training_time_per_round.png')))'''),
-        cell('markdown','''## 层级一致性
+        cell('markdown','''## Hierarchy consistency
 
-父子差异根据结构层级计算。MASI 用训练目标的一阶差分尺度归一化，父节点等权平均。
-另列预测尺度和误差尺度归一化差异。数值一致性与预测精度分别报告。'''),
+Compute parent-child discrepancies from structural levels. Normalize MASI by first-difference training-target scales and weight parents equally.
+Also report discrepancies normalized by forecast and error scales. Report numerical consistency and forecast accuracy separately.'''),
         cell('code', '''coherence = tables['coherence_by_level']
 display(coherence.loc[coherence.method_internal.isin(['base','bu','mint_shrinkage','mint_var','naive']),
     ['horizon','source_system','method_internal','level','incoherence_total','MASI',
@@ -97,16 +97,16 @@ print('Generated tables:', sorted(p.name for p in OUTPUT_DIR.glob('*.csv')))''')
 
 
 def main():
-    overview('ausgrid2013','AusGrid2013 当前去重实验结果（360 节点）',
+    overview('ausgrid2013','AusGrid2013: current deduplicated experiment results (360 nodes)',
              'Results_check/ausgrid2013_results/ausgrid2013_results.ipynb')
-    overview('gef2017','GEF2017 当前去重实验结果（10 节点，1/3/6 步）',
+    overview('gef2017','GEF2017: current deduplicated experiment results (10 nodes, 1/3/6-step horizons)',
              'Results_check/gef2017_results/gef2017_results.ipynb')
     write('Results_check/full_gef2017_results/full_gef2017_results.ipynb',[
-        cell('markdown','''# GEF2017 全方法与层级一致性检查
+        cell('markdown','''# GEF2017: all methods and hierarchy consistency checks
 
-本入口保留原文件名，分析范围为当前项目的 10 节点去重层级。
-覆盖 FHF、HFF、HFFPS，1/3/6 步预测，以及全部已有协调方法。
-逐节点精度、结构层级、语义评估层级、父子一致性和输入来源分别审计。'''),
+This entry point retains its original filename and analyzes the current project's 10-node deduplicated hierarchy.
+It covers FHF, HFF, HFFPS, 1/3/6-step horizons, and all available reconciliation methods.
+Audit per-node accuracy, structural levels, semantic evaluation levels, parent-child consistency, and input provenance separately.'''),
         cell('code',SETUP),
         cell('code', '''DATASET = 'gef2017'
 SOURCE_DIR = ROOT / 'fhf_dedup_gef2017'
@@ -114,33 +114,33 @@ OUTPUT_DIR = ROOT / 'Results_check' / 'deduplication_results' / DATASET
 RECOMPUTE = False
 tables = prepare_current_results(DATASET, root=ROOT, source_dir=SOURCE_DIR,
                                  output_dir=OUTPUT_DIR, force=RECOMPUTE)'''),
-        cell('markdown','''## 节点与层级
+        cell('markdown','''## Nodes and levels
 
-结构层级用于父子一致性，语义评估层级用于精度汇总。
-去重保留的叶节点可能在结构第 2 层，但在精度评估时归入底层。'''),
+Use structural levels for parent-child consistency and semantic evaluation levels for accuracy summaries.
+A leaf retained after deduplication may be at structural level 2 while belonging to the bottom level for accuracy evaluation.'''),
         cell('code', '''nodes = tables['per_node'][['unique_id','structural_level','level','role']].drop_duplicates()
 display(nodes.sort_values(['structural_level','unique_id']))
 display(tables['hierarchy_audit'])'''),
-        cell('markdown','## 全方法精度与逐节点结果'),
+        cell('markdown','## Accuracy across all methods and per-node results'),
         cell('code', '''display(tables['accuracy_by_level'])
 display(tables['per_node'].head(40))
 print('All node metrics:', OUTPUT_DIR / 'per_node.csv')'''),
-        cell('markdown','## 父子约束与归一化一致性'),
+        cell('markdown','## Parent-child constraints and normalized consistency'),
         cell('code', '''display(tables['coherence_by_method'])
 parents = tables['coherence_by_parent']
 display(parents[['horizon','source_system','method_internal','parent_id','level',
                  'incoherence_total','mase_scale','MASI','n_time_points']])'''),
-        cell('markdown','''## 数值阈值检查
+        cell('markdown','''## Numerical tolerance checks
 
-以下将协调方法的 MASI 与指定阈值比较，逐项保留诊断结果。
-精度优劣由上面的 MAE/MASE/RMSSE 表判断。'''),
+Compare the MASI of each reconciliation method with the specified tolerance and retain each diagnostic result.
+Assess forecast accuracy using the MAE/MASE/RMSSE tables above.'''),
         cell('code', '''COHERENCE_TOLERANCE = 1e-6
 checks = tables['coherence_by_method'].loc[
     ~tables['coherence_by_method'].method_internal.isin(['base','naive'])].copy()
 checks['within_tolerance'] = checks.MASI <= COHERENCE_TOLERANCE
 display(checks[['horizon','source_system','method_internal','MASI','within_tolerance']])
 checks.to_csv(OUTPUT_DIR / 'coherence_checks.csv', index=False)'''),
-        cell('markdown','## 输入来源与内容指纹'),
+        cell('markdown','## Input provenance and content fingerprints'),
         cell('code', '''manifest = json.loads((OUTPUT_DIR / 'source_manifest.json').read_text())
 display(pd.DataFrame(manifest['signature']['sources']))
 display(pd.DataFrame([manifest['validation']]))
@@ -148,12 +148,12 @@ assert set(tables['hierarchy_audit'].nodes) == {10}
 assert set(tables['hierarchy_audit'].horizon) == {1,3,6}
 assert set(tables['hierarchy_audit'].source_system) == {'FHF','HFF','HFFPS'}''')])
     write('Results_check/error_analysis/error_redistribution_analysis.ipynb',[
-        cell('markdown','''# 当前去重实验的误差重新分布分析
+        cell('markdown','''# Error redistribution in the current deduplicated experiments
 
-使用本项目 AusGrid2013 的 360 节点、GEF2017 的 10 节点结果。
-AusGrid2013 覆盖 1 步，GEF2017 覆盖 1/3/6 步；两套数据都包括 FHF、HFF、HFFPS。
-每种协调方法只与同一训练方法的 base 比较。尺度来自对应的已保存训练目标，
-按当前语义层级平均，使用日历日区块 bootstrap 计算 95% 区间。'''),
+Use this project's results for 360 AusGrid2013 nodes and 10 GEF2017 nodes.
+AusGrid2013 covers a 1-step horizon, and GEF2017 covers 1/3/6-step horizons. Both datasets include FHF, HFF, and HFFPS.
+Compare each reconciliation method only with the base from the same training approach. Obtain scales from the corresponding saved training targets,
+average within the current semantic levels, and use a calendar-day block bootstrap for 95% intervals.'''),
         cell('code',BOOTSTRAP+'''
 ROOT = PROJECT_ROOT
 import json
@@ -167,10 +167,10 @@ RECOMPUTE = False
 manifest = run_all(root=ROOT, output_root=OUTPUT_DIR,
                    n_bootstrap=N_BOOTSTRAP, force=RECOMPUTE)
 display(manifest)'''),
-        cell('markdown','''## 分层效果与原指标复核
+        cell('markdown','''## Effects by level and original metric checks
 
-Delta 为协调后减 base，负值表示误差下降。
-MASE/RMSSE 先逐节点计算，再在语义层级内等权平均；复核表与当前逐节点指标聚合结果比较。'''),
+Delta is the reconciled result minus base; negative values indicate lower error.
+Compute MASE/RMSSE per node, then average equally within each semantic level. Compare the check table with aggregates of the current per-node metrics.'''),
         cell('code', '''for dataset in ['ausgrid2013','gef2017']:
     folder = OUTPUT_DIR / dataset
     print(dataset)
@@ -178,17 +178,17 @@ MASE/RMSSE 先逐节点计算，再在语义层级内等权平均；复核表与
     checks = pd.read_csv(folder / 'reproduction_check.csv')
     display(checks.groupby('method')[['abs_diff_MASE','abs_diff_RMSSE']].max())
     assert checks[['abs_diff_MASE','abs_diff_RMSSE']].to_numpy().max() <= 1e-6'''),
-        cell('markdown','## 底层节点改善比例与大误差观测'),
+        cell('markdown','## Bottom-level node improvement rates and large-error observations'),
         cell('code', '''for dataset in ['ausgrid2013','gef2017']:
     folder = OUTPUT_DIR / dataset
     print(dataset)
     display(pd.read_csv(folder / 'appendix_node_improvement.csv'))
     display(pd.read_csv(folder / 'largest_error_decile.csv'))
     display(Image(filename=str(folder / 'error_redistribution_heatmap.png')))'''),
-        cell('markdown','''## 结果解释
+        cell('markdown','''## Interpretation
 
-误差十分位组由 base 误差定义，分组模式只作描述性解释。
-bootstrap 区间描述当前保存实验内的变化，不等同于跨训练种子的稳定性结论。'''),
+Error deciles are defined by base errors, and patterns across groups are descriptive.
+Bootstrap intervals describe changes within the saved experiments, not stability across training seeds.'''),
         cell('code', '''for dataset in ['ausgrid2013','gef2017']:
     records = json.loads((OUTPUT_DIR / dataset / 'validation.json').read_text())
     display(pd.DataFrame(records))

@@ -120,21 +120,21 @@ def run_100round_reconciliation(
         (staging / "manifest.json").write_text(json.dumps(
             {"status": "complete", "runs_completed": len(manifests), "run_manifests": manifests}, indent=2) + "\n")
         (staging / "README_zh.md").write_text(
-            "# 两个 100-round 结果的 reconciliation\n\n"
-            "入口：`DP_fhf/notebooks/01_DPFedAvg_100Round_Reconciliation.ipynb`。\n\n"
-            "复用原 FHF Cloud：mints=mint_shrinkage、wlsv=mint_var、ols=mint_ols；ridge=1e-6。"
-            "每个数据集使用自身 100-round 模型保存的训练残差估计矩阵，测试真值仅用于评分。\n\n"
-            "MASE/RMSSE 使用训练目标 lag-1 差分分母，先逐节点评分再取算术平均。"
-            "`change_*_pct_vs_base` 负数表示相比同组 base 改善。"
-            "training_epsilon/delta 仅记录原训练的隐私参数，不代表本次未额外私有化的残差估计的整体保证。\n\n"
-            "- metrics_summary.csv：2 数据集 × 4 方法，共 8 行指标和相对 base 变化。\n"
-            "- metrics_wide.csv：四种方法并排对比。\n"
-            "- per_node_metrics.csv：逐序列指标。\n"
-            "- matrix_diagnostics.csv：PS=S、P²=P、预测层级一致性。\n"
-            "- 每个数据集目录：上述单独指标、reconciliation_matrices.npz（S/G/P/W 及节点顺序）、"
-            "reconciled_forecasts.csv.gz（真值及四种预测）、manifest.json（输入与代码 SHA256）。\n\n"
-            "所有结果统一位于 `DP_fhf/outputs/dp_100round_reconciliation/`。"
-            "每次运行重新计算，完整批次验证成功后替换该目录；输入文件不变。\n", encoding="utf-8")
+            "# Reconciliation of two 100-round runs\n\n"
+            "Entry point: `DP_fhf/notebooks/01_DPFedAvg_100Round_Reconciliation.ipynb`.\n\n"
+            "Reuse the original FHF Cloud: mints=mint_shrinkage, wlsv=mint_var, ols=mint_ols; ridge=1e-6. "
+            "Estimate matrices using training residuals saved by the corresponding 100-round model for each dataset. Test observations are used only for scoring.\n\n"
+            "MASE/RMSSE use lag-1 training-target difference denominators, computed per node and then averaged arithmetically. "
+            "Negative `change_*_pct_vs_base` values indicate improvement over the matching base. "
+            "training_epsilon/delta record only the original training privacy parameters, not an end-to-end guarantee for this residual estimation without additional privatization.\n\n"
+            "- metrics_summary.csv: 2 datasets × 4 methods, giving 8 rows of metrics and changes relative to base.\n"
+            "- metrics_wide.csv: side-by-side comparison of the four methods.\n"
+            "- per_node_metrics.csv: per-series metrics.\n"
+            "- matrix_diagnostics.csv: PS=S, P²=P, and hierarchical consistency of forecasts.\n"
+            "- Each dataset directory: the metrics above, reconciliation_matrices.npz (S/G/P/W and node order), "
+            "reconciled_forecasts.csv.gz (observations and four forecasts), and manifest.json (input and code SHA256 hashes).\n\n"
+            "All results are located in `DP_fhf/outputs/dp_100round_reconciliation/`. "
+            "Recompute on every run and replace this directory only after the entire batch passes validation. Input files remain unchanged.\n", encoding="utf-8")
         recon._publish_directory(staging, output)
         print(f"Saved {len(manifests)} runs / {len(result)} method rows to {output}", flush=True)
         return result

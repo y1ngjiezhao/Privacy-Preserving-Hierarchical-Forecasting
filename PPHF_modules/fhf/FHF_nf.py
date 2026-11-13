@@ -85,17 +85,17 @@ def Datacollector(
     for pid in ts:
         df_partition = dff[dff[partition_col] == pid].copy()
         
-        # 批量创建滞后特征（避免循环插入列）
+        # Create lag features in a batch to avoid inserting columns in a loop
         lag_data = {}
         for j in range(lags):
             lag_data[f"lags_{j + 1}"] = df_partition[target_col].shift(j + 1)
         
-        # 批量创建未来目标特征
+        # Create future target features in a batch
         if fh != 0:
             for j in range(fh):
                 lag_data[f"post_{j + 1}"] = df_partition[target_col].shift(-(j + 1))
         
-        # 一次性合并所有新列
+        # Concatenate all new columns at once
         if lag_data:
             new_cols_df = pd.DataFrame(lag_data, index=df_partition.index)
             df_partition = pd.concat([df_partition, new_cols_df], axis=1)

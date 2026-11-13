@@ -8,11 +8,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# 禁用 Flash Attention 警告，强制使用 Memory Efficient
+# Disable Flash Attention warnings and require memory-efficient attention
 warnings.filterwarnings("ignore", message=".*flash attention.*")
-# 全局设置：禁用 Flash，启用 Memory Efficient
+# Global settings: disable Flash Attention and enable memory-efficient attention
 if hasattr(torch.backends.cuda, 'sdp_kernel'):
-    # PyTorch 2.0+ 新 API
+    # New API in PyTorch 2.0+
     torch.backends.cuda.enable_flash_sdp(False)
     torch.backends.cuda.enable_mem_efficient_sdp(True)
     torch.backends.cuda.enable_math_sdp(True)
@@ -303,7 +303,7 @@ class PatchTST(nn.Module):
         x = self.pos_embed(x)
         x = self.input_dropout(x)
 
-        # 使用上下文管理器确保 Memory Efficient Attention
+        # Use a context manager to ensure memory-efficient attention
         if hasattr(torch.nn.functional, 'scaled_dot_product_attention'):
             with torch.backends.cuda.sdp_kernel(enable_flash=False, enable_mem_efficient=True, enable_math=True):
                 x = self.encoder(x)                       # [B*C, N, D]
@@ -343,7 +343,7 @@ def build_model(args) -> nn.Module:
             dropout=args.dropout,
         )
     elif args.model_type == "patchtst":
-        # 计算 patch_len 和 stride（确保是整数）
+        # Compute patch_len and stride as integers
         patch_len = min(max(int(args.lags // 4), 4), 16)
         stride = min(max(int(args.lags // 8), 2), 8)
         

@@ -377,17 +377,17 @@ def _heatmap(deciles: pd.DataFrame, out: Path, dataset: str) -> None:
 
 def _write_narratives(dataset: str, level: pd.DataFrame, tail: pd.DataFrame, out: Path) -> None:
     lines_en = [f"# Error redistribution analysis ({dataset})", "", "All comparisons are strict within-approach comparisons of a reconciled forecast against its own base forecast. Negative differences indicate improvement.", ""]
-    lines_zh = [f"# 误差重新分布分析（{dataset}）", "", "所有结果均在同一训练方法内部将协调结果与其自身 base 比较，负差值表示改善。", ""]
+    lines_zh = [f"# Error redistribution analysis ({dataset})", "", "All comparisons are between a reconciled result and its own base within the same training approach. Negative differences indicate improvement.", ""]
     for row in level.query("level == 3").itertuples():
         t = tail.query("forecast_horizon == @row.forecast_horizon and approach == @row.approach and reconciliation == @row.reconciliation").iloc[0]
         lines_en.append(
             f"- {row.approach} fh{row.forecast_horizon} {row.reconciliation}: level-3 delta MASE {row.delta_MASE:+.4f} (95% CI [{row.delta_MASE_ci_low:+.4f}, {row.delta_MASE_ci_high:+.4f}]) and delta RMSSE {row.delta_RMSSE:+.4f} (95% CI [{row.delta_RMSSE_ci_low:+.4f}, {row.delta_RMSSE_ci_high:+.4f}]). In the largest base-error decile, {t.improvement_proportion:.1%} improved and mean ASE fell by {t.mean_ASE_reduction:.4f}."
         )
         lines_zh.append(
-            f"- {row.approach} fh{row.forecast_horizon} {row.reconciliation}：level 3 的 Delta MASE 为 {row.delta_MASE:+.4f}（95% CI [{row.delta_MASE_ci_low:+.4f}, {row.delta_MASE_ci_high:+.4f}]），Delta RMSSE 为 {row.delta_RMSSE:+.4f}（95% CI [{row.delta_RMSSE_ci_low:+.4f}, {row.delta_RMSSE_ci_high:+.4f}]）；在 base 误差最大的十分位组中，{t.improvement_proportion:.1%} 的观测改善，平均 ASE 下降 {t.mean_ASE_reduction:.4f}。"
+            f"- {row.approach} fh{row.forecast_horizon} {row.reconciliation}: level 3 Delta MASE is {row.delta_MASE:+.4f} (95% CI [{row.delta_MASE_ci_low:+.4f}, {row.delta_MASE_ci_high:+.4f}]), and Delta RMSSE is {row.delta_RMSSE:+.4f} (95% CI [{row.delta_RMSSE_ci_low:+.4f}, {row.delta_RMSSE_ci_high:+.4f}]); in the decile with the largest base errors, {t.improvement_proportion:.1%} of observations improve, with a mean ASE reduction of {t.mean_ASE_reduction:.4f}."
         )
     lines_en += ["", "The decile pattern is descriptive. Because groups are defined by the base error, regression to the mean may contribute and the results should not be interpreted as a causal mechanism."]
-    lines_zh += ["", "分位组由协调前 base 误差定义，因此回归均值可能贡献部分模式；这里将其作为描述性证据，而不是因果机制。"]
+    lines_zh += ["", "Deciles are defined by base errors before reconciliation, so regression to the mean may contribute to the observed patterns. These patterns are descriptive evidence, not a causal mechanism."]
     (out / "paper_analysis_en.md").write_text(publication_text("\n".join(lines_en) + "\n"), encoding="utf-8")
     (out / "results_interpretation_zh.md").write_text(publication_text("\n".join(lines_zh) + "\n"), encoding="utf-8")
 

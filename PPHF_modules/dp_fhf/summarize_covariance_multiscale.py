@@ -54,23 +54,23 @@ def main():
 
     main_data = data.query("input == 'non_dp_forecasts'")
     wide = main_data.pivot(index=['dataset', 'retention_target_pct'], columns='method', values=['MASE', 'RMSSE'])
-    report = '# 多尺度残差剪裁：无方差校正\n\n'
-    report += '保留比例：99.5%、75%、50%、25%、0.5%。每个客户端按原始尺度绝对训练残差分位数设置边界；保留比例表示未被截断的比例，所有样本仍参与估计。\n\n'
-    report += 'epsilon=1，Laplace，seed=42，ridge=1e-6，debias_noise_variance=False。分位数校准非私有，这些结果是效用实验。\n\n'
-    report += '以下使用非私有基础预测。DP-FedAvg 分支见 metrics_summary.csv。\n\n'
+    report = '# Multiscale residual clipping without variance correction\n\n'
+    report += 'Retention fractions: 99.5%, 75%, 50%, 25%, 0.5%. Each client sets bounds from quantiles of absolute training residuals on the original scale. Retention is the fraction not clipped; all samples still contribute to estimation.\n\n'
+    report += 'epsilon=1, Laplace, seed=42, ridge=1e-6, debias_noise_variance=False. Quantile calibration is non-private, so these results are utility experiments.\n\n'
+    report += 'The results below use non-private base forecasts. See metrics_summary.csv for the DP-FedAvg branch.\n\n'
     for dataset in ['GEF2017', 'AusGrid2013']:
-        report += f'## {dataset}\n\n| 保留比例 / 参照 | MinTs MASE | MinTs RMSSE | WLSv MASE | WLSv RMSSE |\n|---|---:|---:|---:|---:|\n'
+        report += f'## {dataset}\n\n| Retention fraction / reference | MinTs MASE | MinTs RMSSE | WLSv MASE | WLSv RMSSE |\n|---|---:|---:|---:|---:|\n'
         ols = main_data.query('dataset == @dataset and method == "ols"').iloc[0]
         report += f'| OLS | {ols.MASE:.6f} | {ols.RMSSE:.6f} | {ols.MASE:.6f} | {ols.RMSSE:.6f} |\n'
         for q in PERCENTAGES:
             row = wide.loc[dataset, q]
             report += f"| {q:g}% | {row['MASE','mint_shrinkage']:.6f} | {row['RMSSE','mint_shrinkage']:.6f} | {row['MASE','wlsv']:.6f} | {row['RMSSE','wlsv']:.6f} |\n"
         report += '\n'
-    report += '## 最低保留比例的矩阵诊断\n\n| 数据集 | 基础预测分支 | 方法 | 低于特征值下限的数量 | 距 OLS | 距噪声加权 WLS |\n|---|---|---|---:|---:|---:|\n'
+    report += '## Matrix diagnostics at the lowest retention fraction\n\n| Dataset | Base forecast branch | Method | Eigenvalues below the floor | Distance to OLS | Distance to noise-weighted WLS |\n|---|---|---|---:|---:|---:|\n'
     for row in diagnostics.query('retention_target_pct == 0.5').itertuples():
         report += f'| {row.dataset} | {row.input} | {row.method} | {row.eigenvalues_below_floor} | {row.d_P_to_OLS:.6f} | {row.d_P_to_noise_WLS:.6f} |\n'
-    report += '\n改变保留比例同时改变剪裁后的信号和客户端之间的相对噪声方差；这些实验不构成单独增大噪声的收敛检验。\n\n'
-    report += '## 复现\n\n运行 run_covariance_multiscale.py，再运行 summarize_covariance_multiscale.py。汇总脚本仅更新实验报告和验证结果，不生成或修改论文文本。Notebook：DP_fhf/notebooks/02_DP_Covariance_Multiscale_No_Debias.ipynb。\n'
+    report += '\nChanging retention changes both the clipped signal and relative noise variances across clients. These experiments do not test convergence by increasing noise alone.\n\n'
+    report += '## Reproduction\n\nRun run_covariance_multiscale.py, then summarize_covariance_multiscale.py. The summary script updates only experiment reports and validation results; it does not generate or edit manuscript text. Notebook: DP_fhf/notebooks/02_DP_Covariance_Multiscale_No_Debias.ipynb.\n'
     (OUT / 'REPORT_zh.md').write_text(report)
     verification = {'configurations': 20, 'retentions': RETENTIONS, 'metrics_rows': len(data),
                     'client_bound_rows': len(bounds), 'diagnostic_rows': len(diagnostics), 'per_node_rows': len(nodes),

@@ -76,18 +76,20 @@
     "repository_path": "Datasets/AusGrid2013/AusgridLook-Copy1.ipynb",
     "source_bytes": 7854,
     "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-    "repository_bytes": 7854,
-    "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-    "action": "notebook_outputs_cleared"
+    "repository_bytes": 7850,
+    "repository_sha256": "a6549817efb3cd4ad349033fbe4f7515b0ab739d427a31d4306807655cbe803c",
+    "action": "notebook_outputs_cleared",
+    "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
   },
   {
     "source_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
     "repository_path": "Datasets/AusGrid2013/AusgridLook.ipynb",
     "source_bytes": 7854,
     "source_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-    "repository_bytes": 7854,
-    "repository_sha256": "f410b0f2b16c80b3e02db8d33978d0ea16f3e5b1300e4b04fd73819cb7cd1ac5",
-    "action": "notebook_outputs_cleared"
+    "repository_bytes": 7850,
+    "repository_sha256": "a6549817efb3cd4ad349033fbe4f7515b0ab739d427a31d4306807655cbe803c",
+    "action": "notebook_outputs_cleared",
+    "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
   },
   {
     "source_path": "Datasets/AusGrid2013/tags.pkl",
@@ -112,18 +114,20 @@
     "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation.ipynb",
     "source_bytes": 10129,
     "source_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
-    "repository_bytes": 10129,
-    "repository_sha256": "5974a1267898739921122d94192ea39561d0ca4b40d6113a2e5786bd3a858642",
-    "action": "notebook_outputs_cleared"
+    "repository_bytes": 10239,
+    "repository_sha256": "cf9e8f98e709f68213e57064345332d77b76cafd22bb71f46c50467588647c56",
+    "action": "notebook_outputs_cleared",
+    "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
   },
   {
     "source_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
     "repository_path": "Datasets/GEFCOM2017/GEF2017DataPreparation_dedup.ipynb",
     "source_bytes": 12822,
     "source_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
-    "repository_bytes": 12822,
-    "repository_sha256": "28a792e1619d97ccda786e075710de0a66c52a859d340cafacb858dddcf751a5",
-    "action": "notebook_outputs_cleared"
+    "repository_bytes": 12999,
+    "repository_sha256": "3eff22c5c727b30bd973713a0b6db9fcec73b1299ccba3550bff73c2ea79cfd2",
+    "action": "notebook_outputs_cleared",
+    "language_translation": "English prose, comments, and user-facing text; data and computation preserved"
   },
   {
     "source_path": "Datasets/GEFCOM2017/GEF2017_170101_dedup.csv",

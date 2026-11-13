@@ -1,7 +1,7 @@
-# DP-FHF 运行入口
+# DP-FHF entry points
 
-模块位于 ../PPHF_modules/dp_fhf/，notebook 位于 notebooks/。
-本包不附带 outputs/ 中的任何旧结果；训练和分析运行时会新建输出。
-先运行固定 DP-FedAvg 或 sweep，再运行对应汇总及协调。
-Covariance 和 O2MR 需要先生成普通 FHF 的预测、训练残差和协调矩阵。
-具体入口、参数及依赖顺序见 notebooks/README.md 和根目录 README.md。
+Modules are in `../PPHF_modules/dp_fhf/`, and notebooks are in `notebooks/`.
+This package does not include previous results from `outputs/`; training and analysis create new outputs.
+Run a fixed DP-FedAvg experiment or sweep before its corresponding summary and reconciliation.
+Covariance and O2MR require forecasts, training residuals, and reconciliation matrices from ordinary FHF runs first.
+See `notebooks/README.md` and the root `README.md` for entry points, parameters, and dependency order.

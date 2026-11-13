@@ -81,11 +81,11 @@ def main():
     }
     manifest["scope"] = "Current no-debias configuration, non-private and OLS references only"
     manifest_path.write_text(json.dumps(manifest, indent=2))
-    note = "# 当前固定边界协方差结果\n\n"
-    note += "配置：边界 ±0.0005，epsilon=1，seed=42，ridge=1e-6，不做噪声方差校正。\n\n"
-    note += "paper_comparison.csv 包含当前论文的 non_private、reference（OLS）、no_debias 三类结果。旧 corrected 数据已删除。\n\n"
+    note = "# Current fixed-bound covariance results\n\n"
+    note += "Configuration: bounds ±0.0005, epsilon=1, seed=42, ridge=1e-6, without noise variance correction.\n\n"
+    note += "paper_comparison.csv contains the current manuscript results for non_private, reference (OLS), and no_debias. The old corrected data were removed.\n\n"
     note += markdown(paper_table, ["dataset", "variant", "method", "MASE", "RMSSE", "d_P_to_OLS"])
-    note += "\n\n复现：先运行 PPHF_modules/dp_fhf/run_covariance_no_debias_comparison.py，再运行 PPHF_modules/dp_fhf/summarize_covariance_no_debias.py。无需旧结果文件，不修改论文。\n"
+    note += "\n\nReproduction: run PPHF_modules/dp_fhf/run_covariance_no_debias_comparison.py, then PPHF_modules/dp_fhf/summarize_covariance_no_debias.py. No old result files are needed, and the manuscript is not modified.\n"
     (REPORT / "REPORT_zh.md").write_text(note)
     print(paper_table.to_string(index=False))
 

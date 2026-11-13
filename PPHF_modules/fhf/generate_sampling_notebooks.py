@@ -75,11 +75,11 @@ def main() -> None:
                 example = copy.deepcopy(notebook)
                 example["cells"].insert(0, {
                     "cell_type": "markdown", "metadata": {}, "source": [
-                        f"# {path.stem.split('_')[0]}：客户端采样训练\n\n",
-                        "默认 `sampling_rate=0.1`，每轮均匀无放回抽取 `ceil(q × N)` 个训练节点。\n",
-                        "HFF/HFFPS 在所有可训练序列节点中抽取，包括可训练的边缘节点和云节点。\n",
-                        "在参数单元格中修改采样率、轮数和种子，然后 Run All。\n",
-                        "结果写入本目录的 `sampling_experiments/`，保留原实验结果。\n",
+                        f"# {path.stem.split('_')[0]}: training with client sampling\n\n",
+                        "The default is `sampling_rate=0.1`. Each round uniformly samples `ceil(q × N)` training nodes without replacement.\n",
+                        "HFF/HFFPS sample from all trainable series nodes, including trainable edge and cloud nodes.\n",
+                        "Edit the sampling rate, round count, and seeds in the parameter cell, then select Run All.\n",
+                        "Write results to `sampling_experiments/` in this directory, preserving the original experiment results.\n",
                     ],
                 })
                 for cell in example["cells"]:
@@ -115,12 +115,12 @@ def main() -> None:
 
         example = copy.deepcopy(notebook)
         example["cells"][0]["source"] = [
-            f"# {dataset}：DP FedAvg 客户端采样训练\n\n",
-            "默认采样率 `0.1`，100 轮，使用去重数据。修改参数后 Run All。\n",
-            "每轮均匀无放回抽取 `ceil(q × N)` 个客户端，至少一个。\n",
-            "q<1 自动使用匹配固定大小无放回采样的 RDP 会计。SAMPLING_SEED=None 使用新鲜隐藏的采样及噪声随机性。\n",
-            "add/remove 部分参与的噪声按 2C/m 标定。只有 model_release/ 中的全局模型与隐私报告属于会计覆盖的输出。\n",
-            "输出写入独立的 `DP_fhf/outputs/sampling_experiments/`，包含预测、训练残差、隐私元数据和逐轮参与日志。\n",
+            f"# {dataset}: DP-FedAvg training with client sampling\n\n",
+            "The defaults are a sampling rate of `0.1`, 100 rounds, and deduplicated data. Edit the parameters, then select Run All.\n",
+            "Each round uniformly samples `ceil(q × N)` clients without replacement, with at least one client.\n",
+            "For q<1, RDP accounting automatically matches fixed-size sampling without replacement. SAMPLING_SEED=None uses fresh, hidden randomness for both sampling and noise.\n",
+            "For add/remove adjacency with partial participation, noise is calibrated to 2C/m. Only the global models and privacy reports in model_release/ are covered by the accountant.\n",
+            "Outputs are written separately to `DP_fhf/outputs/sampling_experiments/`, including forecasts, training residuals, privacy metadata, and per-round participation logs.\n",
         ]
         for cell in example["cells"]:
             if cell["cell_type"] != "code":

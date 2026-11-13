@@ -2,6 +2,8 @@
 
 Research code and input datasets for privacy-preserving federated hierarchical forecasting (PPHF), including FHF, HFF/HFFPS, DP-FedAvg, reconciliation, privacy accounting, and result analysis. This repository snapshot was prepared on 13 November 2026.
 
+Notebook Markdown, documentation, code comments, and generated-report templates are in English. Some historical filenames retain the `_zh` suffix for compatibility; their contents have been translated into English.
+
 ## Included files
 
 - `Datasets/`: AusGrid2013 and GEFCOM2017 source and prepared input data, hierarchy matrices, mappings, tags, preparation notebooks, and source documentation.
@@ -29,7 +31,7 @@ To verify the included archives and dataset files without restoring CSVs:
 python tools/restore_datasets.py --verify-only
 ```
 
-`Datasets/DATASET_MANIFEST.json` records original and uploaded file sizes and checksums. `UPLOAD_MANIFEST.json` records the original project files selected for this snapshot, including notebook output clearing and lossless compression. Repository-specific README, restore script, and Git configuration files are additional files.
+`Datasets/DATASET_MANIFEST.json` records original and uploaded file sizes and checksums. `UPLOAD_MANIFEST.json` records the original project files selected for this snapshot, including notebook output clearing, lossless compression, and English translation. Original-source checksums identify the pre-translation local files; repository checksums identify the current translated files. Repository-specific README, restore script, and Git configuration files are additional files.
 
 ## Run the experiments
 
@@ -41,6 +43,6 @@ python tools/restore_datasets.py --verify-only
 
 Run notebooks from this repository's directory structure so their canonical `PPHF_modules` imports and relative dataset paths resolve. Generated output directories are created by the code.
 
-The earlier migration README is preserved at `docs/README_migration_original_zh.md` for its detailed run sequence. Its statements about package contents describe the earlier migration package; this GitHub snapshot additionally includes result PDFs and compressed datasets as documented above.
+An English translation of the earlier migration README is at `docs/README_migration_original_zh.md` for its detailed run sequence. Its historical package-content statements describe the earlier migration package; this GitHub snapshot additionally includes result PDFs and compressed datasets as documented above.
 
 Dataset source documents are retained in their respective dataset folders. This repository does not add or change the original dataset or third-party dependency licensing terms.

@@ -1,47 +1,65 @@
-# 当前论文结果索引 / Current paper results
+# Current paper results
 
-更新：2026-09-28。此目录是经自动核验的论文结果导出与来源索引；原始实验数据、历史结果和旧论文备份继续保留。
+Updated: 2026-09-28. This historical index describes automatically verified
+manuscript-result exports and provenance in the full local project. Original
+experiment data, historical results, and old manuscript backups were retained at
+the time unless superseded by the cleanup below. Generated CSVs and audit JSONs
+mentioned here are omitted from this GitHub code-and-data snapshot.
 
-## 当前来源
+## Current sources
 
-| 论文部分 | 权威源结果 | 当前配置 |
+| Manuscript component | Authoritative source results | Current configuration |
 |---|---|---|
-| 主结果两表、MASI | `Results_check/deduplication_results/{gef2017,ausgrid2013}/` | 去重层级；按评估层级汇总；训练 naive 尺度 MASI |
-| 图 5–8 | 同上目录的 MCB PDF | GEF 按 h=1/3/6；Ausgrid h=1；rank 1/3 位小数；14 pt 图例 |
-| DP-FedAvg 100 轮 | `DP_fhf/outputs/dp_100round_reconciliation/` | 2026-09-25 批次；σ=0.3/1.2，C=1，δ=1e-5 |
-| DP-FedAvg 20 轮扫描 | `DP_fhf/outputs/dp_sweep_reconciliation/` | 2026-09-24 批次；24 组，每组 base/mints/wlsv/ols |
-| 固定残差边界 | `DP_fhf/outputs/02_dp_covariance/<dataset>/no_debias/` | ±0.0005，ε=1，seed=42，rho=1e-6；不做噪声方差校正 |
-| 固定边界与 Non-DP/OLS 对比 | `DP_fhf/outputs/02_dp_covariance/no_debias_comparison/paper_comparison.csv` | 仅保留 non_private/reference/no_debias |
-| 分位数残差边界 | `DP_fhf/outputs/02_dp_covariance/multiscale_no_debias/` | 99.5%、75%、50%、25%、0.5%；使用 non_dp_forecasts 分支 |
-| 私有预测发布 | `DP_fhf/outputs/03_dp_o2mr/<dataset>/` | non_dp_forecasts；ε=1/5/10/20；MinTs、WLSv；固定 P |
+| Two main result tables and MASI | `Results_check/deduplication_results/{gef2017,ausgrid2013}/` | Deduplicated hierarchy; summaries by evaluation level; MASI scaled by training naive errors |
+| Figures 5–8 | MCB PDFs in the directories above | GEF h=1/3/6; Ausgrid h=1; ranks displayed to 1/3 decimal places; 14 pt legends |
+| DP-FedAvg, 100 rounds | `DP_fhf/outputs/dp_100round_reconciliation/` | 2026-09-25 batch; σ=0.3/1.2, C=1, δ=1e-5 |
+| DP-FedAvg, 20-round sweep | `DP_fhf/outputs/dp_sweep_reconciliation/` | 2026-09-24 batch; 24 runs, each with base/mints/wlsv/ols |
+| Fixed residual bounds | `DP_fhf/outputs/02_dp_covariance/<dataset>/no_debias/` | ±0.0005, ε=1, seed=42, rho=1e-6; no noise variance correction |
+| Fixed bounds versus Non-DP/OLS | `DP_fhf/outputs/02_dp_covariance/no_debias_comparison/paper_comparison.csv` | Only non_private/reference/no_debias |
+| Quantile residual bounds | `DP_fhf/outputs/02_dp_covariance/multiscale_no_debias/` | 99.5%, 75%, 50%, 25%, 0.5%; non_dp_forecasts branch |
+| Private forecast release | `DP_fhf/outputs/03_dp_o2mr/<dataset>/` | non_dp_forecasts; ε=1/5/10/20; MinTs and WLSv; fixed P |
 
-路径均相对于 FHF_NDSH 根目录。这里的 CSV 是未经显示舍入的源结果导出，不是将论文数字反填到实验文件。
+Paths are relative to the FHF_NDSH project root. These CSVs are exports of
+unrounded source results, rather than manuscript numbers copied back into
+experiment files.
 
-## 清理后的使用规则
+## Rules after cleanup
 
-2026-09-28 已按要求删除旧 corrected 结果及 baseline_recheck、旧 0.05% 快照、pooled legacy MCB 图、旧论文 backup/staged 快照。删除清单见 cleanup_20260928.json。
+On 2026-09-28, the old corrected results and baseline_recheck, old 0.05% snapshots,
+pooled legacy MCB figures, and old manuscript backup/staged snapshots were deleted
+as requested. The full local archive records this in cleanup_20260928.json.
 
-- 固定边界只使用 `<dataset>/no_debias/`。
-- `no_debias_comparison/paper_comparison.csv` 只含 non_private、reference（OLS）、no_debias 三类现用比较。
-- 分位数使用 99.5%、75%、50%、25%、0.5%。`multiscale_retention_0p5_update/` 只保留现用 0.5% 更新的结果及来源记录。
-- 源 CSV 的 BO-FHF 是内部历史键，对应论文 LN-FHF；不代表数值过期。
-- DP-FedAvg 100 轮和 20 轮扫描、私有预测发布、原始训练输入保持不变。
+- Use only `<dataset>/no_debias/` for fixed bounds.
+- `no_debias_comparison/paper_comparison.csv` contains only the three current
+  comparisons: non_private, reference (OLS), and no_debias.
+- Use retention fractions of 99.5%, 75%, 50%, 25%, and 0.5%.
+  `multiscale_retention_0p5_update/` retains only current 0.5% update results and provenance.
+- BO-FHF in source CSVs is a historical internal key corresponding to LN-FHF in
+  the manuscript. It does not imply that the numerical results are outdated.
+- The 100-round and 20-round DP-FedAvg results, private forecast releases, and
+  original training inputs remain unchanged.
 
-## 核验与复现
+## Verification and reproduction
 
 ```bash
 python PPHF_modules/results_check/audit_paper_results.py --paper-root /path/to/manuscript
 ```
 
-需要 numpy、pandas、pypdf。全部核验通过后才更新本目录的未舍入 CSV 导出。
+Requires numpy, pandas, and pypdf. Unrounded CSV exports are updated only after all
+checks pass.
 
-固定边界及参考方法的完整复现：
+To reproduce fixed bounds and reference methods fully:
 
 ```bash
 python PPHF_modules/dp_fhf/run_covariance_no_debias_comparison.py
 python PPHF_modules/dp_fhf/summarize_covariance_no_debias.py
 ```
 
-两个脚本现仅产生现用 no_debias、Non-DP 与 OLS 结果，不依赖或重建旧校正方案和旧论文快照。默认协方差 notebook 同样使用 no-debias；底层 API/CLI 仍支持显式配置的其他实验，不属于当前论文结果。
+These scripts produce only current no_debias, Non-DP, and OLS results. They neither
+depend on nor rebuild old corrected configurations or manuscript snapshots.
+The default covariance notebook also uses no-debias. The lower-level API/CLI
+supports other explicitly configured experiments outside the current manuscript.
 
-先前审核报告是历史审计记录；其中“保留旧文件”的说明已被本次清理取代。当前数据以本索引和最新 verification.json 为准。
+Earlier audit reports are historical records; statements about retaining old files
+were superseded by the cleanup. Use this index and the latest verification.json
+in the full local archive to identify the current data.

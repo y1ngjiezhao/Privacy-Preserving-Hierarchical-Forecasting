@@ -1,58 +1,90 @@
-# PPHF 仅代码与数据集迁移包
+# PPHF code-and-dataset migration package
 
-本包不包含任何已运行的实验结果。解压后保留 FHF_NDSH/ 内部目录结构。
+This is an English translation of the earlier migration README. Its package-content
+statements describe that earlier archive. See the root README for the current
+GitHub snapshot, which also includes result PDFs and compressed input datasets.
 
-包含：
-- PPHF_modules/：FHF、HFF/HFFPS、DP-FHF、结果分析模块、验证代码及隐私会计依赖源码。
-- Datasets/：原始与处理后输入数据、层级结构矩阵、去重映射、标签及数据来源说明。
-- 42 个 notebook 入口；代码、参数及 Markdown 内容保留，输出、执行计数与执行元数据已清空。
-- windows_gpu/：Windows 10/11、RTX 4070 SUPER 安装、环境检查和计时工具。
+The original migration package contained no completed experiment results. Preserve
+the internal FHF_NDSH/ directory structure after extraction.
 
-不包含：数据集目录之外的 CSV，预测、指标、训练日志、残差、模型、NPZ 训练产物、
-协调结果矩阵、结果图表、隐私实验报告、旧验证报告、开发备份、缓存或 Python 环境。
-ZIP_MANIFEST.json 仅是文件清单与内容校验值，不是实验结果。
+Included:
 
-## Windows 安装
+- PPHF_modules/: FHF, HFF/HFFPS, DP-FHF, result analysis, validation code, and
+  privacy-accounting dependency source.
+- Datasets/: original and prepared inputs, hierarchy matrices, deduplication
+  mappings, tags, and data-source documentation.
+- 42 notebook entry points with code, parameters, and Markdown retained, but
+  outputs, execution counts, and execution metadata cleared.
+- windows_gpu/: Windows 10/11 and RTX 4070 SUPER installation, environment checks,
+  and timing tools.
 
-安装 NVIDIA 驱动与 64 位 Python 3.12，运行 windows_gpu/setup.bat，
-再运行 windows_gpu/start_jupyter.bat。选择 Python (FHF RTX 4070 SUPER) 内核。
-详细操作见 windows_gpu/README_zh.md。已有 Mac 环境不能直接搬到 Windows。
+The original package excluded CSVs outside the dataset directory, forecasts,
+metrics, training logs, residuals, models, NPZ training artifacts, reconciliation
+matrices, result figures/tables, privacy reports, old validation reports,
+development backups, caches, and Python environments. ZIP_MANIFEST.json was only
+a file inventory with checksums, not an experiment result.
 
-## 首次运行顺序
+## Windows installation
 
-1. 数据集已附带处理后版本，可直接训练；需要重建数据时先运行 Datasets/ 的准备 notebook。
-2. 普通全参与实验：先运行 fhf_dedup_ausgrid2013/ 的 FHF_fh1、HFF_fh1、HFFPS_fh1，
-   以及 fhf_dedup_gef2017/ 三个框架的 fh1、fh3、fh6 notebook，共 12 个组合。
-   它们会生成预测、训练残差、协调矩阵、指标和日志，供后续分析读取。
-3. Results_check/ 的四个 notebook 依赖第 2 步生成的当前完整实验结果，不能在训练前直接 Run All。
-   输出由代码新建到 Results_check/deduplication_results/。
-4. DP-FedAvg：先运行 DP_fhf/notebooks/01_DPFedAvg_Only_* 或对应 *_Sweep notebook；
-   完成后再运行 MASE_RMSSE_Summary、100Round_Reconciliation 或 Sweep_Reconciliation。
-5. DP covariance、multiscale 和 DP-O2MR 读取相应 FHF 的保存预测、残差与 P 矩阵，
-   应在第 2 步完成后执行。各入口前置要求见 DP_fhf/notebooks/README.md。
-6. *_Sampling_* 和 *_Sampling_fh1 是独立的采样实验，默认每轮 10% 参与，输出在独立目录。
-   它们不会代替四个 Results_check 入口需要的默认全参与实验。
+Install the NVIDIA driver and 64-bit Python 3.12, run windows_gpu/setup.bat, then
+windows_gpu/start_jupyter.bat. Select the Python (FHF RTX 4070 SUPER) kernel.
+See windows_gpu/README_zh.md for details. A Mac environment cannot be copied
+directly to Windows.
 
-训练输出目录初始为空，运行时自动生成。OVERWRITE=False 不会跳过本包中不存在的训练结果。
-01_DPFedAvg_NDSH_Matrix.ipynb 仅为索引，不启动已停用的混合框架矩阵实验。
+## First-run order
 
-若需要论文格式 CSV 与 R MCB 图，在第 2 步完成后先运行：
+1. Prepared datasets are included and can be used directly for training. To
+   rebuild them, first run the preparation notebooks in Datasets/.
+2. For ordinary full-participation experiments, run FHF_fh1, HFF_fh1, and HFFPS_fh1
+   in fhf_dedup_ausgrid2013/, and the fh1, fh3, and fh6 notebooks for all three
+   frameworks in fhf_dedup_gef2017/, giving 12 combinations. They generate
+   forecasts, training residuals, reconciliation matrices, metrics, and logs for
+   subsequent analyses.
+3. The four Results_check/ notebooks require the complete current results from
+   step 2. Run All is not appropriate before training. The code creates outputs
+   in Results_check/deduplication_results/.
+4. For DP-FedAvg, first run DP_fhf/notebooks/01_DPFedAvg_Only_* or the corresponding
+   *_Sweep notebook. Then run MASE_RMSSE_Summary, 100Round_Reconciliation, or
+   Sweep_Reconciliation as appropriate.
+5. DP covariance, multiscale, and DP-O2MR read the corresponding saved FHF
+   forecasts, residuals, and P matrices, so run them after step 2. See
+   DP_fhf/notebooks/README.md for each entry point's prerequisites.
+6. *_Sampling_* and *_Sampling_fh1 are independent sampling experiments with
+   10% participation per round by default and separate output directories.
+   They do not replace the default full-participation experiments required by
+   the four Results_check entry points.
+
+Training output directories are initially empty and are created at runtime.
+OVERWRITE=False does not skip training results that are absent from the package.
+01_DPFedAvg_NDSH_Matrix.ipynb is only an index and does not start the retired mixed
+framework matrix experiment.
+
+For manuscript-format CSVs and R MCB figures, after step 2 run:
+
+```sh
 python -m PPHF_modules.results_check.deduplication_results.generate_deduplication_results
-再用已安装相应依赖的 R 执行 PPHF_modules/results_check/deduplication_results/render_mcb_figures.R。
+```
 
-## AusGrid 三个独立 sweep
+Then run PPHF_modules/results_check/deduplication_results/render_mcb_figures.R in
+an R environment with the required dependencies installed.
 
-分别运行 DP_fhf/notebooks/ 中的：
+## Three independent AusGrid sweeps
+
+Run these notebooks in DP_fhf/notebooks/ separately:
+
 - 01_DPFedAvg_AusGrid2013_Sweep_q0p1.ipynb
 - 01_DPFedAvg_AusGrid2013_Sweep_q0p5.ipynb
 - 01_DPFedAvg_AusGrid2013_Sweep_q1p0.ipynb
 
-每个 notebook 固定一个采样率，扫描 4 个 noise multiplier × 3 个 clipping norm，
-每组 20 轮。三者共 36 组，在单张 GPU 上逐个运行 notebook。
-统一输出目录为 DP_fhf/outputs/ausgrid2013_sampling_sweep/，按采样率分开保存。
-每个入口完成后刷新 all_sampling_rates_summary.csv；全局 DP-FedAvg 汇总也能读取它们。
-此处汇总是 base forecast 指标。原 Sweep_Reconciliation 默认仍读取旧目录。
-本包不含任何已完成实验结果或 notebook 运行输出。
+Each notebook fixes one sampling rate and scans 4 noise multipliers × 3 clipping
+norms for 20 rounds per run, giving 36 runs in total. Run the notebooks sequentially
+on a single GPU. Outputs share DP_fhf/outputs/ausgrid2013_sampling_sweep/, separated
+by sampling rate. Each entry point refreshes all_sampling_rates_summary.csv on
+completion; the global DP-FedAvg summary can also read these outputs.
+This summary reports base-forecast metrics. The original Sweep_Reconciliation
+still reads the older directory by default. The original package contained no
+completed results or notebook outputs.
 
-本包的清单、CRC、notebook 格式/语法和源码一致性均已检查。
-完整模型训练与 Windows/CUDA 的运行需要在目标电脑按以上顺序执行。
+The original package inventory, CRC, notebook format/syntax, and source consistency
+were checked. Full model training and Windows/CUDA execution must be performed
+on the target computer in the order above.
